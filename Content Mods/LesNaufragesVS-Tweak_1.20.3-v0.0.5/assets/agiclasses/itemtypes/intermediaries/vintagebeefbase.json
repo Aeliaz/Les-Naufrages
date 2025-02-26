@@ -1,68 +1,68 @@
 {
-	code: "vintagebeefbase",
-	classByType: {
+	"code": "vintagebeefbase",
+	"classByType": {
 		"*-dry": "ItemPoultice",
 		"*-soaked": "ItemPoultice"
 	},
-	variantgroups: [
-		{ code: "type", states: ["dry", "soaked" ] },
+	"variantgroups": [
+		{ "code": "type", "states": ["dry", "soaked" ] },
 	],
-	behaviors: [
-		{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } }
+	"behaviors": [
+		{ "name": "GroundStorable", "properties": { "layout": 'Quadrants', "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } }
 	],
-	shape: { base: "item/intermediaries/vintagebeefbase" },
-	texturesbyType: {
+	"shape": { "base": "item/intermediaries/vintagebeefbase" },
+	"texturesbyType": {
 		"*-dry": { 
-			"primary": {base: "item/intermediaries/vintagebeefbase" }
+			"primary": {"base": "item/intermediaries/vintagebeefbase" }
 		},
 		"*-soaked": { 
-			"primary": {base: "item/intermediaries/vintagebeefbasesoaked" }
+			"primary": {"base": "item/intermediaries/vintagebeefbasesoaked" }
 		}
 	},
-	attributes: {
-		healthByType: {
+	"attributes": {
+		"healthByType": {
 			"*-dry": -2,
 			"*-soaked": -6
 		},
-		groundStorageTransform: {
-			rotation: { x: 0, y: 38, z: 0 }
+		"groundStorageTransform": {
+			"rotation": { "x": 0, "y": 38, "z": 0 }
 		}
 	},
-	transitionablePropsByType: {
+	"transitionablePropsByType": {
 		"*-dry": [{
-			type: "Perish",
-			freshHours: { avg: 36 },
-			transitionHours: { avg: 32 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			"type": "Perish",
+			"freshHours": { "avg": 36 },
+			"transitionHours": { "avg": 32 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 			} 
 		],
 		"*-soaked": [{
-			type: "Dry",
-			transitionHours: { avg: 1296 },
-			transitionedStack: { type: "item", code: "game:redmeat-vintage" },
-			transitionRatio: 1
+			"type": "Dry",
+			"transitionHours": { "avg": 1296 },
+			"transitionedStack": { "type": "item", "code": "game:redmeat-vintage" },
+			"transitionRatio": 1
 			} 
 		]
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
-	maxstacksize: 250,
-	materialDensity: 20,
-	guiTransform: {
-        translation: { x: 0, y: 0, z: 0 },
-		rotation: { x: 142, y: -35, z: 0 },
-		origin: { x: 0.48, y: 0.09, z: 0.5 },
-		scale: 2.2
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"maxstacksize": 250,
+	"materialDensity": 20,
+	"guiTransform": {
+        "translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 142, "y": -35, "z": 0 },
+		"origin": { "x": 0.48, "y": 0.09, "z": 0.5 },
+		"scale": 2.2
 	},
-	groundTransform: {
-		translation: { x: 0, y: 0.51, z: 0 },
-		rotation: { x: 0, y: 0, z: 0 },
-		origin: { x: 0.5, y: 0.5, z: 0.5 },
-		scale: 5
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0.51, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
+		"scale": 5
 	},
 	tpHandTransform: {
-		translation: { x: -0.6, y: 0, z: -0.5 },
-		rotation: { x: 0, y: -2, z: 18 },
-		scale: .9
+		"translation": { "x": -0.6, "y": 0, "z": -0.5 },
+		"rotation": { "x": 0, "y": -2, "z": 18 },
+		"scale": .9
 	}
 }

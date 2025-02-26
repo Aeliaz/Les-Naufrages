@@ -1,67 +1,67 @@
 {
-	code: "seaweed-bandage",
-	classByType: {
+	"code": "seaweed-bandage",
+	"classByType": {
 		"*-clean": "ItemPoultice",
 		"*-alcoholed": "ItemPoultice"
 	},
-	variantgroups: [
-		{ code: "type", states: ["clean", "alcoholed" ] },
+	"variantgroups": [
+		{ "code": "type", "states": ["clean", "alcoholed" ] },
 	],
-	shape: { base: "item/medicine/seaweed-bandage" },
-	texturesbyType: {
+	"shape": { "base": "item/medicine/seaweed-bandage" },
+	"texturesbyType": {
 		"*-dirty": { 
-			"normal1": {base: "item/medicine/seaweed/seaweed" }
+			"normal1": {"base": "item/medicine/seaweed/seaweed" }
 		},
 		"*-alcoholed": { 
-			"normal1": {base: "item/medicine/seaweed/seaweed" }
+			"normal1": {"base": "item/medicine/seaweed/seaweed" }
 		}
 	},
-	attributes: {
-		onDisplayTransform: {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 0.75
+	"attributes": {
+		"onDisplayTransform": {
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 0.75
 		},
-		displaycaseable: true,
-		shelvable: true,
-		healthByType: {
+		"displaycaseable": true,
+		"shelvable": true,
+		"healthByType": {
 			"*-clean": 1,
 			"*-alcoholed": 2
 		}
 	},
-	transitionablePropsByType: {
+	"transitionablePropsByType": {
 		"*-alcoholed": [{
-			type: "Dry",
-			transitionHours: { avg: 1 },
-			transitionedStack: { type: "item", code: "seaweed-bandage-clean" },
-			transitionRatio: 1
+			"type": "Dry",
+			"transitionHours": { "avg": 1 },
+			"transitionedStack": { "type": "item", "code": "seaweed-bandage-clean" },
+			"transitionRatio": 1
 			} 
 		]
 	},
-	maxstacksize: 32,
-	creativeinventory: { "general": ["*"], "items": ["*"] },
-	materialDensity: 600,
-	guiTransform: {
-		translation: { x: 1, y: 0, z: 0 },
-		rotation: { x: 120, y: 41, z: 7 },
-		origin: { x: 0.5, y: 0.11, z: 0.5 },
-		scale: 2.55
+	"maxstacksize": 32,
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"materialDensity": 600,
+	"guiTransform": {
+		"translation": { "x": 1, "y": 0, "z": 0 },
+		"rotation": { "x": 120, "y": 41, "z": 7 },
+		"origin": { "x": 0.5, "y": 0.11, "z": 0.5 },
+		"scale": 2.55
 	},
-	fpHandTransform: {
-		translation: { x: 0, y: 0, z: 0 },
-		rotation: { x: 40, y: 91, z: 15 },
-		origin: { x: 0.8, y: 0.4, z: 0 },
-		scale: 1.7
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 40, "y": 91, "z": 15 },
+		"origin": { "x": 0.8, "y": 0.4, "z": 0 },
+		"scale": 1.7
 	},
-	groundTransform: {
-		translation: { x: 0, y: 0, z: 0 },
-		rotation: { x: 180, y: 33, z: -180 },
-		origin: { x: 0.5, y: 0, z: 0.5 },
-		scale: 3.0
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 180, "y": 33, "z": -180 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 3.0
 	},
-	tpHandTransform: {
-		translation: { x: 0, y: 0, z: 0 },
-		rotation: { x: 5, y: 41, z: -31 },
-		origin: { x: 0.16, y: 0.05, z: 0.08 },
-		scale: 0.44
+	"tpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 5, "y": 41, "z": -31 },
+		"origin": { "x": 0.16, "y": 0.05, "z": 0.08 },
+		"scale": 0.44
 	}
 }

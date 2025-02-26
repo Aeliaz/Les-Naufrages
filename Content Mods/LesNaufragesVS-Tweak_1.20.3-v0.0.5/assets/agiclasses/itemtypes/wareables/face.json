@@ -1,72 +1,72 @@
 {
-	code: "clothes",
-	class: "ItemWearable",
-	variantgroups: [
-		{ code: "category",  states: ["face"] },
-		{ code: "face", states: [
+	"code": "clothes",
+	"class": "ItemWearable",
+	"variantgroups": [
+		{ "code": "category",  "states": ["face"] },
+		{ "code": "face", "states": [
 			"mask-cultist", "mask-corona"
 		] }
 	],
-	shapeByType: { 
-		"*": {	base: "entity/humanoid/seraph/clothing/face/{face}" }
+	"shapeByType": { 
+		"*": {	"base": "entity/humanoid/seraph/clothing/face/{face}" }
 	},
-	storageFlags: 128,
-	attributes: {
-		clothescategory: "face",
-		wearableAttachment: true,
-		warmth: 2
+	"storageFlags": 128,
+	"attributes": {
+		"clothescategory": "face",
+		"wearableAttachment": true,
+		"warmth": 2
 	},
-	attributesByType: {
+	"attributesByType": {
 		"*-mask-cultist": { 
-			disableElements: ["Hair tile upper part", "ponytailhigh", "ponytaillow", "hair-uncovered", "Hair", "hidefacialhair", "sidehigh", "sidelow", "bangs"], 
-			keepElements: ["hair-covered"], 
-			eyeprotective: true,
-			warmth: 1 
+			"disableElements": ["Hair tile upper part", "ponytailhigh", "ponytaillow", "hair-uncovered", "Hair", "hidefacialhair", "sidehigh", "sidelow", "bangs"], 
+			"keepElements": ["hair-covered"], 
+			"eyeprotective": true,
+			"warmth": 1 
 		},
 		"*-mask-corona": { 
-			disableElements: ["Hair tile upper part", "ponytailhigh", "ponytaillow", "hair-uncovered", "Hair", "hidefacialhair", "sidehigh", "sidelow", "bangs"], 
-			keepElements: ["hair-covered"], 
-			eyeprotective: true,
-			warmth: 5 
+			"disableElements": ["Hair tile upper part", "ponytailhigh", "ponytaillow", "hair-uncovered", "Hair", "hidefacialhair", "sidehigh", "sidelow", "bangs"], 
+			"keepElements": ["hair-covered"], 
+			"eyeprotective": true,
+			"warmth": 5 
 		},
 	},
-	texturesByType: {
+	"texturesByType": {
 		"*": {
-			"seraph": { base: "game:block/transparent" }
+			"seraph": { "base": "game:block/transparent" }
 		}
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"] },
-	renderAlphaTest: 0.25,
-	fpHandTransform: {
-		translation: { x: 0.05, y: -0.6, z: 0.3 },
-		rotation: { x: 180, y: 150, z: 180 },
-		scale: 2
+	"creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"] },
+	"renderAlphaTest": 0.25,
+	"fpHandTransform": {
+		"translation": { "x": 0.05, "y": -0.6, "z": 0.3 },
+		"rotation": { "x": 180, "y": 150, "z": 180 },
+		"scale": 2
 	},
-	tpHandTransform: {
-		translation: { x: -0.3, y: -0.9, z: -0.7 },
-		rotation: { x: -71, y: 180, z: 83 },
-		scale: 0.55
+	"tpHandTransform": {
+		"translation": { "x": -0.3, "y": -0.9, "z": -0.7 },
+		"rotation": { "x": -71, "y": 180, "z": 83 },
+		"scale": 0.55
 	},
-	guiTransformByType: {
+	"guiTransformByType": {
 		"*": {
-			rotate: false,
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: -178, y: -65, z: 10 },
-			origin: { x: 0.9, y: 1.7, z: 0.6 },
-			scale: 0.9
+			"rotate": false,
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -178, "y": -65, "z": 10 },
+			"origin": { "x": 0.9, "y": 1.7, "z": 0.6 },
+			"scale": 0.9
 		}
 	},
-	guiTransform: {
-		rotate: false,
-		translation: { x: 0, y: 0, z: 0 },
-		rotation: { x: -178, y: -65, z: 10 },
-		origin: { x: 0.9, y: 1.1, z: 0.75 },
-		scale: 1.8
+	"guiTransform": {
+		"rotate": false,
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -178, "y": -65, "z": 10 },
+		"origin": { "x": 0.9, "y": 1.1, "z": 0.75 },
+		"scale": 1.8
 	},
-	groundTransform: {
-		translation: { x: 0.05, y: 0.05, z: 0 },
-		rotation: { x: 0, y: 0, z: -87 },
-		origin: { x: 0.5, y: 0.5, z: 0.5299 },
-		scale: 2.19
+	"groundTransform": {
+		"translation": { "x": 0.05, "y": 0.05, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": -87 },
+		"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
+		"scale": 2.19
 	}
 }

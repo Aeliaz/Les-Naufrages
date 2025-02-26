@@ -1,5 +1,5 @@
 {
-	ingredient: { type: "item", code: "game:flint" },
+	ingredient: { "type": "item", "code": "game:flint" },
 	pattern: [[
 		"##_#_##_#_",
 		"#_##_#_##_",
@@ -12,6 +12,6 @@
 		"_#__#____#",
 		"_##_##__##"
 	]],
-	name: "Small arrowhead",
-	output: { type: "item", code: "agiclasses:smallarrowhead", stacksize: 15  }
+	"name": "Small arrowhead",
+	"output": { "type": "item", "code": "agiclasses:smallarrowhead", stacksize: 15  }
 }

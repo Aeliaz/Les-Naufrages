@@ -1,26 +1,26 @@
 {
-	code: "pestle",
+	"code": "pestle",
 	damagedby: ["attacking"],
 	tool: "knife",
-	attributes: {
+	"attributes": {
 		heldItemPitchFollow: 1,
-		handbook: {
+		"handbook": {
 			groupBy: ["pestle-*"]
 		},
 		groundStorageTransformByType: {
 			"pestle": {
-				translation: { x: 0, y: 0.065, z: -0.145 },
-				rotation: { x: 26, y: 88, z: -97 },
-				scale: 1
+				"translation": { "x": 0, "y": 0.065, "z": -0.145 },
+				"rotation": { "x": 26, "y": 88, "z": -97 },
+				"scale": 1
 			}
 		}
 	},
 	attackRange: -0.5,
-	behaviors: [{ 
-		name: "GroundStorable"
+	"behaviors": [{ 
+		"name": "GroundStorable"
 	}],
-	variantgroups: [
-		{ code: "type", states: ["generic"] }
+	"variantgroups": [
+		{ "code": "type", "states": ["generic"] }
 	],
 	allowedVariants: [
 		"pestle-generic"
@@ -28,42 +28,42 @@
 	attackpowerbytype: {
 		"pestle-generic": 0.5
 	},
-	shapeByType: {
-		"pestle-generic": { base: "item/tool/pestle" }
+	"shapeByType": {
+		"pestle-generic": { "base": "item/tool/pestle" }
 	},
-	heldTpHitAnimation: "knifestab",
+	"heldTpHitAnimation": "knifestab",
 	durabilitybytype: {
 		"pestle-generic": 64,
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "tools": ["*"] },
 	fpHandTransformByType: {
 		"*": {
-			translation: { x: 0.2, y: -0.2, z: 0.2 },
-			rotation: { x: 0, y: 0, z: -15 },
-			origin: { x: 0, y: -0, z: 0 },
-			scale: 0.41
+			"translation": { "x": 0.2, "y": -0.2, "z": 0.2 },
+			"rotation": { "x": 0, "y": 0, "z": -15 },
+			"origin": { "x": 0, "y": -0, "z": 0 },
+			"scale": 0.41
 		}
 	},
-	guiTransformByType: {
+	"guiTransformByType": {
 		"*": {
-			translation: { x: -19, y: 21, z: 25 },
-			rotation: { x: -180, y: -109, z: 32 },
-			origin: { x: 0, y: 0, z: 0 },
-			scaleXyz: { x: -1.51, y: 1.51, z: 1.51 }
+			"translation": { "x": -19, "y": 21, "z": 25 },
+			"rotation": { "x": -180, "y": -109, "z": 32 },
+			"origin": { "x": 0, "y": 0, "z": 0 },
+			scaleXyz: { "x": -1.51, "y": 1.51, "z": 1.51 }
 		}
 	},
-	groundTransform: {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: -90, y: 0, z: 0 },
-			origin: { x: 0.5, y: 0.5, z: 0.45 },
-			scale: 3.6
+	"groundTransform": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -90, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.5, "z": 0.45 },
+			"scale": 3.6
 	},
 	tpHandTransformByType: {
 		"*": {
-			translation: { x: 0.2, y: -0.2, z: 0.2 },
-			rotation: { x: 0, y: 0, z: -15 },
-			origin: { x: 0, y: -0, z: 0 },
-			scale: 0.41
+			"translation": { "x": 0.2, "y": -0.2, "z": 0.2 },
+			"rotation": { "x": 0, "y": 0, "z": -15 },
+			"origin": { "x": 0, "y": -0, "z": 0 },
+			"scale": 0.41
 		}
 	}
 }

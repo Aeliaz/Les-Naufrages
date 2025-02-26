@@ -61,6 +61,6 @@
 	"shapeless": true,
 	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:alcoholportion" }, "requiresLitres": 1 } },
 	"output": { "type": "item", "code": "agiclasses:powders-holland", "quantity": 6 }
-},
+}
 ]
 	

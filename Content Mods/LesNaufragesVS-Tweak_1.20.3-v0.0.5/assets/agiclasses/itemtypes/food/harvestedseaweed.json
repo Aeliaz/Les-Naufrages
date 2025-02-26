@@ -1,86 +1,86 @@
 {
-	code: "harvestedseaweed",
-	maxstacksize: 64,
-	behaviors: [
-		{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } }
+	"code": "harvestedseaweed",
+	"maxstacksize": 64,
+	"behaviors": [
+		{ "name": "GroundStorable", "properties": { "layout": 'Quadrants', "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } }
 	],
-	attributes: {
-		foodTags: ["vegetable"],
-		inFirePitProps: {
-			transform: {
-				scale: 0.85,
-				origin: { x: 0.5, y: 0.0625, z: 0.5 },
-				translation: { x: -0.0625, y: 0.21875, z: 0.0625 },
-				rotation: { x: 0, y: 53, z: 90 }
+	"attributes": {
+		"foodTags": ["vegetable"],
+		"inFirePitProps": {
+			"transform": {
+				"scale": 0.85,
+				"origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+				"translation": { "x": -0.0625, "y": 0.21875, "z": 0.0625 },
+				"rotation": { "x": 0, "y": 53, "z": 90 }
 			},
-			useFirepitModel: "Spit"
+			"useFirepitModel": "Spit"
 		},
-		nutritionPropsWhenInMeal: { satiety: 25, foodcategory: "Vegetable" },
-		handbook: {
-			extraSections: [
-				{ title: "handbook-item-sources", text: "Obtained by harvesting Seaweed in the Ocean." }
+		"nutritionPropsWhenInMeal": { "satiety": 25, "foodcategory": "Vegetable" },
+		"handbook": {
+			"extraSections": [
+				{ "title": "handbook-item-sources", "text": "Obtained by harvesting Seaweed in the Ocean." }
 			]
 		},
-		displaycaseable: true,
-		shelvable: true
+		"displaycaseable": true,
+		"shelvable": true
 	},
-	variantgroups: [
-		{ code: "type", states: ["raw", "cooked" ] },
+	"variantgroups": [
+		{ "code": "type", "states": ["raw", "cooked" ] },
 	],
-	shape: { base: "item/food/vegetable/harvestedseaweed" },
-	textures: {
-		"vegetable": {base: "item/food/vegetable/harvestedseaweed/{type}" }
+	"shape": { "base": "item/food/vegetable/harvestedseaweed" },
+	"textures": {
+		"vegetable": {"base": "item/food/vegetable/harvestedseaweed/{type}" }
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
-	nutritionPropsByType: {
-		"*-raw": { satiety: 20, foodcategory: "Vegetable" },
-		"*-cooked": { satiety: 10, foodcategory: "Vegetable" },
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"nutritionPropsByType": {
+		"*-raw": { "satiety": 20, "foodcategory": "Vegetable" },
+		"*-cooked": { "satiety": 10, "foodcategory": "Vegetable" },
 	},
-	materialDensity: 600,
-	guiTransformByType: {
+	"materialDensity": 600,
+	"guiTransformByType": {
 		"*": {
-			rotate: false,
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 171, y: -122, z: 33 },
-			origin: { x: 0.5, y: 0.04, z: 0.53 },
-			scale: 4.7199
+			"rotate": false,
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 171, "y": -122, "z": 33 },
+			"origin": { "x": 0.5, "y": 0.04, "z": 0.53 },
+			"scale": 4.7199
 		}
 	},
-	fpHandTransform: {
-		translation: { x: -0.06, y: 0.36, z: 0.23 },
-		rotation: { x: 40, y: 91, z: 15 },
-		origin: { x: 0.5, y: 0.1, z: 0.5 },
-		scale: 2.5
+	"fpHandTransform": {
+		"translation": { "x": -0.06, "y": 0.36, "z": 0.23 },
+		"rotation": { "x": 40, "y": 91, "z": 15 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 2.5
 	},
-	tpHandTransform: {
-		translation: { x: -0.04, y: 0.26, z: -0.04 },
-		rotation: { x: -78, y: 15, z: 0 },
-		origin: { x: 0.23, y: 0, z: 0.13 },
-		scale: 0.92
+	"tpHandTransform": {
+		"translation": { "x": -0.04, "y": 0.26, "z": -0.04 },
+		"rotation": { "x": -78, "y": 15, "z": 0 },
+		"origin": { "x": 0.23, "y": 0, "z": 0.13 },
+		"scale": 0.92
 	},
-	groundTransform: {
-		translation: { x: 0, y: 0, z: 0 },
-		rotation: { x: 180, y: 33, z: -180 },
-		origin: { x: 0.5, y: 0, z: 0.5 },
-		scale: 5
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 180, "y": 33, "z": -180 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 5
 	},
-	transitionablePropsByType: {
+	"transitionablePropsByType": {
 		"*-raw": [
 			{
-				type: "Perish",
-				freshHours: { avg: 1 },
-				transitionHours: { avg: 24 },
-				transitionedStack: { type: "item", code: "game:rot" },
-				transitionRatio: 1
+				"type": "Perish",
+				"freshHours": { "avg": 1 },
+				"transitionHours": { "avg": 24 },
+				"transitionedStack": { "type": "item", "code": "game:rot" },
+				"transitionRatio": 1
 			}
 		],
 		"*-cooked": [
 			{
-				type: "Perish",
-				freshHours: { avg: 48 },
-				transitionHours: { avg: 72 },
-				transitionedStack: { type: "item", code: "game:rot" },
-				transitionRatio: 1
+				"type": "Perish",
+				"freshHours": { "avg": 48 },
+				"transitionHours": { "avg": 72 },
+				"transitionedStack": { "type": "item", "code": "game:rot" },
+				"transitionRatio": 1
 			}
 		],
 	}

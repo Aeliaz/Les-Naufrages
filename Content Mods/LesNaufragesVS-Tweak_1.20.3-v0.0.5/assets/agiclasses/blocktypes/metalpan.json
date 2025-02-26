@@ -3,7 +3,7 @@
 	"class": "BlockPan",
 	"behaviors": [
 		{ "name": "SneakPlacing"}, 
-		{ "name": "UnstableFalling", "properties": { "attachmentArea": { x1: 5, y1: 0, z1: 5, x2: 10, y2: 0, z2: 10 } }}, 
+		{ "name": "UnstableFalling", "properties": { "attachmentArea": { "x1": 5, "y1": 0, "z1": 5, "x2": 10, "y2": 0, "z2": 10 } }}, 
 		{ "name": "RightClickPickup"} 
 	],
 	"maxStackSize": 1,
@@ -139,7 +139,7 @@
 				{ "type": "item", "code": "game:spearhead-copper",  "chance": { "avg": 0.05, "var": 0 }  },
 				{ "type": "item", "code": "game:spearhead-tinbronze",  "chance": { "avg": 0.08, "var": 0 }  },
 				{ "type": "item", "code": "game:spearhead-bismuthbronze",  "chance": { "avg": 0.002, "var": 0 }  },
-				{ "type": "item", "code": "game:spearhead-blackbronze",  "chance": { "avg": 0.01, "var": 0 }  },
+				{ "type": "item", "code": "game:spearhead-blackbronze",  "chance": { "avg": 0.01, "var": 0 }  }
 			],
 			"@(sand|gravel)-.*": [
 				{ "type": "item", "code": "game:stone-{rocktype}",  "chance": { "avg": 0.4, "var": 0 }  },
@@ -218,11 +218,11 @@
 		}
 	},
 	"variantgroups": [
-		{ "code": "type", "states": ["copper" ] },
+		{ "code": "type", "states": ["copper" ] }
 	],
 	"shape": { "base": "game:block/wood/pan/empty" },
 	"textures": {
-		"wood-generic": { "base": "game:block/metal/anvil/copper" },
+		"wood-generic": { "base": "game:block/metal/anvil/copper" }
 	},
 	"doNotRenderAtLod2": true,
 	"blockmaterial": "Metal",
@@ -236,30 +236,30 @@
 	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
 	"heldTpUseAnimation": "panning",
 	"fpHandTransform": {
-		"translation": { x: 0.3, y: 0, z: 0 },
-		"rotation": { x: 15, y: 15, z: 0 },
+		"translation": { "x": 0.3, "y": 0, "z": 0 },
+		"rotation": { "x": 15, "y": 15, "z": 0 },
 		"scale": 2
 	},
 	"guiTransform": {
 		"rotate": true,
-		"translation": { x: 0, y: 0, z: 0 },
-		"rotation": { x: -25, y: 22, z: 0 },
-		"origin": { x: 0.53, y: 0.21, z: 0.5 },
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -25, "y": 22, "z": 0 },
+		"origin": { "x": 0.53, "y": 0.21, "z": 0.5 },
 		"scale": 1.76
 	},
 	"groundTransform": {
-		"translation": { x: 0, y: 0, z: 0 },
-		"rotation": { x: 0, y: 18, z: 0 },
-		"origin": { x: 0.5, y: 0, z: 0.5 },
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 18, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
 		"scale": 4
 	},
 	"tpHandTransform": {
-		"translation": { x: -0.58, y: 0, z: -0.34 },
-		"rotation": { x: 0, y: 18, z: -74 },
-		"origin": { x: 0.5, y: 0, z: 0.5 },
+		"translation": { "x": -0.58, "y": 0, "z": -0.34 },
+		"rotation": { "x": 0, "y": 18, "z": -74 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
 		"scale": 0.8
 	},
-	"collisionSelectionBox": { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.1875, z2: 0.875 },
+	"collisionSelectionBox": { "x1": 0.125, "y1": 0, "z1": 0.125, "x2": 0.875, "y2": 0.1875, "z2": 0.875 },
 	"resistance": 1,
 	"sounds": {
 		"place": "game:block/chandelier-hit",

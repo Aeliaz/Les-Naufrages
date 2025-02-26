@@ -1,35 +1,35 @@
 {
-	code: "strawdummy",
-	class: "EntityStrawDummy",
-	hitboxSize: { x: 0.7, y: 2 },
-	eyeHeight: 1.8,
+	"code": "strawdummy",
+	"class": "EntityStrawDummy",
+	hitboxSize: { "x": 0.7, "y": 2 },
+	eye"height": 1.8,
 	knockbackResistance: 1,
-	attributes: {
+	"attributes": {
 		spawnDamageParticles: true
 	},
 	client: {
 		renderer: "Shape",
-		shape: { base: "entity/land/strawdummy" },
-		behaviors: [
-			{ code: "repulseagents" }, 
-			{ code: "controlledphysics", stepHeight: 1.1251 }, 
-			{ code: "interpolateposition" }
+		shape: { "base": "entity/land/strawdummy" },
+		"behaviors": [
+			{ "code": "repulseagents" }, 
+			{ "code": "controlledphysics", step"height": 1.1251 }, 
+			{ "code": "interpolateposition" }
 		],
 		animations: [
 			{
-				code: "hurt",
+				"code": "hurt",
 				animation: "bounce",
 				animationSpeed: 1.5
 			},
 			{
-				code: "die",
+				"code": "die",
 				animation: "death", 
 				animationSpeed: 1.25,
 				weight: 10,
 				blendMode: "Average",
 			},
 			{ 
-				code: "idle", 
+				"code": "idle", 
 				animation: "idle",
 				blendMode: "Average", 
 				triggeredBy: { defaultAnim: true },
@@ -37,10 +37,10 @@
 		],
 	},
 	server: {
-		behaviors: [
-			{ code: "repulseagents" }, 
-			{ code: "controlledphysics", stepHeight: 1.1251 },
-			{ code: "health", currenthealth: 2000, maxhealth: 2000 }, 
+		"behaviors": [
+			{ "code": "repulseagents" }, 
+			{ "code": "controlledphysics", step"height": 1.1251 },
+			{ "code": "health", currenthealth: 2000, maxhealth: 2000 }, 
 		]
 	},
 	sounds: {

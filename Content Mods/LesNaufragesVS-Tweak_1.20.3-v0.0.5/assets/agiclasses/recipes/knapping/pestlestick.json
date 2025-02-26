@@ -1,5 +1,5 @@
 {
-	ingredient: { type: "item", code: "game:stone-*", name: "rock", allowedVariants: ["chert", "granite", "andesite", "basalt", "flint", "peridotite"]},
+	ingredient: { "type": "item", "code": "game:stone-*", "name": "rock", allowedVariants: ["chert", "granite", "andesite", "basalt", "flint", "peridotite"]},
 	pattern: [[
 		"__________",
 		"__________",
@@ -12,6 +12,6 @@
 		"#######_##",
 		"#######_##",
 	]],
-	name: "Pestle Stick",
-	output: { type: "item", code: "agiclasses:pestlestick", stacksize: 4  }
+	"name": "Pestle Stick",
+	"output": { "type": "item", "code": "agiclasses:pestlestick", stacksize: 4  }
 }

@@ -150,5 +150,5 @@
 	"width": 2,
 	"height": 2,
 	"output": { "type": "item", "code": "game:oar-crude-aged", "quantity": 1  }
-},
+}
 ]

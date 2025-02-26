@@ -55,7 +55,7 @@
 	
 	"ingredients": {
 		"H": { "type": "item", "code": "game:chisel-*", "isTool": true },
-		"S": { "type": "item", "code": "game:stone-*", "quantity": 8, "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] },
+		"S": { "type": "item", "code": "game:stone-*", "quantity": 8, "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] }
 	},
 	"width": 1,
 	"height": 2,
@@ -69,7 +69,7 @@
 		"ingredients": {
 			"F": { "type": "item", "code": "game:clay-fire", "quantity": 6 },
 			"Q": { "type": "item", "code": "game:crushed-quartz" },
-			"B": { "type": "item", "code": "game:crushed-bauxite" },
+			"B": { "type": "item", "code": "game:crushed-bauxite" }
 		},
 		"width": 2,
 		"height": 2,
@@ -84,7 +84,7 @@
 			"F": { "type": "item", "code": "game:clay-fire", "quantity": 6 },
 			"Q": { "type": "item", "code": "game:crushed-quartz" },
 			"B": { "type": "item", "code": "game:crushed-bauxite" },
-			"P": { "type": "item", "code": "game:crushed-olivine" },
+			"P": { "type": "item", "code": "game:crushed-olivine" }
 		},
 		"width": 3,
 		"height": 2,
@@ -100,7 +100,7 @@
 			"Q": { "type": "item", "code": "game:crushed-quartz" },
 			"B": { "type": "item", "code": "game:crushed-bauxite" },
 			"P": { "type": "item", "code": "game:crushed-olivine" },
-			"I": { "type": "item", "code": "game:crushed-ilmenite" },
+			"I": { "type": "item", "code": "game:crushed-ilmenite" }
 		},
 		"width": 3,
 		"height": 3,
@@ -411,5 +411,5 @@
 		"height": 3,
 		"recipeGroup":2,
 		"output": { "type": "block", "code": "game:cobbleskull-{rock}", "quantity": 6  }
-	},
+	}
 ]

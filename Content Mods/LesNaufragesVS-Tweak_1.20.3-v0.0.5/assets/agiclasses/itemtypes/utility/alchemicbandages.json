@@ -1,42 +1,42 @@
 {
-	code: "alchemic-bandages",
-	classByType: {
+	"code": "alchemic-bandages",
+	"classByType": {
 		"*-callahan-*": "ItemPoultice",
 		"*-heinrich-*": "ItemPoultice",
 		"*-holland-*": "ItemPoultice"
 	},
-	variantgroups: [
-		{ code: "type", states: ["callahan", "heinrich", "holland", "callahan-sealed", "heinrich-sealed", "holland-sealed" ] },
+	"variantgroups": [
+		{ "code": "type", "states": ["callahan", "heinrich", "holland", "callahan-sealed", "heinrich-sealed", "holland-sealed" ] },
 	],
-	shape: { base: "item/medicine/alchemicbandages" },
-	texturesbyType: {
+	"shape": { "base": "item/medicine/alchemicbandages" },
+	"texturesbyType": {
 		"*-callahan": { 
-			"secondary": {base: "item/medicine/alchemic/callahan" }, "primary": {base: "item/medicine/alchemic/callahan" }
+			"secondary": {"base": "item/medicine/alchemic/callahan" }, "primary": {"base": "item/medicine/alchemic/callahan" }
 		},
 		"*-heinrich": { 
-			"secondary": {base: "item/medicine/alchemic/heinrich" }, "primary": {base: "item/medicine/alchemic/heinrich" }
+			"secondary": {"base": "item/medicine/alchemic/heinrich" }, "primary": {"base": "item/medicine/alchemic/heinrich" }
 		},
 		"*-holland": { 
-			"secondary": {base: "item/medicine/alchemic/holland" }, "primary": {base: "item/medicine/alchemic/holland" }
+			"secondary": {"base": "item/medicine/alchemic/holland" }, "primary": {"base": "item/medicine/alchemic/holland" }
 		},
 		"*-callahan-sealed": { 
-			"secondary": {base: "item/medicine/alchemic/callahan-sealed" }, "primary": {base: "item/medicine/alchemic/callahan-sealed" }
+			"secondary": {"base": "item/medicine/alchemic/callahan-sealed" }, "primary": {"base": "item/medicine/alchemic/callahan-sealed" }
 		},
 		"*-heinrich-sealed": { 
-			"secondary": {base: "item/medicine/alchemic/heinrich-sealed" }, "primary": {base: "item/medicine/alchemic/heinrich-sealed" }
+			"secondary": {"base": "item/medicine/alchemic/heinrich-sealed" }, "primary": {"base": "item/medicine/alchemic/heinrich-sealed" }
 		},
 		"*-holland-sealed": { 
-			"secondary": {base: "item/medicine/alchemic/holland-sealed" }, "primary": {base: "item/medicine/alchemic/holland-sealed" }
+			"secondary": {"base": "item/medicine/alchemic/holland-sealed" }, "primary": {"base": "item/medicine/alchemic/holland-sealed" }
 		}
 	},
-	attributes: {
-		onDisplayTransform: {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 0.75
+	"attributes": {
+		"onDisplayTransform": {
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 0.75
 		},
-		displaycaseable: true,
-		shelvable: true,
-		healthByType: {
+		"displaycaseable": true,
+		"shelvable": true,
+		"healthByType": {
 			"*-callahan": 6,
 			"*-heinrich": 12,
 			"*-holland": 18,
@@ -45,75 +45,75 @@
 			"*-holland-*": 18
 		}
 	},
-	transitionablePropsByType: {
+	"transitionablePropsByType": {
 		"*-callahan": [{
-			type: "Dry",
-			transitionHours: { avg: 6 },
-			transitionedStack: { type: "item", code: "game:bandage-clean" },
-			transitionRatio: 1
+			"type": "Dry",
+			"transitionHours": { "avg": 6 },
+			"transitionedStack": { "type": "item", "code": "game:bandage-clean" },
+			"transitionRatio": 1
 			} 
 		],
 		"*-heinrich": [{
-			type: "Dry",
-			transitionHours: { avg: 12 },
-			transitionedStack: { type: "item", code: "game:bandage-clean" },
-			transitionRatio: 1
+			"type": "Dry",
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "game:bandage-clean" },
+			"transitionRatio": 1
 			} 
 		],
 		"*-holland": [{
-			type: "Dry",
-			transitionHours: { avg: 24 },
-			transitionedStack: { type: "item", code: "game:bandage-clean" },
-			transitionRatio: 1
+			"type": "Dry",
+			"transitionHours": { "avg": 24 },
+			"transitionedStack": { "type": "item", "code": "game:bandage-clean" },
+			"transitionRatio": 1
 			} 
 		],
 		"*-callahan-sealed": [{
-			type: "Dry",
-			transitionHours: { avg: 48 },
-			transitionedStack: { type: "item", code: "agiclasses:alchemic-bandages-callahan" },
-			transitionRatio: 1
+			"type": "Dry",
+			"transitionHours": { "avg": 48 },
+			"transitionedStack": { "type": "item", "code": "agiclasses:alchemic-bandages-callahan" },
+			"transitionRatio": 1
 			} 
 		],
 		"*-heinrich-sealed": [{
-			type: "Dry",
-			transitionHours: { avg: 48 },
-			transitionedStack: { type: "item", code: "agiclasses:alchemic-bandages-heinrich" },
-			transitionRatio: 1
+			"type": "Dry",
+			"transitionHours": { "avg": 48 },
+			"transitionedStack": { "type": "item", "code": "agiclasses:alchemic-bandages-heinrich" },
+			"transitionRatio": 1
 			} 
 		],
 		"*-holland-sealed": [{
-			type: "Dry",
-			transitionHours: { avg: 48 },
-			transitionedStack: { type: "item", code: "agiclasses:alchemic-bandages-holland" },
-			transitionRatio: 1
+			"type": "Dry",
+			"transitionHours": { "avg": 48 },
+			"transitionedStack": { "type": "item", "code": "agiclasses:alchemic-bandages-holland" },
+			"transitionRatio": 1
 			} 
 		]
 	},
-	maxstacksize: 32,
-	creativeinventory: { "general": ["*"], "items": ["*"] },
-	materialDensity: 600,
-	guiTransform: {
-		translation: { x: 1, y: 0, z: 0 },
-		rotation: { x: 90, y: 41, z: 7 },
-		origin: { x: 0.5, y: 0.11, z: 0.5 },
-		scale: 2.55
+	"maxstacksize": 32,
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"materialDensity": 600,
+	"guiTransform": {
+		"translation": { "x": 1, "y": 0, "z": 0 },
+		"rotation": { "x": 90, "y": 41, "z": 7 },
+		"origin": { "x": 0.5, "y": 0.11, "z": 0.5 },
+		"scale": 2.55
 	},
-	fpHandTransform: {
-		translation: { x: 0, y: 0, z: 0 },
-		rotation: { x: 40, y: 91, z: 15 },
-		origin: { x: 0.8, y: 0.4, z: 0 },
-		scale: 1.7
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 40, "y": 91, "z": 15 },
+		"origin": { "x": 0.8, "y": 0.4, "z": 0 },
+		"scale": 1.7
 	},
-	groundTransform: {
-		translation: { x: 0, y: 0, z: 0 },
-		rotation: { x: 180, y: 33, z: -180 },
-		origin: { x: 0.5, y: 0, z: 0.5 },
-		scale: 3.0
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 180, "y": 33, "z": -180 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 3.0
 	},
 	tpHandTransform: {
-		translation: { x: 0, y: 0, z: 0 },
-		rotation: { x: 5, y: 41, z: -31 },
-		origin: { x: 0.16, y: 0.05, z: 0.08 },
-		scale: 0.44
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 5, "y": 41, "z": -31 },
+		"origin": { "x": 0.16, "y": 0.05, "z": 0.08 },
+		"scale": 0.44
 	}
 }
