@@ -271,5 +271,5 @@
 	"height": 1,
 	"shapeless": true,
 	"output": { "type": "item", "code": "agiclasses:alchemic-bandages-holland-sealed", "quantity": 1 }
-},
+}
 ]

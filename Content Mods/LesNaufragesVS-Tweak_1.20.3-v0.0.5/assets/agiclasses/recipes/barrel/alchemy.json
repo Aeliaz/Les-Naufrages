@@ -4,7 +4,7 @@
 	"sealHours": 24,
 	"ingredients": [
 		{ "type": "item", "code": "agiclasses:powders-callahan" },
-		{ "type": "item", "code": "game:spiritportion-*", "name": "fruit",  "litres": 1, "skipVariants": ["*-pinkapple", "*-redapple", "*-yellowapple", "*-olive"] },
+		{ "type": "item", "code": "game:spiritportion-*", "name": "fruit",  "litres": 1, "skipVariants": ["*-pinkapple", "*-redapple", "*-yellowapple", "*-olive"] }
 	],
 	"output": { "type": "item", "code": "agiclasses:extractives-medical-callahan", "litres": 1 }
 },
@@ -13,7 +13,7 @@
 	"sealHours": 72,
 	"ingredients": [
 		{ "type": "item", "code": "agiclasses:powders-heinrich"},
-		{ "type": "item", "code": "game:spiritportion-*", "name": "fruit",  "litres": 1, "skipVariants": ["*-pinkapple", "*-redapple", "*-yellowapple", "*-olive"] },
+		{ "type": "item", "code": "game:spiritportion-*", "name": "fruit",  "litres": 1, "skipVariants": ["*-pinkapple", "*-redapple", "*-yellowapple", "*-olive"] }
 	],
 	"output": { "type": "item", "code": "agiclasses:extractives-medical-heinrich", "litres": 1 }
 },
@@ -22,7 +22,7 @@
 	"sealHours": 168,
 	"ingredients": [
 		{ "type": "item", "code": "agiclasses:powders-holland"},
-		{ "type": "item", "code": "game:spiritportion-*", "name": "fruit",  "litres": 1, "skipVariants": ["*-pinkapple", "*-redapple", "*-yellowapple", "*-olive"] },
+		{ "type": "item", "code": "game:spiritportion-*", "name": "fruit",  "litres": 1, "skipVariants": ["*-pinkapple", "*-redapple", "*-yellowapple", "*-olive"] }
 	],
 	"output": { "type": "item", "code": "agiclasses:extractives-medical-holland", "litres": 1 }
 },
@@ -32,7 +32,7 @@
 	"sealHours": 24,
 	"ingredients": [
 		{ "type": "item", "code": "agiclasses:powders-callahan" },
-		{ "type": "item", "code": "game:ciderportion-*", "name": "fruit",  "litres": 1, "skipVariants": ["*-pinkapple", "*-redapple", "*-yellowapple", "*-olive"] },
+		{ "type": "item", "code": "game:ciderportion-*", "name": "fruit",  "litres": 1, "skipVariants": ["*-pinkapple", "*-redapple", "*-yellowapple", "*-olive"] }
 	],
 	"recipeGroup": 2,
 	"output": { "type": "item", "code": "agiclasses:extractives-medical-callahan", "litres": 1 }
@@ -42,7 +42,7 @@
 	"sealHours": 72,
 	"ingredients": [
 		{ "type": "item", "code": "agiclasses:powders-heinrich"},
-		{ "type": "item", "code": "game:ciderportion-*", "name": "fruit",  "litres": 1, "skipVariants": ["*-pinkapple", "*-redapple", "*-yellowapple", "*-olive"] },
+		{ "type": "item", "code": "game:ciderportion-*", "name": "fruit",  "litres": 1, "skipVariants": ["*-pinkapple", "*-redapple", "*-yellowapple", "*-olive"] }
 	],
 	"recipeGroup": 2,
 	"output": { "type": "item", "code": "agiclasses:extractives-medical-heinrich", "litres": 1 }
@@ -52,7 +52,7 @@
 	"sealHours": 168,
 	"ingredients": [
 		{ "type": "item", "code": "agiclasses:powders-holland"},
-		{ "type": "item", "code": "game:ciderportion-*", "name": "fruit",  "litres": 1, "skipVariants": ["*-pinkapple", "*-redapple", "*-yellowapple", "*-olive"] },
+		{ "type": "item", "code": "game:ciderportion-*", "name": "fruit",  "litres": 1, "skipVariants": ["*-pinkapple", "*-redapple", "*-yellowapple", "*-olive"] }
 	],
 	"recipeGroup": 2,
 	"output": { "type": "item", "code": "agiclasses:extractives-medical-holland", "litres": 1 }
@@ -67,5 +67,5 @@
 		{ "type": "item", "code": "agiclasses:extractives-medical-callahan",  "litres": 0.2 }
 	],
 	"output": { "type": "item", "code": "agiclasses:vintagebeefbase-soaked", "quantity": 1 }
-},
+}
 ]

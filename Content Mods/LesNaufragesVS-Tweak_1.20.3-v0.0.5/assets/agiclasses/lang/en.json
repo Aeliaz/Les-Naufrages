@@ -87,7 +87,7 @@
 
 
 
-//descriptions//
+
   "agiclasses:itemdesc-powders-*": "Alchemical Powders which can be fermented into Extractives bearing the name of their inventors boasting great healing properties.",
   "itemdesc-alchemic-bandages-*-sealed": "Sealed bandages will slowly dissolve a protective fat coating before loosing the tincture soaked within.",
   "itemdesc-extractives-medical-*": "These Alchemic Extractives can be used by Doctors to make exceptional bandages.",
@@ -110,5 +110,5 @@
   "itemdesc-toolbag": "Stores Tools",
 
   "itemdesc-pestle-generic": "Used to make Spices, a Gourmet would love this",
-  "itemdesc-pestlestick": "For a Mortar and Pestle, now all you need's the Mortar",
+  "itemdesc-pestlestick": "For a Mortar and Pestle, now all you need's the Mortar"
 }
