@@ -28,7 +28,7 @@
 			"keepElements": ["hair-covered"], 
 			"eyeprotective": true,
 			"warmth": 5 
-		},
+		}
 	},
 	"texturesByType": {
 		"*": {

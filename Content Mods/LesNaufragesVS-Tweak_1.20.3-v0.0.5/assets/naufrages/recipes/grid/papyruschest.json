@@ -6,5 +6,5 @@
 		"name": "stationarybasket",
 		"width": 3,
 		"height": 3,
-		"output": { "type": "block", "code": "game:stationarybasket-east", attributes: { "type": "papyrus" }  }
+		"output": { "type": "block", "code": "game:stationarybasket-east", "attributes": { "type": "papyrus" }  }
 	}

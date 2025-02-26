@@ -12,7 +12,7 @@
 	"heldTpHitAnimation": "knap",
 	"maxstacksize": 64,
 	"variantgroups": [
-		{ "code": "type", "states": ["callahan", "heinrich", "holland" ] },
+		{ "code": "type", "states": ["callahan", "heinrich", "holland" ] }
 	],
 	"shape": { "base": "item/powders" },
 	"textures": {"material": { "base": "item/alchemy/powders/{type}" }, "agent": { "base": "item/alchemy/powders/{type}-agent" }},

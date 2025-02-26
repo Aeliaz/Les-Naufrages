@@ -5,7 +5,7 @@
 		"*-alcoholed": "ItemPoultice"
 	},
 	"variantgroups": [
-		{ "code": "type", "states": ["clean", "alcoholed" ] },
+		{ "code": "type", "states": ["clean", "alcoholed" ] }
 	],
 	"shape": { "base": "item/medicine/seaweed-bandage" },
 	"texturesbyType": {

@@ -62,7 +62,7 @@
 		}
 	},
 	"inContainerTextureByType": {
-		"*": { "base": "game:block/barrel/raw-carrot" },
+		"*": { "base": "game:block/barrel/raw-carrot" }
 	},
 	"transitionablePropsByType": {
 		"*-bland": [
