@@ -83,17 +83,6 @@
 	"output": { "type": "item", "code": "game:flaxfibers", "quantity": 1  }
 },
 {
-	"ingredientPattern": "BA,AB",
-	
-	"ingredients": {
-		"A": { "type": "item", "code": "game:flaxfibers", "quantity": 1 },
-		"B": { "type": "item", "code": "game:flaxtwine", "quantity": 1 }
-	},
-	"width": 2,
-	"height": 2,
-	"output": { "type": "block", "code": "game:linen-normal-down", "quantity": 1  }
-},
-{
 	"ingredientPattern": "AB,CC",
 	
 	"ingredients": {

@@ -1,52 +1,5 @@
 [
 {
-    "ingredientPattern": "AA,A_",
-    
-    "ingredients": {
-        "A": { "type": "item", "code": "game:flaxfibers", "quantity": 1 }
-    },
-    "width": 2,
-    "height": 2,
-    "recipeGroup": 2,
-    "output": { "type": "item", "code": "game:flaxtwine", "quantity": 1  }
-},
-{
-    "ingredientPattern": "AA,A_",
-    
-    "ingredients": {
-        "A": { "type": "item", "code": "game:flaxtwine", "quantity": 1 }
-    },
-    "width": 2,
-    "height": 2,
-    "recipeGroup": 2,
-	"output": { "type": "block", "code": "game:linen-normal-down", "quantity": 1  }
-},
-{
-    "ingredientPattern": "AAA,AAA,ABA",
-    
-    "ingredients": {
-        "A": { "type": "item", "code": "game:cattailtops", "quantity": 1 },
-		"B": { "type": "item", "code": "game:clay-*", "quantity": 2 }
-    },
-    "width": 3,
-    "height": 3,
-    "recipeGroup": 2,
-	"output": { "type": "block", "code": "game:skep-empty-east", "quantity": 1  }
-},
-{
-    "ingredientPattern": "AAA,AAA,ABA",
-    
-    "ingredients": {
-        "A": { "type": "item", "code": "game:papyrustops", "quantity": 1 },
-		"B": { "type": "item", "code": "game:clay-*", "quantity": 2 }
-    },
-    "width": 3,
-    "height": 3,
-    "recipeGroup": 2,
-	"output": { "type": "block", "code": "game:skep-empty-east", "quantity": 1  }
-},
-
-{
 	"ingredientPattern": "BA,A_",
 	
 	"ingredients": {
@@ -133,20 +86,6 @@
 	"recipeGroup": 4,
 	"output": { "type": "block", "code": "game:bomb-scrap", "quantity": 1  }
 },
-{
-	"ingredientPattern": "AC,BB",
-	
-	"ingredients": {
-		"A": { "type": "item", "code": "game:blastingpowder", "quantity": 5 },
-		"B": { "type": "block", "code": "game:linen-*", "quantity": 1 },
-		"C": { "type": "item", "code": "game:flaxtwine", "quantity": 1 }
-	},
-	"width": 2,
-	"height": 2,
-	"recipeGroup": 2,
-	"output": { "type": "block", "code": "game:bomb-stone", "quantity": 6  }
-},
-
 {
 	"ingredientPattern": "BAC",
 	

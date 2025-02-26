@@ -105,19 +105,6 @@
 	"output": { "type": "item", "code": "tools-advanced", "quantity": 1  }
 },
 {
-	"ingredientPattern": "_T_,BPB,_B_",
-	
-	"ingredients": {
-		"T": { "type": "item", "code": "game:flaxtwine" },
-		"B": { "type": "item", "code": "game:plank-*", "quantity": 4 },
-		"P": { "type": "item", "code": "game:blastingpowder", "quantity": 4 }
-	},
-	"width": 3,
-	"height": 3,
-	"recipeGroup": 2,
-	"output": { "type": "block", "code": "game:bomb-ore", "quantity": 8  }
-},
-{
 	"ingredientPattern": "_T_,CPC,_C_",
 	
 	"ingredients": {

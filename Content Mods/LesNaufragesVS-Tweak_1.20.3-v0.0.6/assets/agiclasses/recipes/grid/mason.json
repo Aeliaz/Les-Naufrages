@@ -37,20 +37,6 @@
 	"output": { "type": "block", "code": "game:plaster-plain", "quantity": 16 }
 },
 {
-	"ingredientPattern": "WLS",
-	
-	"ingredients": {
-		"W": { "type": "block", "code": "game:woodbucket" },
-		"L": { "type": "item", "code": "game:quicklime", "quantity": 4 },
-		"S": { "type": "block", "code": "game:sand-*" }
-	},
-	"width": 3,
-	"height": 1,
-	"shapeless": true,
-	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:waterportion" }, "requiresLitres": 1 } },
-	"output": { "type": "item", "code": "game:mortar", "quantity": 64 }
-},
-{
 	"ingredientPattern": "H,S",
 	
 	"ingredients": {
