@@ -1,0 +1,17 @@
+[
+{
+	"ingredientPattern": "BD,AC",
+	
+	"ingredients": {
+		"A": { "type": "item", "code": "game:stick", "quantity": 1 },
+		"B": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+		"C": { "type": "item", "code": "agiclasses:smallarrowhead", "quantity": 3 },
+		"D": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 5 }
+	},
+	"width": 2,
+	"height": 2,
+	"shapeless": true,
+	"recipeGroup": 2,
+	"output": { "type": "item", "code": "game:arrow-crude", "quantity": 3 }
+}
+]

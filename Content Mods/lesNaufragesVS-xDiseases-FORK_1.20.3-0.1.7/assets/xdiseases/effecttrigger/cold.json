@@ -1,0 +1,19 @@
+[
+  {
+    "type": "attribute",
+    "effect": "cold",
+    "attributes": {
+      "chance": 0.001,
+      "intensity": 0.25,
+      "recoverythreshold": 0.05,
+      "weights": [
+        {
+          "attribute": "bodyTemp",
+          "min": 28.0,
+          "max": 34.0,
+          "weight": 0.1
+        }
+      ]
+    }
+  }
+]

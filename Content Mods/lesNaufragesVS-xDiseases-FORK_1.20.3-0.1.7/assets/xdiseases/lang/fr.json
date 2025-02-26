@@ -1,0 +1,54 @@
+{
+    "incontainer-item-medicineportion": "Médicament",
+    "item-medicineportion": "Médicament",
+    "incontainer-item-medicine-stade1-portion": "Base de Médicament (Stade 1)",
+    "item-medicine-stade1-portion": "Base de Médicament (Stade 1)",
+    "incontainer-item-medicine-stade2-portion": "Base de Médicament (Stade 2)",
+    "item-medicine-stade2-portion": "Base de Médicament (Stade 2)",
+    "incontainer-item-medicine-stade3-portion": "Base de Médicament (Stade 3)",
+    "item-medicine-stade3-portion": "Base de Médicament (Stade 3)",
+    "incontainer-item-medicine-stade4-portion": "Base de Médicament (Stade 4)",
+    "item-medicine-stade4-portion": "Base de Médicament (Stade 4)",
+
+    "fracture": "Fracture",
+  
+    "cold-effect": "???",
+    "cold-effectdesc": "<br>Je ne me sens pas très bien...<br><br>J'ai bien plus froid que d'habitude et ma gorge est irrité.<br>J'ai également des quinte de toux.<br><br>Une petit tour chez le médecin ne ferrais pas de mal.<br>",
+    
+    "diarrhea-effect": "???",
+    "diarrhea-effectdesc": "<br>Vos entrailles sont douloureux.<br>Vous avez une envie insescante d'aller aux toilette.<br>Une petit tour chez le médecin ne ferrais pas de mal.",
+    
+    "foodpoisoning-effect": "???",
+    "foodpoisoning-effectdesc": "<br>Vous semblez avoir mangez quelque chose de pas très frais.<br>Votre estomac fait d'étrange bruit et vous avez envie de vomir.<br><br>Une petit tour chez le médecin ne ferrais pas de mal.<br>",
+    
+    "brokenleg-left-effect": "Jambe gauche cassée",
+    "brokenleg-left-effectdesc": "<br>Votre jambe gauche est cassée, la douleur est horrible.<br>Il ferrait mieux d'aller voir le médecin.",
+    
+    "brokenleg-right-effect": "Jambe droite cassée",
+    "brokenleg-right-effectdesc": "<br>Votre jambe droite est cassée, la douleur est horrible.<br>Il ferrait mieux d'aller voir le médecin.",
+    
+    "reborn-effect": "Renaissance",
+    "reborn-effectdesc": "<br>Vous êtes récemment décédé et vous souffrez encore des conséquences.",
+    
+    "rabies-effect": "???",
+    "rabies-effectdesc": "<br>Cela est étrange. Depuis la morsure de l'animal, vous fuyez l'eau. Elle vous amène une grande crainte. Avec cela, vous semblez souffrir de spasmes de manière irrégulier et incontrolable.<br><br>Vous feriez mieux de voir un médecin de toute urgence.<br>",
+    
+    "scurvy-effect": "???",
+    "scurvy-effectdesc": "<br>Vous vous sentez constamment fatigué et faible.<br>Vos gencives saignent au moindre contact, et vos plaies mettent anormalement longtemps à guérir.<br>Votre peau semble pâle et marquée de taches violacées.<br><br>Une visite chez le médecin serait judicieux.<br>",
+    
+    "bleeding-effect": "Vous saignez.",
+    "bleeding-effectdesc": "<br>Il semblerais que vous saignez.<br>Dépechez vous a bander votre plaie, il serrait dommage de se vider de son sang.<br>",
+    
+    "infection-effect": "???",
+    "infection-effectdesc": "<br>Votre plaie est douloureuse, et semble être purulante avec une étrange couleur jaune verdatre.<br>Une petit tour chez le médecin ne ferrais pas de mal.",
+    
+    "d-blindness-effect": "Cécité",
+    "d-blindness-effectdesc": "<br>A force de rester autant de temps dans les profondeurs du sols a ne plus voir la lumière, le moindre rayon de soleil vous brûle les yeux.<br><br>Vous ferriez mieux de prêndre le temps de retrouver la vision.<br>Ou alors retourner dans les Mines quitte a en perdre la vue ?<br>",
+    
+    "pneumonia-effect": "Pneumonie",
+    "pneumonia-effectdesc": "",
+    
+    "tetanus-effect": "Tétanos",
+    "tetanus-effectdesc": ""
+  }
+  

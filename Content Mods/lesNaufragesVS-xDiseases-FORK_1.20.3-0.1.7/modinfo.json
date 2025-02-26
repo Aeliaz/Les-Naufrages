@@ -1,0 +1,12 @@
+{
+  "type": "content",
+  "modid": "lesnaufragesvsdiseases",
+  "name": "Les Naufragés - xDiseases",
+  "authors": [ "Xandu", "Aeliaz" ],
+  "description": "Fork of XDeseases - Adds diseases for LesNaufragés Serious RP Server",
+  "version": "0.1.7",
+  "dependencies": {
+    "game": "1.20.3",
+    "xlib": "0.8.7"
+  }
+}

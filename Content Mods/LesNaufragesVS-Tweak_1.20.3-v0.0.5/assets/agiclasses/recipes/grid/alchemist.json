@@ -1,0 +1,66 @@
+[
+{
+	"ingredientPattern": "BC,AD",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:flower-croton-small-*", "quantity": 2 },
+		"B": { "type": "block", "code": "game:sapling-brownbambooshoots-*", "quantity": 2 },
+		"C": { "type": "item", "code": "game:seeds-sunflower", "quantity": 2 },
+		"D": { "type": "item", "code": "agiclasses:pestle-*", "isTool": true}
+	},
+	"width": 2,
+	"height": 2,
+	"shapeless": true,
+	"output": { "type": "item", "code": "agiclasses:powders-callahan", "quantity": 6 }
+},
+{
+	"ingredientPattern": "BC_,AD_,E__",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:mushroom-witchhat-normal", "quantity": 2 },
+		"B": { "type": "block", "code": "game:mushroom-chickenofthewoods-normal-*", "quantity": 2 },
+		"C": { "type": "block", "code": "game:flower-orangemallow-*", "quantity": 2 },
+		"D": { "type": "block", "code": "game:woodbucket"},
+		"E": { "type": "item", "code": "agiclasses:pestle-*", "isTool": true}
+	},
+	"width": 3,
+	"height": 3,
+	"shapeless": true,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:ciderportion-*" }, "name": "fruit", "requiresLitres": 1, "skipVariants": ["*-pinkapple", "*-redapple", "*-yellowapple", "*-olive"] } },
+	"output": { "type": "item", "code": "agiclasses:powders-heinrich", "quantity": 6 }
+},
+{
+	"ingredientPattern": "BC_,AD_,E__",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:mushroom-witchhat-normal", "quantity": 2 },
+		"B": { "type": "block", "code": "game:mushroom-chickenofthewoods-normal-*", "quantity": 2 },
+		"C": { "type": "block", "code": "game:flower-orangemallow-*", "quantity": 2 },
+		"D": { "type": "block", "code": "game:woodbucket"},
+		"E": { "type": "item", "code": "agiclasses:pestle-*", "isTool": true}
+	},
+	"width": 3,
+	"height": 3,
+	"shapeless": true,
+	"recipeGroup": 2,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:spiritportion-*" }, "name": "fruit", "requiresLitres": 1, "skipVariants": ["*-pinkapple", "*-redapple", "*-yellowapple", "*-olive"] } },
+	"output": { "type": "item", "code": "agiclasses:powders-heinrich", "quantity": 6 }
+},
+{
+	"ingredientPattern": "BC_,AD_,E__",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:mushroom-indigomilkcap-*", "quantity": 2 },
+		"B": { "type": "block", "code": "game:mushroom-violetwebcap-*", "quantity": 2 },
+		"C": { "type": "block", "code": "game:flower-heather-*", "quantity": 2 },
+		"D": { "type": "block", "code": "game:woodbucket"},
+		"E": { "type": "item", "code": "agiclasses:pestle-*", "isTool": true}
+	},
+	"width": 3,
+	"height": 3,
+	"shapeless": true,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:alcoholportion" }, "requiresLitres": 1 } },
+	"output": { "type": "item", "code": "agiclasses:powders-holland", "quantity": 6 }
+},
+]
+	

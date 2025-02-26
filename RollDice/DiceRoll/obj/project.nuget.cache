@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "x2uZ0I+CRfo=",
+  "dgSpecHash": "ry7KFChlT/DgyvD6Gb4Z0xkYRLx0lfbGw2/v7CrsjT6F1NuwkzJ4B0PpqDtuY3omA6Hzu9l/bHeTaQGizV6iKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\march\\Desktop\\RollDice\\RollDice\\DiceRoll\\DiceRoll.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Tisma\\Documents\\GitHub\\LesNaufrages-Github\\RollDice\\DiceRoll\\DiceRoll.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tisma\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\Tisma\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.3\\microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

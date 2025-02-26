@@ -1,0 +1,44 @@
+[
+    {
+      "file": "game:entities/land/raccoon-female",
+      "op": "addmerge",
+      "path": "/server/behaviors",
+      "value": [{
+        "code": "Infectious",
+        "effects": [ 
+          {
+           "effect": "rabies",
+           "attributes": {
+             "chance": 0.0005,
+             "intensity": 0.1,
+             "threshold": 1.5,
+             "damageweight": 0.0,
+             "source": "entity",
+             "allowprojectiles": false
+            }
+          }
+        ]
+      }]
+    },
+    {
+      "file": "game:entities/land/raccoon-male",
+      "op": "addmerge",
+      "path": "/server/behaviors",
+      "value": [{
+        "code": "Infectious",
+        "effects": [ 
+          {
+           "effect": "rabies",
+           "attributes": {
+             "chance": 0.0005,
+             "intensity": 0.1,
+             "threshold": 0.5,
+             "damageweight": 0.0,
+             "source": "entity",
+             "allowprojectiles": false
+            }
+          }
+        ]
+      }]
+    }
+  ]

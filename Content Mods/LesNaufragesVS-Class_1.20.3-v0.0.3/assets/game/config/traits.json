@@ -1,0 +1,525 @@
+[
+    //oneHandedSwordsProficiency
+        //Positive
+            {"code": "oneHandedSwordsProficiencyPos5", "type": "positive", "attributes": {"oneHandedSwordsProficiency": 0.05}},
+            {"code": "oneHandedSwordsProficiencyPos10", "type": "positive", "attributes": {"oneHandedSwordsProficiency": 0.10}},
+            {"code": "oneHandedSwordsProficiencyPos15", "type": "positive", "attributes": {"oneHandedSwordsProficiency": 0.15}},
+            {"code": "oneHandedSwordsProficiencyPos20", "type": "positive", "attributes": {"oneHandedSwordsProficiency": 0.20}},
+            {"code": "oneHandedSwordsProficiencyPos25", "type": "positive", "attributes": {"oneHandedSwordsProficiency": 0.25}},
+            {"code": "oneHandedSwordsProficiencyPos30", "type": "positive", "attributes": {"oneHandedSwordsProficiency": 0.30}},
+            {"code": "oneHandedSwordsProficiencyPos35", "type": "positive", "attributes": {"oneHandedSwordsProficiency": 0.35}},
+        //Negative
+            {"code": "oneHandedSwordsProficiencyNeg5", "type": "negative", "attributes": {"oneHandedSwordsProficiency": -0.05}},
+            {"code": "oneHandedSwordsProficiencyNeg10", "type": "negative", "attributes": {"oneHandedSwordsProficiency": -0.10}},
+            {"code": "oneHandedSwordsProficiencyNeg15", "type": "negative", "attributes": {"oneHandedSwordsProficiency": -0.15}},
+            {"code": "oneHandedSwordsProficiencyNeg20", "type": "negative", "attributes": {"oneHandedSwordsProficiency": -0.20}},
+            {"code": "oneHandedSwordsProficiencyNeg25", "type": "negative", "attributes": {"oneHandedSwordsProficiency": -0.25}},
+            {"code": "oneHandedSwordsProficiencyNeg30", "type": "negative", "attributes": {"oneHandedSwordsProficiency": -0.30}},
+            {"code": "oneHandedSwordsProficiencyNeg35", "type": "negative", "attributes": {"oneHandedSwordsProficiency": -0.35}},
+    //twoHandedSwordsProficiency
+        //Positive
+            {"code": "twoHandedSwordsProficiencyPos5", "type": "positive", "attributes": {"twoHandedSwordsProficiency": 0.05}},
+            {"code": "twoHandedSwordsProficiencyPos10", "type": "positive", "attributes": {"twoHandedSwordsProficiency": 0.10}},
+            {"code": "twoHandedSwordsProficiencyPos15", "type": "positive", "attributes": {"twoHandedSwordsProficiency": 0.15}},
+            {"code": "twoHandedSwordsProficiencyPos20", "type": "positive", "attributes": {"twoHandedSwordsProficiency": 0.20}},
+            {"code": "twoHandedSwordsProficiencyPos25", "type": "positive", "attributes": {"twoHandedSwordsProficiency": 0.25}},
+            {"code": "twoHandedSwordsProficiencyPos30", "type": "positive", "attributes": {"twoHandedSwordsProficiency": 0.30}},
+            {"code": "twoHandedSwordsProficiencyPos35", "type": "positive", "attributes": {"twoHandedSwordsProficiency": 0.35}},
+        //Negative
+            {"code": "twoHandedSwordsProficiencyNeg5", "type": "negative", "attributes": {"twoHandedSwordsProficiency": -0.05}},
+            {"code": "twoHandedSwordsProficiencyNeg10", "type": "negative", "attributes": {"twoHandedSwordsProficiency": -0.10}},
+            {"code": "twoHandedSwordsProficiencyNeg15", "type": "negative", "attributes": {"twoHandedSwordsProficiency": -0.15}},
+            {"code": "twoHandedSwordsProficiencyNeg20", "type": "negative", "attributes": {"twoHandedSwordsProficiency": -0.20}},
+            {"code": "twoHandedSwordsProficiencyNeg25", "type": "negative", "attributes": {"twoHandedSwordsProficiency": -0.25}},
+            {"code": "twoHandedSwordsProficiencyNeg30", "type": "negative", "attributes": {"twoHandedSwordsProficiency": -0.30}},
+            {"code": "twoHandedSwordsProficiencyNeg35", "type": "negative", "attributes": {"twoHandedSwordsProficiency": -0.35}},
+  
+    //spearsProficiency
+        //Positive
+            {"code": "spearsProficiencyPos5", "type": "positive", "attributes": {"spearsProficiency": 0.05}},
+            {"code": "spearsProficiencyPos10", "type": "positive", "attributes": {"spearsProficiency": 0.10}},
+            {"code": "spearsProficiencyPos15", "type": "positive", "attributes": {"spearsProficiency": 0.15}},
+            {"code": "spearsProficiencyPos20", "type": "positive", "attributes": {"spearsProficiency": 0.20}},
+            {"code": "spearsProficiencyPos25", "type": "positive", "attributes": {"spearsProficiency": 0.25}},
+            {"code": "spearsProficiencyPos30", "type": "positive", "attributes": {"spearsProficiency": 0.30}},
+            {"code": "spearsProficiencyPos35", "type": "positive", "attributes": {"spearsProficiency": 0.35}},
+        //Negative
+            {"code": "spearsProficiencyNeg5", "type": "negative", "attributes": {"spearsProficiency": -0.05}},
+            {"code": "spearsProficiencyNeg10", "type": "negative", "attributes": {"spearsProficiency": -0.10}},
+            {"code": "spearsProficiencyNeg15", "type": "negative", "attributes": {"spearsProficiency": -0.15}},
+            {"code": "spearsProficiencyNeg20", "type": "negative", "attributes": {"spearsProficiency": -0.20}},
+            {"code": "spearsProficiencyNeg25", "type": "negative", "attributes": {"spearsProficiency": -0.25}},
+            {"code": "spearsProficiencyNeg30", "type": "negative", "attributes": {"spearsProficiency": -0.30}},
+            {"code": "spearsProficiencyNeg35", "type": "negative", "attributes": {"spearsProficiency": -0.35}},
+  
+    //javelinsProficiency
+        //Positive
+            {"code": "javelinsProficiencyPos5", "type": "positive", "attributes": {"javelinsProficiency": 0.05}},
+            {"code": "javelinsProficiencyPos10", "type": "positive", "attributes": {"javelinsProficiency": 0.10}},
+            {"code": "javelinsProficiencyPos15", "type": "positive", "attributes": {"javelinsProficiency": 0.15}},
+            {"code": "javelinsProficiencyPos20", "type": "positive", "attributes": {"javelinsProficiency": 0.20}},
+            {"code": "javelinsProficiencyPos22", "type": "positive", "attributes": {"javelinsProficiency": 0.25}},
+            {"code": "javelinsProficiencyPos30", "type": "positive", "attributes": {"javelinsProficiency": 0.30}},
+            {"code": "javelinsProficiencyPos35", "type": "positive", "attributes": {"javelinsProficiency": 0.35}},
+        //Negative
+            {"code": "javelinsProficiencyNeg5", "type": "negative", "attributes": {"javelinsProficiency": -0.05}},
+            {"code": "javelinsProficiencyNeg10", "type": "negative", "attributes": {"javelinsProficiency": -0.10}},
+            {"code": "javelinsProficiencyNeg15", "type": "negative", "attributes": {"javelinsProficiency": -0.15}},
+            {"code": "javelinsProficiencyNeg20", "type": "negative", "attributes": {"javelinsProficiency": -0.20}},
+            {"code": "javelinsProficiencyNeg25", "type": "negative", "attributes": {"javelinsProficiency": -0.25}},
+            {"code": "javelinsProficiencyNeg30", "type": "negative", "attributes": {"javelinsProficiency": -0.30}},
+            {"code": "javelinsProficiencyNeg35", "type": "negative", "attributes": {"javelinsProficiency": -0.35}},
+  
+    //macesProficiency
+        //Positive
+            {"code": "macesProficiencyPos5", "type": "positive", "attributes": {"macesProficiency": 0.05}},
+            {"code": "macesProficiencyPos10", "type": "positive", "attributes": {"macesProficiency": 0.10}},
+            {"code": "macesProficiencyPos15", "type": "positive", "attributes": {"macesProficiency": 0.15}},
+            {"code": "macesProficiencyPos20", "type": "positive", "attributes": {"macesProficiency": 0.20}},
+            {"code": "macesProficiencyPos25", "type": "positive", "attributes": {"macesProficiency": 0.25}},
+            {"code": "macesProficiencyPos30", "type": "positive", "attributes": {"macesProficiency": 0.30}},
+            {"code": "macesProficiencyPos35", "type": "positive", "attributes": {"macesProficiency": 0.35}},
+        //Negative
+            {"code": "macesProficiencyNeg5", "type": "negative", "attributes": {"macesProficiency": -0.05}},
+            {"code": "macesProficiencyNeg10", "type": "negative", "attributes": {"macesProficiency": -0.10}},
+            {"code": "macesProficiencyNeg15", "type": "negative", "attributes": {"macesProficiency": -0.15}},
+            {"code": "macesProficiencyNeg20", "type": "negative", "attributes": {"macesProficiency": -0.20}},
+            {"code": "macesProficiencyNeg25", "type": "negative", "attributes": {"macesProficiency": -0.25}},
+            {"code": "macesProficiencyNeg30", "type": "negative", "attributes": {"macesProficiency": -0.30}},
+            {"code": "macesProficiencyNeg35", "type": "negative", "attributes": {"macesProficiency": -0.35}},
+  
+    //clubsProficiency
+        //Positive
+            {"code": "clubsProficiencyPos5", "type": "positive", "attributes": {"clubsProficiency": 0.05}},
+            {"code": "clubsProficiencyPos10", "type": "positive", "attributes": {"clubsProficiency": 0.10}},
+            {"code": "clubsProficiencyPos15", "type": "positive", "attributes": {"clubsProficiency": 0.15}},
+            {"code": "clubsProficiencyPos20", "type": "positive", "attributes": {"clubsProficiency": 0.20}},
+            {"code": "clubsProficiencyPos25", "type": "positive", "attributes": {"clubsProficiency": 0.25}},
+            {"code": "clubsProficiencyPos30", "type": "positive", "attributes": {"clubsProficiency": 0.35}},
+            {"code": "clubsProficiencyPos35", "type": "positive", "attributes": {"clubsProficiency": 0.35}},
+        //Negative
+            {"code": "clubsProficiencyNeg5", "type": "negative", "attributes": {"clubsProficiency": -0.05}},
+            {"code": "clubsProficiencyNeg10", "type": "negative", "attributes": {"clubsProficiency": -0.10}},
+            {"code": "clubsProficiencyNeg15", "type": "negative", "attributes": {"clubsProficiency": -0.15}},
+            {"code": "clubsProficiencyNeg20", "type": "negative", "attributes": {"clubsProficiency": -0.20}},
+            {"code": "clubsProficiencyNeg25", "type": "negative", "attributes": {"clubsProficiency": -0.25}},
+            {"code": "clubsProficiencyNeg30", "type": "negative", "attributes": {"clubsProficiency": -0.30}},
+            {"code": "clubsProficiencyNeg35", "type": "negative", "attributes": {"clubsProficiency": -0.35}},
+  
+    //halberdsProficiency
+        //Positive
+            {"code": "halberdsProficiencyPos5", "type": "positive", "attributes": {"halberdsProficiency": 0.05}},
+            {"code": "halberdsProficiencyPos10", "type": "positive", "attributes": {"halberdsProficiency": 0.10}},
+            {"code": "halberdsProficiencyPos15", "type": "positive", "attributes": {"halberdsProficiency": 0.15}},
+            {"code": "halberdsProficiencyPos20", "type": "positive", "attributes": {"halberdsProficiency": 0.20}},
+            {"code": "halberdsProficiencyPos25", "type": "positive", "attributes": {"halberdsProficiency": 0.25}},
+            {"code": "halberdsProficiencyPos30", "type": "positive", "attributes": {"halberdsProficiency": 0.30}},
+            {"code": "halberdsProficiencyPos35", "type": "positive", "attributes": {"halberdsProficiency": 0.35}},
+        //Negative
+            {"code": "halberdsProficiencyNeg5", "type": "negative", "attributes": {"halberdsProficiency": -0.05}},
+            {"code": "halberdsProficiencyNeg10", "type": "negative", "attributes": {"halberdsProficiency": -0.10}},
+            {"code": "halberdsProficiencyNeg15", "type": "negative", "attributes": {"halberdsProficiency": -0.15}},
+            {"code": "halberdsProficiencyNeg20", "type": "negative", "attributes": {"halberdsProficiency": -0.20}},
+            {"code": "halberdsProficiencyNeg25", "type": "negative", "attributes": {"halberdsProficiency": -0.25}},
+            {"code": "halberdsProficiencyNeg30", "type": "negative", "attributes": {"halberdsProficiency": -0.30}},
+            {"code": "halberdsProficiencyNeg35", "type": "negative", "attributes": {"halberdsProficiency": -0.35}},
+  
+    //axesProficiency
+        //Positive
+            {"code": "axesProficiencyPos5", "type": "positive", "attributes": {"axesProficiency": 0.05}},
+            {"code": "axesProficiencyPos10", "type": "positive", "attributes": {"axesProficiency": 0.10}},
+            {"code": "axesProficiencyPos15", "type": "positive", "attributes": {"axesProficiency": 0.15}},
+            {"code": "axesProficiencyPos20", "type": "positive", "attributes": {"axesProficiency": 0.20}},
+            {"code": "axesProficiencyPos25", "type": "positive", "attributes": {"axesProficiency": 0.25}},
+            {"code": "axesProficiencyPos30", "type": "positive", "attributes": {"axesProficiency": 0.30}},
+            {"code": "axesProficiencyPos35", "type": "positive", "attributes": {"axesProficiency": 0.35}},
+        //Negative
+            {"code": "axesProficiencyNeg5", "type": "negative", "attributes": {"axesProficiency": -0.05}},
+            {"code": "axesProficiencyNeg10", "type": "negative", "attributes": {"axesProficiency": -0.10}},
+            {"code": "axesProficiencyNeg15", "type": "negative", "attributes": {"axesProficiency": -0.15}},
+            {"code": "axesProficiencyNeg20", "type": "negative", "attributes": {"axesProficiency": -0.20}},
+            {"code": "axesProficiencyNeg25", "type": "negative", "attributes": {"axesProficiency": -0.25}},
+            {"code": "axesProficiencyNeg30", "type": "negative", "attributes": {"axesProficiency": -0.30}},
+            {"code": "axesProficiencyNeg35", "type": "negative", "attributes": {"axesProficiency": -0.35}},
+  
+    //quarterstaffProficiency
+        //Positive
+            {"code": "quarterstaffProficiencyPos5", "type": "positive", "attributes": {"quarterstaffProficiency": 0.05}},
+            {"code": "quarterstaffProficiencyPos10", "type": "positive", "attributes": {"quarterstaffProficiency": 0.10}},
+            {"code": "quarterstaffProficiencyPos15", "type": "positive", "attributes": {"quarterstaffProficiency": 0.15}},
+            {"code": "quarterstaffProficiencyPos20", "type": "positive", "attributes": {"quarterstaffProficiency": 0.20}},
+            {"code": "quarterstaffProficiencyPos25", "type": "positive", "attributes": {"quarterstaffProficiency": 0.25}},
+            {"code": "quarterstaffProficiencyPos30", "type": "positive", "attributes": {"quarterstaffProficiency": 0.30}},
+            {"code": "quarterstaffProficiencyPos35", "type": "positive", "attributes": {"quarterstaffProficiency": 0.35}},
+        //Negative
+            {"code": "quarterstaffProficiencyNeg5", "type": "negative", "attributes": {"quarterstaffProficiency": -0.05}},
+            {"code": "quarterstaffProficiencyNeg10", "type": "negative", "attributes": {"quarterstaffProficiency": -0.10}},
+            {"code": "quarterstaffProficiencyNeg15", "type": "negative", "attributes": {"quarterstaffProficiency": -0.15}},
+            {"code": "quarterstaffProficiencyNeg20", "type": "negative", "attributes": {"quarterstaffProficiency": -0.20}},
+            {"code": "quarterstaffProficiencyNeg25", "type": "negative", "attributes": {"quarterstaffProficiency": -0.25}},
+            {"code": "quarterstaffProficiencyNeg30", "type": "negative", "attributes": {"quarterstaffProficiency": -0.30}},
+            {"code": "quarterstaffProficiencyNeg35", "type": "negative", "attributes": {"quarterstaffProficiency": -0.35}},
+  
+    //firearmsProficiency
+        //Positive
+            {"code": "firearmsProficiencyPos5", "type": "positive", "attributes": {"firearmsProficiency": 0.05}},
+            {"code": "firearmsProficiencyPos10", "type": "positive", "attributes": {"firearmsProficiency": 0.10}},
+            {"code": "firearmsProficiencyPos15", "type": "positive", "attributes": {"firearmsProficiency": 0.15}},
+            {"code": "firearmsProficiencyPos20", "type": "positive", "attributes": {"firearmsProficiency": 0.20}},
+            {"code": "firearmsProficiencyPos25", "type": "positive", "attributes": {"firearmsProficiency": 0.25}},
+            {"code": "firearmsProficiencyPos30", "type": "positive", "attributes": {"firearmsProficiency": 0.30}},
+            {"code": "firearmsProficiencyPos35", "type": "positive", "attributes": {"firearmsProficiency": 0.35}},
+        //Negative
+            {"code": "firearmsProficiencyNeg5", "type": "negative", "attributes": {"firearmsProficiency": -0.05}},
+            {"code": "firearmsProficiencyNeg10", "type": "negative", "attributes": {"firearmsProficiency": -0.10}},
+            {"code": "firearmsProficiencyNeg15", "type": "negative", "attributes": {"firearmsProficiency": -0.15}},
+            {"code": "firearmsProficiencyNeg20", "type": "negative", "attributes": {"firearmsProficiency": -0.20}},
+            {"code": "firearmsProficiencyNeg25", "type": "negative", "attributes": {"firearmsProficiency": -0.25}},
+            {"code": "firearmsProficiencyNeg30", "type": "negative", "attributes": {"firearmsProficiency": -0.30}},
+            {"code": "firearmsProficiencyNeg35", "type": "negative", "attributes": {"firearmsProficiency": -0.35}},
+  
+    //crossbowsProficiency
+        //Positive
+            {"code": "crossbowsProficiencyPos5", "type": "positive", "attributes": {"crossbowsProficiency": 0.05}},
+            {"code": "crossbowsProficiencyPos10", "type": "positive", "attributes": {"crossbowsProficiency": 0.10}},
+            {"code": "crossbowsProficiencyPos15", "type": "positive", "attributes": {"crossbowsProficiency": 0.15}},
+            {"code": "crossbowsProficiencyPos20", "type": "positive", "attributes": {"crossbowsProficiency": 0.20}},
+            {"code": "crossbowsProficiencyPos25", "type": "positive", "attributes": {"crossbowsProficiency": 0.25}},
+            {"code": "crossbowsProficiencyPos30", "type": "positive", "attributes": {"crossbowsProficiency": 0.30}},
+            {"code": "crossbowsProficiencyPos35", "type": "positive", "attributes": {"crossbowsProficiency": 0.35}},
+        //Negative
+            {"code": "crossbowsProficiencyNeg5", "type": "negative", "attributes": {"crossbowsProficiency": -0.05}},
+            {"code": "crossbowsProficiencyNeg10", "type": "negative", "attributes": {"crossbowsProficiency": -0.10}},
+            {"code": "crossbowsProficiencyNeg15", "type": "negative", "attributes": {"crossbowsProficiency": -0.15}},
+            {"code": "crossbowsProficiencyNeg20", "type": "negative", "attributes": {"crossbowsProficiency": -0.20}},
+            {"code": "crossbowsProficiencyNeg25", "type": "negative", "attributes": {"crossbowsProficiency": -0.25}},
+            {"code": "crossbowsProficiencyNeg30", "type": "negative", "attributes": {"crossbowsProficiency": -0.30}},
+            {"code": "crossbowsProficiencyNeg35", "type": "negative", "attributes": {"crossbowsProficiency": -0.35}},
+  
+    //bowsProficiency
+        //Positive
+            {"code": "bowsProficiencyPos5", "type": "positive", "attributes": {"bowsProficiency": 0.05}},
+            {"code": "bowsProficiencyPos10", "type": "positive", "attributes": {"bowsProficiency": 0.10}},
+            {"code": "bowsProficiencyPos15", "type": "positive", "attributes": {"bowsProficiency": 0.15}},
+            {"code": "bowsProficiencyPos20", "type": "positive", "attributes": {"bowsProficiency": 0.20}},
+            {"code": "bowsProficiencyPos25", "type": "positive", "attributes": {"bowsProficiency": 0.25}},
+            {"code": "bowsProficiencyPos30", "type": "positive", "attributes": {"bowsProficiency": 0.30}},
+            {"code": "bowsProficiencyPos35", "type": "positive", "attributes": {"bowsProficiency": 0.35}},
+        //Negative
+            {"code": "bowsProficiencyNeg5", "type": "negative", "attributes": {"bowsProficiency": -0.05}},
+            {"code": "bowsProficiencyNeg10", "type": "negative", "attributes": {"bowsProficiency": -0.10}},
+            {"code": "bowsProficiencyNeg15", "type": "negative", "attributes": {"bowsProficiency": -0.15}},
+            {"code": "bowsProficiencyNeg20", "type": "negative", "attributes": {"bowsProficiency": -0.20}},
+            {"code": "bowsProficiencyNeg25", "type": "negative", "attributes": {"bowsProficiency": -0.25}},
+            {"code": "bowsProficiencyNeg30", "type": "negative", "attributes": {"bowsProficiency": -0.30}},
+            {"code": "bowsProficiencyNeg35", "type": "negative", "attributes": {"bowsProficiency": -0.35}},
+  
+    //walkspeed
+        //Positive
+            {"code": "walkspeedPos5", "type": "positive", "attributes": {"walkspeed": 0.05}},
+            {"code": "walkspeedPos10", "type": "positive", "attributes": {"walkspeed": 0.10}},
+            {"code": "walkspeedPos15", "type": "positive", "attributes": {"walkspeed": 0.15}},
+            {"code": "walkspeedPos20", "type": "positive", "attributes": {"walkspeed": 0.20}},
+            {"code": "walkspeedPos25", "type": "positive", "attributes": {"walkspeed": 0.25}},
+            {"code": "walkspeedPos30", "type": "positive", "attributes": {"walkspeed": 0.30}},
+            {"code": "walkspeedPos35", "type": "positive", "attributes": {"walkspeed": 0.35}},
+        //Negative
+            {"code": "walkspeedNeg5", "type": "negative", "attributes": {"walkspeed": -0.05}},
+            {"code": "walkspeedNeg10", "type": "negative", "attributes": {"walkspeed": -0.10}},
+            {"code": "walkspeedNeg15", "type": "negative", "attributes": {"walkspeed": -0.15}},
+            {"code": "walkspeedNeg20", "type": "negative", "attributes": {"walkspeed": -0.20}},
+            {"code": "walkspeedNeg25", "type": "negative", "attributes": {"walkspeed": -0.25}},
+            {"code": "walkspeedNeg30", "type": "negative", "attributes": {"walkspeed": -0.30}},
+            {"code": "walkspeedNeg35", "type": "negative", "attributes": {"walkspeed": -0.35}},
+  
+    //armorWalkSpeedAffectednes
+        //Positive
+            {"code": "armorWalkSpeedAffectednessPos5", "type": "positive", "attributes": {"armorWalkSpeedAffectedness": 0.05}},
+            {"code": "armorWalkSpeedAffectednessPos10", "type": "positive", "attributes": {"armorWalkSpeedAffectedness": 0.10}},
+            {"code": "armorWalkSpeedAffectednessPos15", "type": "positive", "attributes": {"armorWalkSpeedAffectedness": 0.15}},
+            {"code": "armorWalkSpeedAffectednessPos20", "type": "positive", "attributes": {"armorWalkSpeedAffectedness": 0.20}},
+            {"code": "armorWalkSpeedAffectednessPos25", "type": "positive", "attributes": {"armorWalkSpeedAffectedness": 0.25}},
+            {"code": "armorWalkSpeedAffectednessPos30", "type": "positive", "attributes": {"armorWalkSpeedAffectedness": 0.30}},
+            {"code": "armorWalkSpeedAffectednessPos35", "type": "positive", "attributes": {"armorWalkSpeedAffectedness": 0.35}},
+        //Negative
+            {"code": "armorWalkSpeedAffectednessNeg5", "type": "negative", "attributes": {"armorWalkSpeedAffectedness": -0.05}},
+            {"code": "armorWalkSpeedAffectednessNeg10", "type": "negative", "attributes": {"armorWalkSpeedAffectedness": -0.10}},
+            {"code": "armorWalkSpeedAffectednessNeg15", "type": "negative", "attributes": {"armorWalkSpeedAffectedness": -0.15}},
+            {"code": "armorWalkSpeedAffectednessNeg20", "type": "negative", "attributes": {"armorWalkSpeedAffectedness": -0.20}},
+            {"code": "armorWalkSpeedAffectednessNeg25", "type": "negative", "attributes": {"armorWalkSpeedAffectedness": -0.25}},
+            {"code": "armorWalkSpeedAffectednessNeg30", "type": "negative", "attributes": {"armorWalkSpeedAffectedness": -0.30}},
+            {"code": "armorWalkSpeedAffectednessNeg35", "type": "negative", "attributes": {"armorWalkSpeedAffectedness": -0.35}},
+  
+    //steadyAim
+        //Positive
+            {"code": "steadyAimPos5", "type": "positive", "attributes": {"steadyAim": 0.05}},
+            {"code": "steadyAimPos10", "type": "positive", "attributes": {"steadyAim": 0.10}},
+            {"code": "steadyAimPos15", "type": "positive", "attributes": {"steadyAim": 0.15}},
+            {"code": "steadyAimPos20", "type": "positive", "attributes": {"steadyAim": 0.20}},
+            {"code": "steadyAimPos25", "type": "positive", "attributes": {"steadyAim": 0.25}},
+            {"code": "steadyAimPos30", "type": "positive", "attributes": {"steadyAim": 0.30}},
+            {"code": "steadyAimPos35", "type": "positive", "attributes": {"steadyAim": 0.35}},
+        //Negative
+            {"code": "steadyAimNeg5", "type": "negative", "attributes": {"steadyAim": -0.05}},
+            {"code": "steadyAimNeg10", "type": "negative", "attributes": {"steadyAim": -0.10}},
+            {"code": "steadyAimNeg15", "type": "negative", "attributes": {"steadyAim": -0.15}},
+            {"code": "steadyAimNeg20", "type": "negative", "attributes": {"steadyAim": -0.20}},
+            {"code": "steadyAimNeg25", "type": "negative", "attributes": {"steadyAim": -0.25}},
+            {"code": "steadyAimNeg30", "type": "negative", "attributes": {"steadyAim": -0.30}},
+            {"code": "steadyAimNeg35", "type": "negative", "attributes": {"steadyAim": -0.35}},
+  
+    //miningSpeedMul
+        //Positive
+            {"code": "miningSpeedMulPos5", "type": "positive", "attributes": {"miningSpeedMul": 0.05}},
+            {"code": "miningSpeedMulPos10", "type": "positive", "attributes": {"miningSpeedMul": 0.10}},
+            {"code": "miningSpeedMulPos15", "type": "positive", "attributes": {"miningSpeedMul": 0.15}},
+            {"code": "miningSpeedMulPos20", "type": "positive", "attributes": {"miningSpeedMul": 0.20}},
+            {"code": "miningSpeedMulPos25", "type": "positive", "attributes": {"miningSpeedMul": 0.25}},
+            {"code": "miningSpeedMulPos30", "type": "positive", "attributes": {"miningSpeedMul": 0.30}},
+            {"code": "miningSpeedMulPos35", "type": "positive", "attributes": {"miningSpeedMul": 0.35}},
+        //Negative
+            {"code": "miningSpeedMulNeg5", "type": "negative", "attributes": {"miningSpeedMul": -0.05}},
+            {"code": "miningSpeedMulNeg10", "type": "negative", "attributes": {"miningSpeedMul": -0.10}},
+            {"code": "miningSpeedMulNeg15", "type": "negative", "attributes": {"miningSpeedMul": -0.15}},
+            {"code": "miningSpeedMulNeg20", "type": "negative", "attributes": {"miningSpeedMul": -0.20}},
+            {"code": "miningSpeedMulNeg25", "type": "negative", "attributes": {"miningSpeedMul": -0.25}},
+            {"code": "miningSpeedMulNeg30", "type": "negative", "attributes": {"miningSpeedMul": -0.30}},
+            {"code": "miningSpeedMulNeg35", "type": "negative", "attributes": {"miningSpeedMul": -0.35}},
+        
+    //maxhealthExtraPoints
+        //Positive
+            {"code": "maxhealthExtraPointsPos5", "type": "positive", "attributes": {"maxhealthExtraPoints": 1}},
+            {"code": "maxhealthExtraPointsPos10", "type": "positive", "attributes": {"maxhealthExtraPoints": 2}},
+            {"code": "maxhealthExtraPointsPos15", "type": "positive", "attributes": {"maxhealthExtraPoints": 3}},
+            {"code": "maxhealthExtraPointsPos20", "type": "positive", "attributes": {"maxhealthExtraPoints": 4}},
+            {"code": "maxhealthExtraPointsPos25", "type": "positive", "attributes": {"maxhealthExtraPoints": 5}},
+        //Negative
+            {"code": "maxhealthExtraPointsNeg5", "type": "negative", "attributes": {"maxhealthExtraPoints": -1}},
+            {"code": "maxhealthExtraPointsNeg10", "type": "negative", "attributes": {"maxhealthExtraPoints": -2}},
+            {"code": "maxhealthExtraPointsNeg15", "type": "negative", "attributes": {"maxhealthExtraPoints": -3}},
+            {"code": "maxhealthExtraPointsNeg20", "type": "negative", "attributes": {"maxhealthExtraPoints": -4}},
+            {"code": "maxhealthExtraPointsNeg25", "type": "negative", "attributes": {"maxhealthExtraPoints": -5}},
+        
+    //oreDropRate
+        //Positive
+            {"code": "oreDropRatePos5", "type": "positive", "attributes": {"oreDropRate": 0.05}},
+            {"code": "oreDropRatePos10", "type": "positive", "attributes": {"oreDropRate": 0.10}},
+            {"code": "oreDropRatePos15", "type": "positive", "attributes": {"oreDropRate": 0.15}},
+            {"code": "oreDropRatePos20", "type": "positive", "attributes": {"oreDropRate": 0.20}},
+            {"code": "oreDropRatePos25", "type": "positive", "attributes": {"oreDropRate": 0.25}},
+            {"code": "oreDropRatePos30", "type": "positive", "attributes": {"oreDropRate": 0.30}},
+            {"code": "oreDropRatePos35", "type": "positive", "attributes": {"oreDropRate": 0.35}},
+        //Negative
+            {"code": "oreDropRateNeg5", "type": "negative", "attributes": {"oreDropRate": -0.05}},
+            {"code": "oreDropRateNeg10", "type": "negative", "attributes": {"oreDropRate": -0.10}},
+            {"code": "oreDropRateNeg15", "type": "negative", "attributes": {"oreDropRate": -0.15}},
+            {"code": "oreDropRateNeg20", "type": "negative", "attributes": {"oreDropRate": -0.20}},
+            {"code": "oreDropRateNeg25", "type": "negative", "attributes": {"oreDropRate": -0.25}},
+            {"code": "oreDropRateNeg30", "type": "negative", "attributes": {"oreDropRate": -0.30}},
+            {"code": "oreDropRateNeg35", "type": "negative", "attributes": {"oreDropRate": -0.35}},
+        
+    //hungerrate
+        //Negative
+            {"code": "hungerratePos5", "type": "negative", "attributes": {"hungerrate": 0.05}},
+            {"code": "hungerratePos10", "type": "negative", "attributes": {"hungerrate": 0.10}},
+            {"code": "hungerratePos15", "type": "negative", "attributes": {"hungerrate": 0.15}},
+            {"code": "hungerratePos20", "type": "negative", "attributes": {"hungerrate": 0.20}},
+            {"code": "hungerratePos25", "type": "negative", "attributes": {"hungerrate": 0.25}},
+            {"code": "hungerratePos30", "type": "negative", "attributes": {"hungerrate": 0.30}},
+            {"code": "hungerratePos35", "type": "negative", "attributes": {"hungerrate": 0.35}},
+        //Positive
+            {"code": "hungerrateNeg5", "type": "positive", "attributes": {"hungerrate": -0.05}},
+            {"code": "hungerrateNeg10", "type": "positive", "attributes": {"hungerrate": -0.10}},
+            {"code": "hungerrateNeg15", "type": "positive", "attributes": {"hungerrate": -0.15}},
+            {"code": "hungerrateNeg20", "type": "positive", "attributes": {"hungerrate": -0.20}},
+            {"code": "hungerrateNeg25", "type": "positive", "attributes": {"hungerrate": -0.25}},
+            {"code": "hungerrateNeg30", "type": "positive", "attributes": {"hungerrate": -0.30}},
+            {"code": "hungerrateNeg35", "type": "positive", "attributes": {"hungerrate": -0.35}},
+        
+    //vesselContentsDropRate
+        //Positive
+            {"code": "vesselContentsDropRatePos5", "type": "positive", "attributes": {"vesselContentsDropRate": 0.05}},
+            {"code": "vesselContentsDropRatePos10", "type": "positive", "attributes": {"vesselContentsDropRate": 0.10}},
+            {"code": "vesselContentsDropRatePos15", "type": "positive", "attributes": {"vesselContentsDropRate": 0.15}},
+            {"code": "vesselContentsDropRatePos20", "type": "positive", "attributes": {"vesselContentsDropRate": 0.20}},
+            {"code": "vesselContentsDropRatePos25", "type": "positive", "attributes": {"vesselContentsDropRate": 0.25}},
+            {"code": "vesselContentsDropRatePos30", "type": "positive", "attributes": {"vesselContentsDropRate": 0.30}},
+            {"code": "vesselContentsDropRatePos35", "type": "positive", "attributes": {"vesselContentsDropRate": 0.35}},
+        //Negative
+            {"code": "vesselContentsDropRateNeg5", "type": "negative", "attributes": {"vesselContentsDropRate": -0.05}},
+            {"code": "vesselContentsDropRateNeg10", "type": "negative", "attributes": {"vesselContentsDropRate": -0.10}},
+            {"code": "vesselContentsDropRateNeg15", "type": "negative", "attributes": {"vesselContentsDropRate": -0.15}},
+            {"code": "vesselContentsDropRateNeg20", "type": "negative", "attributes": {"vesselContentsDropRate": -0.20}},
+            {"code": "vesselContentsDropRateNeg25", "type": "negative", "attributes": {"vesselContentsDropRate": -0.25}},
+            {"code": "vesselContentsDropRateNeg30", "type": "negative", "attributes": {"vesselContentsDropRate": -0.30}},
+            {"code": "vesselContentsDropRateNeg35", "type": "negative", "attributes": {"vesselContentsDropRate": -0.35}},
+        
+    //wholeVesselLootChance
+        //Positive
+            {"code": "wholeVesselLootChancePos5", "type": "positive", "attributes": {"wholeVesselLootChance": 0.05}},
+            {"code": "wholeVesselLootChancePos10", "type": "positive", "attributes": {"wholeVesselLootChance": 0.10}},
+            {"code": "wholeVesselLootChancePos15", "type": "positive", "attributes": {"wholeVesselLootChance": 0.15}},
+            {"code": "wholeVesselLootChancePos20", "type": "positive", "attributes": {"wholeVesselLootChance": 0.20}},
+            {"code": "wholeVesselLootChancePos25", "type": "positive", "attributes": {"wholeVesselLootChance": 0.25}},
+            {"code": "wholeVesselLootChancePos30", "type": "positive", "attributes": {"wholeVesselLootChance": 0.30}},
+            {"code": "wholeVesselLootChancePos35", "type": "positive", "attributes": {"wholeVesselLootChance": 0.35}},
+        //Negative
+            {"code": "wholeVesselLootChanceNeg5", "type": "negative", "attributes": {"wholeVesselLootChance": -0.05}},
+            {"code": "wholeVesselLootChanceNeg10", "type": "negative", "attributes": {"wholeVesselLootChance": -0.10}},
+            {"code": "wholeVesselLootChanceNeg15", "type": "negative", "attributes": {"wholeVesselLootChance": -0.15}},
+            {"code": "wholeVesselLootChanceNeg20", "type": "negative", "attributes": {"wholeVesselLootChance": -0.20}},
+            {"code": "wholeVesselLootChanceNeg25", "type": "negative", "attributes": {"wholeVesselLootChance": -0.25}},
+            {"code": "wholeVesselLootChanceNeg30", "type": "negative", "attributes": {"wholeVesselLootChance": -0.30}},
+            {"code": "wholeVesselLootChanceNeg35", "type": "negative", "attributes": {"wholeVesselLootChance": -0.35}},
+        
+    //forageDropRate
+        //Positive
+            {"code": "forageDropRatePos5", "type": "positive", "attributes": {"forageDropRate": 0.05}},
+            {"code": "forageDropRatePos10", "type": "positive", "attributes": {"forageDropRate": 0.10}},
+            {"code": "forageDropRatePos15", "type": "positive", "attributes": {"forageDropRate": 0.15}},
+            {"code": "forageDropRatePos20", "type": "positive", "attributes": {"forageDropRate": 0.20}},
+            {"code": "forageDropRatePos25", "type": "positive", "attributes": {"forageDropRate": 0.25}},
+            {"code": "forageDropRatePos30", "type": "positive", "attributes": {"forageDropRate": 0.30}},
+            {"code": "forageDropRatePos35", "type": "positive", "attributes": {"forageDropRate": 0.35}},
+        //Negative
+            {"code": "forageDropRateNeg5", "type": "negative", "attributes": {"forageDropRate": -0.05}},
+            {"code": "forageDropRateNeg10", "type": "negative", "attributes": {"forageDropRate": -0.10}},
+            {"code": "forageDropRateNeg15", "type": "negative", "attributes": {"forageDropRate": -0.15}},
+            {"code": "forageDropRateNeg20", "type": "negative", "attributes": {"forageDropRate": -0.20}},
+            {"code": "forageDropRateNeg25", "type": "negative", "attributes": {"forageDropRate": -0.25}},
+            {"code": "forageDropRateNeg30", "type": "negative", "attributes": {"forageDropRate": -0.30}},
+            {"code": "forageDropRateNeg35", "type": "negative", "attributes": {"forageDropRate": -0.35}},
+        
+    //wildCropDropRate
+        //Positive
+            {"code": "wildCropDropRatePos5", "type": "positive", "attributes": {"wildCropDropRate": 0.05}},
+            {"code": "wildCropDropRatePos10", "type": "positive", "attributes": {"wildCropDropRate": 0.10}},
+            {"code": "wildCropDropRatePos15", "type": "positive", "attributes": {"wildCropDropRate": 0.15}},
+            {"code": "wildCropDropRatePos20", "type": "positive", "attributes": {"wildCropDropRate": 0.20}},
+            {"code": "wildCropDropRatePos25", "type": "positive", "attributes": {"wildCropDropRate": 0.25}},
+            {"code": "wildCropDropRatePos30", "type": "positive", "attributes": {"wildCropDropRate": 0.30}},
+            {"code": "wildCropDropRatePos35", "type": "positive", "attributes": {"wildCropDropRate": 0.35}},
+        //Negative
+            {"code": "wildCropDropRateNeg5", "type": "negative", "attributes": {"wildCropDropRate": -0.05}},
+            {"code": "wildCropDropRateNeg10", "type": "negative", "attributes": {"wildCropDropRate": -0.10}},
+            {"code": "wildCropDropRateNeg15", "type": "negative", "attributes": {"wildCropDropRate": -0.15}},
+            {"code": "wildCropDropRateNeg20", "type": "negative", "attributes": {"wildCropDropRate": -0.20}},
+            {"code": "wildCropDropRateNeg25", "type": "negative", "attributes": {"wildCropDropRate": -0.25}},
+            {"code": "wildCropDropRateNeg30", "type": "negative", "attributes": {"wildCropDropRate": -0.30}},
+            {"code": "wildCropDropRateNeg35", "type": "negative", "attributes": {"wildCropDropRate": -0.35}},
+        
+    //animalLootDropRate
+        //Positive
+            {"code": "animalLootDropRatePos5", "type": "positive", "attributes": {"steadyAim": 0.05}},
+            {"code": "animalLootDropRatePos10", "type": "positive", "attributes": {"steadyAim": 0.10}},
+            {"code": "animalLootDropRatePos15", "type": "positive", "attributes": {"steadyAim": 0.15}},
+            {"code": "animalLootDropRatePos20", "type": "positive", "attributes": {"steadyAim": 0.20}},
+            {"code": "animalLootDropRatePos25", "type": "positive", "attributes": {"steadyAim": 0.25}},
+            {"code": "animalLootDropRatePos30", "type": "positive", "attributes": {"steadyAim": 0.30}},
+            {"code": "animalLootDropRatePos35", "type": "positive", "attributes": {"steadyAim": 0.35}},
+        //Negative
+            {"code": "animalLootDropRateNeg5", "type": "negative", "attributes": {"animalLootDropRate": -0.05}},
+            {"code": "animalLootDropRateNeg10", "type": "negative", "attributes": {"animalLootDropRate": -0.10}},
+            {"code": "animalLootDropRateNeg15", "type": "negative", "attributes": {"animalLootDropRate": -0.15}},
+            {"code": "animalLootDropRateNeg20", "type": "negative", "attributes": {"animalLootDropRate": -0.20}},
+            {"code": "animalLootDropRateNeg25", "type": "negative", "attributes": {"animalLootDropRate": -0.25}},
+            {"code": "animalLootDropRateNeg30", "type": "negative", "attributes": {"animalLootDropRate": -0.30}},
+            {"code": "animalLootDropRateNeg35", "type": "negative", "attributes": {"animalLootDropRate": -0.35}},
+        
+    //animalHarvestingTime
+        //Positive
+            {"code": "animalHarvestingTimePos5", "type": "positive", "attributes": {"animalHarvestingTime": 0.05}},
+            {"code": "animalHarvestingTimePos10", "type": "positive", "attributes": {"animalHarvestingTime": 0.10}},
+            {"code": "animalHarvestingTimePos15", "type": "positive", "attributes": {"animalHarvestingTime": 0.15}},
+            {"code": "animalHarvestingTimePos20", "type": "positive", "attributes": {"animalHarvestingTime": 0.20}},
+            {"code": "animalHarvestingTimePos25", "type": "positive", "attributes": {"animalHarvestingTime": 0.25}},
+            {"code": "animalHarvestingTimePos30", "type": "positive", "attributes": {"animalHarvestingTime": 0.30}},
+            {"code": "animalHarvestingTimePos35", "type": "positive", "attributes": {"animalHarvestingTime": 0.35}},
+        //Negative
+            {"code": "animalHarvestingTimeNeg5", "type": "negative", "attributes": {"animalHarvestingTime": -0.05}},
+            {"code": "animalHarvestingTimeNeg10", "type": "negative", "attributes": {"animalHarvestingTime": -0.10}},
+            {"code": "animalHarvestingTimeNeg15", "type": "negative", "attributes": {"animalHarvestingTime": -0.15}},
+            {"code": "animalHarvestingTimeNeg20", "type": "negative", "attributes": {"animalHarvestingTime": -0.20}},
+            {"code": "animalHarvestingTimeNeg25", "type": "negative", "attributes": {"animalHarvestingTime": -0.25}},
+            {"code": "animalHarvestingTimeNeg30", "type": "negative", "attributes": {"animalHarvestingTime": -0.30}},
+            {"code": "animalHarvestingTimeNeg35", "type": "negative", "attributes": {"animalHarvestingTime": -0.35}},
+        
+    //mechanicalsDamage
+        //Positive
+            {"code": "mechanicalsDamagePos5", "type": "positive", "attributes": {"mechanicalsDamage": 0.05}},
+            {"code": "mechanicalsDamagePos10", "type": "positive", "attributes": {"mechanicalsDamage": 0.10}},
+            {"code": "mechanicalsDamagePos15", "type": "positive", "attributes": {"mechanicalsDamage": 0.15}},
+            {"code": "mechanicalsDamagePos20", "type": "positive", "attributes": {"mechanicalsDamage": 0.20}},
+            {"code": "mechanicalsDamagePos25", "type": "positive", "attributes": {"mechanicalsDamage": 0.25}},
+            {"code": "mechanicalsDamagePos30", "type": "positive", "attributes": {"mechanicalsDamage": 0.30}},
+            {"code": "mechanicalsDamagePos35", "type": "positive", "attributes": {"mechanicalsDamage": 0.35}},
+        //Negative
+            {"code": "mechanicalsDamageNeg5", "type": "negative", "attributes": {"mechanicalsDamage": -0.05}},
+            {"code": "mechanicalsDamageNeg10", "type": "negative", "attributes": {"mechanicalsDamage": -0.10}},
+            {"code": "mechanicalsDamageNeg15", "type": "negative", "attributes": {"mechanicalsDamage": -0.15}},
+            {"code": "mechanicalsDamageNeg20", "type": "negative", "attributes": {"mechanicalsDamage": -0.20}},
+            {"code": "mechanicalsDamageNeg25", "type": "negative", "attributes": {"mechanicalsDamage": -0.25}},
+            {"code": "mechanicalsDamageNeg30", "type": "negative", "attributes": {"mechanicalsDamage": -0.30}},
+            {"code": "mechanicalsDamageNeg35", "type": "negative", "attributes": {"mechanicalsDamage": -0.35}},
+        
+    //animalSeekingRange
+        //Negative
+            {"code": "animalSeekingRangePos5", "type": "negative", "attributes": {"animalSeekingRange": 0.05}},
+            {"code": "animalSeekingRangePos10", "type": "negative", "attributes": {"animalSeekingRange": 0.10}},
+            {"code": "animalSeekingRangePos15", "type": "negative", "attributes": {"animalSeekingRange": 0.15}},
+            {"code": "animalSeekingRangePos20", "type": "negative", "attributes": {"animalSeekingRange": 0.20}},
+            {"code": "animalSeekingRangePos25", "type": "negative", "attributes": {"animalSeekingRange": 0.25}},
+            {"code": "animalSeekingRangePos30", "type": "negative", "attributes": {"animalSeekingRange": 0.30}},
+            {"code": "animalSeekingRangePos35", "type": "negative", "attributes": {"animalSeekingRange": 0.35}},
+        //Positive
+            {"code": "animalSeekingRangeNeg5", "type": "positive", "attributes": {"animalSeekingRange": -0.05}},
+            {"code": "animalSeekingRangeNeg10", "type": "positive", "attributes": {"animalSeekingRange": -0.10}},
+            {"code": "animalSeekingRangeNeg15", "type": "positive", "attributes": {"animalSeekingRange": -0.15}},
+            {"code": "animalSeekingRangeNeg20", "type": "positive", "attributes": {"animalSeekingRange": -0.20}},
+            {"code": "animalSeekingRangeNeg25", "type": "positive", "attributes": {"animalSeekingRange": -0.25}},
+            {"code": "animalSeekingRangeNeg30", "type": "positive", "attributes": {"animalSeekingRange": -0.30}},
+            {"code": "animalSeekingRangeNeg35", "type": "positive", "attributes": {"animalSeekingRange": -0.35}},
+
+    //MechanicTrait
+        //Trait
+        {"code": "charpentier", "type": "positive", "attributes": {}},
+        {"code": "ebeniste", "type": "positive", "attributes": {}},
+        {"code": "sculteur", "type": "positive", "attributes": {}},
+        {"code": "boucher", "type": "positive", "attributes": {}},
+        {"code": "tanneur", "type": "positive", "attributes": {}},
+        {"code": "agriculteur", "type": "positive", "attributes": {}},
+        {"code": "apiculteur", "type": "positive", "attributes": {}},
+        {"code": "eleveur", "type": "positive", "attributes": {}},
+        {"code": "brasseur", "type": "positive", "attributes": {}},
+        {"code": "verrier", "type": "positive", "attributes": {}},
+        {"code": "machiniste", "type": "positive", "attributes": {}},
+        {"code": "ingenieur", "type": "positive", "attributes": {}},
+        {"code": "maitreArme", "type": "positive", "attributes": {}},
+        {"code": "cordier", "type": "positive", "attributes": {}},
+        {"code": "couturier", "type": "positive", "attributes": {}},
+        {"code": "tapisseur", "type": "positive", "attributes": {}},
+        {"code": "bucheron", "type": "positive", "attributes": {}},
+        {"code": "charbonier", "type": "positive", "attributes": {}},
+        {"code": "distilateur", "type": "positive", "attributes": {}},
+        {"code": "medecin", "type": "positive", "attributes": {}},
+        {"code": "apothicaire", "type": "positive", "attributes": {}},
+        {"code": "alchimiste", "type": "positive", "attributes": {}},
+        {"code": "orpailleur", "type": "positive", "attributes": {}},
+        {"code": "mineur", "type": "positive", "attributes": {}},
+        {"code": "forgeron", "type": "positive", "attributes": {}},
+        {"code": "gerant", "type": "positive", "attributes": {}},
+        {"code": "marchand", "type": "positive", "attributes": {}},
+        {"code": "marin", "type": "positive", "attributes": {}},
+        {"code": "potier", "type": "positive", "attributes": {}},
+        {"code": "pretre", "type": "positive", "attributes": {}},
+        {"code": "chaman", "type": "positive", "attributes": {}},
+        {"code": "viticulteur", "type": "positive", "attributes": {}},
+        {"code": "clothier", "type": "positive", "attributes": {}},
+        {"code": "hardy", "type": "positive", "attributes": {}},
+        {"code": "soldier", "type": "positive", "attributes": {}},
+        {"code": "bowyer", "type": "positive", "attributes": {}},
+        {"code": "improviser", "type": "positive", "attributes": {}},
+        {"code": "merciless", "type": "positive", "attributes": {}},
+        {"code": "pilferer", "type": "positive", "attributes": {}},
+        {"code": "tinkerer", "type": "positive", "attributes": {}}
+        ]

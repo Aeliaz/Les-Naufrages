@@ -1,0 +1,53 @@
+﻿{
+  "incontainer-item-medicineportion": "Medicine",
+  "item-medicineportion": "Medicine",
+  "incontainer-item-medicine-stade1-portion": "Medicine Base (Stage 1)",
+  "item-medicine-stade1-portion": "Medicine Base (Stage 1)",
+  "incontainer-item-medicine-stade2-portion": "Medicine Base (Stage 2)",
+  "item-medicine-stade2-portion": "Medicine Base (Stage 2)",
+  "incontainer-item-medicine-stade3-portion": "Medicine Base (Stage 3)",
+  "item-medicine-stade3-portion": "Medicine Base (Stage 3)",
+  "incontainer-item-medicine-stade4-portion": "Medicine Base (Stage 4)",
+  "item-medicine-stade4-portion": "Medicine Base (Stage 4)",
+
+  "fracture": "Fracture",
+
+  "cold-effect": "???",
+  "cold-effectdesc": "<br>I don't feel very well...<br><br>I'm much colder than usual, and my throat is sore.<br>I also have coughing fits.<br><br>A quick visit to the doctor wouldn't hurt.<br>",
+  
+  "diarrhea-effect": "???",
+  "diarrhea-effectdesc": "<br>Your intestines are aching.<br>You have an incessant urge to go to the toilet.<br>A quick visit to the doctor wouldn't hurt.",
+  
+  "foodpoisoning-effect": "???",
+  "foodpoisoning-effectdesc": "<br>You seem to have eaten something not very fresh.<br>Your stomach is making strange noises, and you feel like vomiting.<br><br>A quick visit to the doctor wouldn't hurt.<br>",
+  
+  "brokenleg-left-effect": "Broken Left Leg",
+  "brokenleg-left-effectdesc": "<br>Your left leg is broken, and the pain is unbearable.<br>You should see a doctor as soon as possible.",
+  
+  "brokenleg-right-effect": "Broken Right Leg",
+  "brokenleg-right-effectdesc": "<br>Your right leg is broken, and the pain is unbearable.<br>You should see a doctor as soon as possible.",
+  
+  "reborn-effect": "Rebirth",
+  "reborn-effectdesc": "<br>You have recently died and are still suffering the consequences.",
+  
+  "rabies-effect": "???",
+  "rabies-effectdesc": "<br>Something is strange. Since the animal bite, you have been avoiding water. It brings you great fear. Along with this, you seem to suffer from irregular and uncontrollable spasms.<br><br>You should see a doctor urgently.<br>",
+  
+  "scurvy-effect": "???",
+  "scurvy-effectdesc": "<br>You feel constantly tired and weak.<br>Your gums bleed at the slightest touch, and your wounds take abnormally long to heal.<br>Your skin appears pale and marked with purplish spots.<br><br>A visit to the doctor would be wise.<br>",
+  
+  "bleeding-effect": "You are bleeding.",
+  "bleeding-effectdesc": "<br>It seems that you are bleeding.<br>Hurry up and bandage your wound, it would be a shame to bleed out.<br>",
+  
+  "infection-effect": "???",
+  "infection-effectdesc": "<br>Your wound is painful and appears to be festering with a strange yellow-green color.<br>A quick visit to the doctor wouldn't hurt.",
+  
+  "d-blindness-effect": "Blindness",
+  "d-blindness-effectdesc": "<br>After spending so much time deep underground without seeing the light, even the slightest ray of sunlight burns your eyes.<br><br>You should take time to recover your vision.<br>Or perhaps return to the mines, even if it means losing your sight completely?<br>",
+  
+  "pneumonia-effect": "Pneumonia",
+  "pneumonia-effectdesc": "",
+  
+  "tetanus-effect": "Tetanus",
+  "tetanus-effectdesc": ""
+}

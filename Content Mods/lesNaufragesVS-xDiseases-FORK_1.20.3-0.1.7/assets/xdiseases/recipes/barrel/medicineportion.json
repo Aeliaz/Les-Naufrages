@@ -1,0 +1,11 @@
+[	
+    {
+    "code": "medicineportion",
+    "sealHours": 36,
+    "ingredients": [
+        { "type": "item", "code": "medicine-stade3-portion", "litres": 4, "consumeLitres": 4 },
+        {"name": "mushroom", "type": "block", "code": "game:mushroom-*", "quantity": 1 }
+    ],
+    "output": { "type": "item", "code": "medicineportion", "litres": 4 }
+}
+]

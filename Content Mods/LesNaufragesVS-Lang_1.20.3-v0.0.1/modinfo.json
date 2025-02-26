@@ -1,0 +1,19 @@
+{
+    "Type": "content",
+    "TextureSize": 32,
+    "Name": "Les Nauvragés - Pack traduction Fr",
+    "Version": "0.0.1",
+    "NetworkVersion": null,
+    "Description": "Les Naufragés Serveur serious RP Francophone - Traduction Francaise",
+    "Website": "https://discord.gg/JJZzudBXDR",
+    "CoreMod": false,
+    "ModID": "lesnaufragesvslang",
+    "Authors": [ "Tisma" ],
+    "Contributors": [],
+    "Side": "Universal",
+    "RequiredOnClient": true,
+    "RequiredOnServer": true,
+    "Dependencies": { 
+            "game": ""
+            }
+  }

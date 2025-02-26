@@ -1,0 +1,6 @@
+{
+    "DiceRoll.usage": "Usage: .roll 2d6 or .roll 3d20. <p> First value = number of dice. Second = number of faces.",
+    "DiceRoll.invalidFormat": "Invalid dice format. Use .roll 1d6 or .roll 1d20. <p> First value = number of dice. Second = number of faces.",
+    "DiceRoll.resultMessage": "{0} rolled {1} and got {2} (individual rolls: {3})"
+  }
+  

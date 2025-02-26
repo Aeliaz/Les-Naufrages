@@ -1,0 +1,11 @@
+{
+  "dressmakers:setting_enable_common_clothing": "Vêtements communs",
+  "dressmakers:setting_enable_class_clothing": "Vêtements spécifiques à la classe",
+  "dressmakers:setting_enable_haf_clothing": "Alternatives au coton et à la laine pour peaux et tissus",
+  "dressmakers:setting_enable_common_clothing_comment": "Activer les recettes pour les vêtements VS Vanilla courants",
+  "dressmakers:setting_enable_class_clothing_comment": "Activer les recettes pour les vêtements VS Vanilla spécifiques à la classe",
+  "dressmakers:setting_enable_haf_clothing_comment": "Activez des recettes alternatives utilisant du coton ou de la laine pour les vêtements VS vanille. Nécessite d'installer Hide et Fabric !",
+  "dressmakers:settings_title_clothing_recipes": "Recettes de couturières pour les vêtements VS vanille",
+  "dressmakers:settings_title_mod_recipes": "Compatibilité avec d'autres mods",
+  "dressmakers:settings_title_haf_recipes": "Recettes de cuir et de tissu"
+}

@@ -1,0 +1,6 @@
+{
+    "DiceRoll.usage": "Usage : /roll 1d6 ou /roll 1d20 <p> Première valeur = nombre de dés. Deuxième valeur = nombre de faces.",
+    "DiceRoll.invalidFormat": "Format de dé invalide. Utilisez .roll 1d6 ou .roll 1d20. <p> Première valeur = nombre de dés. Deuxième valeur = nombre de faces.",
+    "DiceRoll.resultMessage": "{0} a lancé {1} et a obtenu {2} (lancers individuels : {3})"
+  }
+  

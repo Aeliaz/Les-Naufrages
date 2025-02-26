@@ -1,0 +1,13 @@
+[
+    {
+        "ingredients": [
+          { "inputs": [{ "type": "item", "code": "game:ciderportion-*", "quantity": 30, "name": "cider" }]},
+          { "inputs": [{ "type": "item", "code": "game:honeyportion", "quantity": 10 }]},
+          { "inputs": [{ "type": "block", "code": "game:flower-lupine-blue-free", "quantity": 2}]},
+          { "inputs": [{ "type": "block", "code": "game:flower-horsetail-free", "quantity": 3 }]},
+          { "inputs": [{ "type": "block", "code": "game:fern-eaglefern", "quantity": 1 }]},
+          { "inputs": [{ "type": "block", "code": "game:mushroom-bitterbolete-normal", "quantity": 3 }]}
+        ],
+        "output": { "type": "item", "code": "xdiseases:medicineportion", "stackSize": 100}
+      }
+]

@@ -1,0 +1,191 @@
+[
+	{
+        
+		"ingredientPattern": "H,S",
+		"shapeless": true,
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "artofgrowing:vegetable-wild-*",
+				"quantity": 5,
+				"allowedVariants": [ "carrot", "onion", "turnip", "parsnip", "cabbage" ],
+				"name": "type"
+			},
+			"H": {
+				"type": "item",
+				"code": "game:cleaver-*",
+				"isTool": true
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"name": "vegetable",
+		"output": {
+			"type": "item",
+			"code": "expandedfoods:choppedvegetable-{type}",
+			"quantity": 1
+		}
+	},
+	{
+        
+		"ingredientPattern": "H,S",
+		"shapeless": true,
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "artofgrowing:vegetable-small-*",
+				"quantity": 5,
+				"allowedVariants": [ "carrot", "onion", "turnip", "parsnip", "cabbage" ],
+				"name": "type"
+			},
+			"H": {
+				"type": "item",
+				"code": "game:cleaver-*",
+				"isTool": true
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"name": "vegetable",
+		"output": {
+			"type": "item",
+			"code": "expandedfoods:choppedvegetable-{type}",
+			"quantity": 2
+		}
+	},
+	{
+        
+		"ingredientPattern": "H,S",
+		"shapeless": true,
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "artofgrowing:vegetable-medium-*",
+				"quantity": 5,
+				"allowedVariants": [ "carrot", "onion", "turnip", "parsnip", "cabbage" ],
+				"name": "type"
+			},
+			"H": {
+				"type": "item",
+				"code": "game:cleaver-*",
+				"isTool": true
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"name": "vegetable",
+		"output": {
+			"type": "item",
+			"code": "expandedfoods:choppedvegetable-{type}",
+			"quantity": 3
+		}
+	},
+	{
+        
+		"ingredientPattern": "H,S",
+		"shapeless": true,
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "artofgrowing:vegetable-decent-*",
+				"quantity": 4,
+				"allowedVariants": [ "carrot", "onion", "turnip", "parsnip", "cabbage" ],
+				"name": "type"
+			},
+			"H": {
+				"type": "item",
+				"code": "game:cleaver-*",
+				"isTool": true
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"name": "vegetable",
+		"output": {
+			"type": "item",
+			"code": "expandedfoods:choppedvegetable-{type}",
+			"quantity": 3
+		}
+	},
+	{
+        
+		"ingredientPattern": "H,S",
+		"shapeless": true,
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "artofgrowing:vegetable-large-*",
+				"quantity": 1,
+				"allowedVariants": [ "carrot", "onion", "turnip", "parsnip", "cabbage" ],
+				"name": "type"
+			},
+			"H": {
+				"type": "item",
+				"code": "game:cleaver-*",
+				"isTool": true
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"name": "vegetable",
+		"output": {
+			"type": "item",
+			"code": "expandedfoods:choppedvegetable-{type}",
+			"quantity": 1
+		}
+	},
+	{
+        
+		"ingredientPattern": "H,S",
+		"shapeless": true,
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "artofgrowing:vegetable-hefty-*",
+				"quantity": 2,
+				"allowedVariants": [ "carrot", "onion", "turnip", "parsnip", "cabbage" ],
+				"name": "type"
+			},
+			"H": {
+				"type": "item",
+				"code": "game:cleaver-*",
+				"isTool": true
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"name": "vegetable",
+		"output": {
+			"type": "item",
+			"code": "expandedfoods:choppedvegetable-{type}",
+			"quantity": 3
+		}
+	},
+	{
+        
+		"ingredientPattern": "H,S",
+		"shapeless": true,
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "artofgrowing:vegetable-gigantic-*",
+				"quantity": 1,
+				"allowedVariants": [ "carrot", "onion", "turnip", "parsnip", "cabbage" ],
+				"name": "type"
+			},
+			"H": {
+				"type": "item",
+				"code": "game:cleaver-*",
+				"isTool": true
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"name": "vegetable",
+		"output": {
+			"type": "item",
+			"code": "expandedfoods:choppedvegetable-{type}",
+			"quantity": 2
+		}
+	}
+]

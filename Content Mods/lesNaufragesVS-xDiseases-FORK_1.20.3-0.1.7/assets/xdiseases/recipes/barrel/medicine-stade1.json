@@ -1,0 +1,38 @@
+[
+	{
+		"code": "medicine-stade1-portion",
+		"sealHours": 24, 	
+		"ingredients": [
+            { "name": "alcohol", "type": "item", "code": "game:ciderportion-*", "litres": 1, "consumeLitres": 1 },
+            { "name": "lupine", "type": "block", "code": "game:flower-lupine-blue-*", "quantity": 1 }
+        ],
+		"output": { "type": "item", "code": "medicine-stade1-portion", "litres": 1 }
+	},
+	{
+		"code": "medicine-stade1-portion",
+		"sealHours": 24,
+		"ingredients": [
+			{ "name": "alcohol", "type": "item", "code": "game:spiritportion-*", "litres": 1, "consumeLitres": 1},
+			{ "name": "lupine", "type": "block", "code": "game:flower-lupine-blue-*", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "medicine-stade1-portion", "litres": 1 }
+	},
+	{
+		"code": "medicine-stade1-portion",
+		"sealHours": 24,
+		"ingredients": [
+			{ "name": "alcohol", "type": "item", "code": "game:wineportion-*", "litres": 1, "consumeLitres": 1},
+			{ "name": "lupine", "type": "block", "code": "game:flower-lupine-blue-*", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "medicine-stade1-portion", "litres": 1 }
+	},
+	{
+		"code": "medicine-stade1-portion",
+		"sealHours": 24,
+		"ingredients": [
+			{ "name": "alcohol", "type": "item", "code": "game:alcoholportion", "litres": 2, "consumeLitres": 2 },
+			{ "name": "lupine", "type": "block", "code": "game:flower-lupine-blue-*", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "medicine-stade1-portion", "litres": 1 }
+	}
+]

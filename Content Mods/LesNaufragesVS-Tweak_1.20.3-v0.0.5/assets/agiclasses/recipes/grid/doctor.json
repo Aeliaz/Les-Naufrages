@@ -1,0 +1,275 @@
+[
+{
+	"ingredientPattern": "B_,A_",
+	
+	"ingredients": {
+		"A": { "type": "item", "code": "game:cattailtops", "quantity": 2 },
+		"B": { "type": "block", "code": "game:mushroom-reishi-normal-north", "quantity": 2 }
+	},
+	"width": 2,
+	"height": 2,
+	"recipeGroup": 2,
+	"output": { "type": "item", "code": "agiclasses:poultice-reed-mushroom", "quantity": 3 }
+},
+{
+	"ingredientPattern": "B_,A_",
+	
+	"ingredients": {
+		"A": { "type": "item", "code": "game:papyrustops", "quantity": 2 },
+		"B": { "type": "block", "code": "game:mushroom-*", "quantity": 2 }
+	},
+	"width": 2,
+	"height": 2,
+	"recipeGroup": 2,
+	"output": { "type": "item", "code": "agiclasses:poultice-reed-mushroom", "quantity": 3 }
+},
+{
+	"ingredientPattern": "B_,A_",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:linen-*", "quantity": 1 },
+		"B": { "type": "block", "code": "game:mushroom-reishi-normal-north", "quantity": 2 }
+	},
+	"width": 2,
+	"height": 2,
+	"recipeGroup": 2,
+	"output": { "type": "item", "code": "agiclasses:poultice-linen-mushroom", "quantity": 3 }
+},
+{
+	"ingredientPattern": "B_,A_",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:linen-*", "quantity": 1 },
+		"B": { "type": "block", "code": "game:mushroom-*", "quantity": 2 }
+	},
+	"width": 2,
+	"height": 2,
+	"recipeGroup": 2,
+	"output": { "type": "item", "code": "agiclasses:poultice-linen-mushroom", "quantity": 3 }
+},
+{
+	"ingredientPattern": "BB,A_",
+	
+	"ingredients": {
+		"A": { "type": "item", "code": "game:knife-*", "isTool": true},
+		"B": { "type": "item", "code": "agiclasses:harvestedseaweed-*", "quantity": 2 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "agiclasses:seaweed-bandage-clean", "quantity": 1 }
+},
+{
+	"ingredientPattern": "BA",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:jug-*-fired"},
+		"B": { "type": "item", "code": "agiclasses:seaweed-bandage-clean", "quantity": 1 }
+	},
+	"width": 2,
+	"height": 1,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:alcoholportion" }, "requiresLitres": 0.2 } },
+	"shapeless": true,
+	"output": { "type": "item", "code": "agiclasses:seaweed-bandage-alcoholed", "quantity": 1 }
+},
+{
+	"ingredientPattern": "BA",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:woodbucket"},
+		"B": { "type": "item", "code": "agiclasses:seaweed-bandage-clean", "quantity": 1 }
+	},
+	"width": 2,
+	"height": 1,
+	"recipeGroup": 2,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:alcoholportion" }, "requiresLitres": 0.2 } },
+	"shapeless": true,
+	"output": { "type": "item", "code": "agiclasses:seaweed-bandage-alcoholed", "quantity": 1 }
+},
+{
+	"ingredientPattern": "BA",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:bowl-fired"},
+		"B": { "type": "item", "code": "agiclasses:seaweed-bandage-clean", "quantity": 1 }
+	},
+	"width": 2,
+	"height": 1,
+	"recipeGroup": 2,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:alcoholportion" }, "requiresLitres": 0.2 } },
+	"shapeless": true,
+	"output": { "type": "item", "code": "agiclasses:seaweed-bandage-alcoholed", "quantity": 1 }
+},
+{
+	"ingredientPattern": "BB,A_",
+	
+	"ingredients": {
+		"A": { "type": "item", "code": "agiclasses:seaweed-bandage-*"},
+		"B": { "type": "block", "code": "game:mushroom-*", "quantity": 2 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "agiclasses:poultice-seaweed-mushroom", "quantity": 1 }
+},
+{
+	"ingredientPattern": "BA",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:jug-*-fired"},
+		"B": { "type": "item", "code": "game:bandage-clean", "quantity": 1 }
+	},
+	"width": 2,
+	"height": 1,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "agiclasses:extractives-medical-callahan" }, "requiresLitres": 0.2 } },
+	"shapeless": true,
+	"output": { "type": "item", "code": "agiclasses:alchemic-bandages-callahan", "quantity": 1 }
+},
+{
+	"ingredientPattern": "BA",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:jug-*-fired"},
+		"B": { "type": "item", "code": "game:bandage-clean", "quantity": 1 }
+	},
+	"width": 2,
+	"height": 1,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "agiclasses:extractives-medical-heinrich" }, "requiresLitres": 0.2 } },
+	"shapeless": true,
+	"output": { "type": "item", "code": "agiclasses:alchemic-bandages-heinrich", "quantity": 1 }
+},
+{
+	"ingredientPattern": "BA",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:jug-*-fired"},
+		"B": { "type": "item", "code": "game:bandage-clean", "quantity": 1 }
+	},
+	"width": 2,
+	"height": 1,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "agiclasses:extractives-medical-holland" }, "requiresLitres": 0.2 } },
+	"shapeless": true,
+	"output": { "type": "item", "code": "agiclasses:alchemic-bandages-holland", "quantity": 1 }
+},
+
+{
+	"ingredientPattern": "BA",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:woodbucket"},
+		"B": { "type": "item", "code": "game:bandage-clean", "quantity": 1 }
+	},
+	"width": 2,
+	"height": 1,
+	"recipeGroup": 2,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "agiclasses:extractives-medical-callahan" }, "requiresLitres": 0.2 } },
+	"shapeless": true,
+	"output": { "type": "item", "code": "agiclasses:alchemic-bandages-callahan", "quantity": 1 }
+},
+{
+	"ingredientPattern": "BA",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:woodbucket"},
+		"B": { "type": "item", "code": "game:bandage-clean", "quantity": 1 }
+	},
+	"width": 2,
+	"height": 1,
+	"recipeGroup": 2,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "agiclasses:extractives-medical-heinrich" }, "requiresLitres": 0.2 } },
+	"shapeless": true,
+	"output": { "type": "item", "code": "agiclasses:alchemic-bandages-heinrich", "quantity": 1 }
+},
+{
+	"ingredientPattern": "BA",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:woodbucket"},
+		"B": { "type": "item", "code": "game:bandage-clean", "quantity": 1 }
+	},
+	"width": 2,
+	"height": 1,
+	"recipeGroup": 2,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "agiclasses:extractives-medical-holland" }, "requiresLitres": 0.2 } },
+	"shapeless": true,
+	"output": { "type": "item", "code": "agiclasses:alchemic-bandages-holland", "quantity": 1 }
+},
+
+{
+	"ingredientPattern": "BA",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:bowl-fired"},
+		"B": { "type": "item", "code": "game:bandage-clean", "quantity": 1 }
+	},
+	"width": 2,
+	"height": 1,
+	"recipeGroup": 2,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "agiclasses:extractives-medical-callahan" }, "requiresLitres": 0.2 } },
+	"shapeless": true,
+	"output": { "type": "item", "code": "agiclasses:alchemic-bandages-callahan", "quantity": 1 }
+},
+{
+	"ingredientPattern": "BA",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:bowl-fired"},
+		"B": { "type": "item", "code": "game:bandage-clean", "quantity": 1 }
+	},
+	"width": 2,
+	"height": 1,
+	"recipeGroup": 2,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "agiclasses:extractives-medical-heinrich" }, "requiresLitres": 0.2 } },
+	"shapeless": true,
+	"output": { "type": "item", "code": "agiclasses:alchemic-bandages-heinrich", "quantity": 1 }
+},
+{
+	"ingredientPattern": "BA",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:bowl-fired"},
+		"B": { "type": "item", "code": "game:bandage-clean", "quantity": 1 }
+	},
+	"width": 2,
+	"height": 1,
+	"recipeGroup": 2,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "agiclasses:extractives-medical-holland" }, "requiresLitres": 0.2 } },
+	"shapeless": true,
+	"output": { "type": "item", "code": "agiclasses:alchemic-bandages-holland", "quantity": 1 }
+},
+
+{
+	"ingredientPattern": "BA",
+	
+	"ingredients": {
+		"A": { "type": "item", "code": "agiclasses:alchemic-bandages-callahan"},
+		"B": { "type": "item", "code": "game:fat", "quantity": 2 }
+	},
+	"width": 2,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "agiclasses:alchemic-bandages-callahan-sealed", "quantity": 1 }
+},
+{
+	"ingredientPattern": "BA",
+	
+	"ingredients": {
+		"A": { "type": "item", "code": "agiclasses:alchemic-bandages-heinrich"},
+		"B": { "type": "item", "code": "game:fat", "quantity": 2 }
+	},
+	"width": 2,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "agiclasses:alchemic-bandages-heinrich-sealed", "quantity": 1 }
+},
+{
+	"ingredientPattern": "BA",
+	
+	"ingredients": {
+		"A": { "type": "item", "code": "agiclasses:alchemic-bandages-holland"},
+		"B": { "type": "item", "code": "game:fat", "quantity": 2 }
+	},
+	"width": 2,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "agiclasses:alchemic-bandages-holland-sealed", "quantity": 1 }
+},
+]

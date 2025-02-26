@@ -1,0 +1,15 @@
+{
+  "shearlib:shearable": "Peut être tondu et produira {0} unités de toison",
+  "shearlib:insufficientgen": "Trop sauvage pour être tondu, ça doit être la génération {0}",
+  "shearlib:hoursuntilshearable": "{0} heures avant que la toison soit prête à être tondue",
+  "shearlib:daysuntilshearable": "{0} jours avant que la toison soit prête à être tondue",
+  "shearlib:daysmaxwool": "Cet animal met {0} jours pour développer pleinement sa toison.",
+  "shearlib:hoursmaxwool": "Cet animal met {0} heures pour développer pleinement sa toison.",
+  "shearlib:animalmaxwool": "Qui produit un maximum de {0} unités de toison",
+  "shearlib:woolgrowing": "La toison continue de croître et est trop courte pour être tondue",
+  "shearlib:shearsbonus": "L'utilisation de ciseaux au lieu d'un couteau offre +{0} de toison supplémentaire",
+  "shearlib:animaltoowildshearclient": "L'animal est trop sauvage et ne vous laisse pas le tondre, il doit être de la génération {0} pour pouvoir le tondre.",
+  "shearlib:animalinsufficientwoolclient": "L'animal n'a pas encore développé suffisamment de toison pour pouvoir la tondre, il lui faut un minimum de {0} unités pour pouvoir la tondre.",
+  "shearlib:dropnotfound": "ShearLib : Impossible de trouver « {0} » à supprimer lors du cisaillement.",
+  "shearlib:dropsecondnotfound": "ShearLib : Impossible de trouver « {0} » à supprimer comme secondaire lors du cisaillement."
+}

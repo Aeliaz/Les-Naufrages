@@ -1,0 +1,36 @@
+{
+"cold": {
+  "code": "disease",
+  "defaults": {
+    "duration": 0.0,
+    "expiresovertime": false,
+    "expiresthroughintensity": true,
+    "interval": 0.5,
+    "healingrate": -0.00003,
+    "healinggrowth": 0.0000001,
+    "immunityduration": 21600.0,
+    "symptoms": {
+      "health": {
+        "maxintensity": -2.5,
+        "threshold": 0.7
+      },
+      "hungry": {
+        "maxintensity": 0.3,
+        "threshold": 0.4
+      },
+      "walkspeed": {
+        "maxintensity": -0.25,
+        "threshold": 0.5
+      },
+      "animation": {
+        "defaults": {
+          "animation": "cough",
+          "sound": "game:sounds/cough_cold.ogg"
+        },
+        "maxintensity": 0.1,
+        "threshold": 0.05
+      }
+    }
+  }
+}
+}

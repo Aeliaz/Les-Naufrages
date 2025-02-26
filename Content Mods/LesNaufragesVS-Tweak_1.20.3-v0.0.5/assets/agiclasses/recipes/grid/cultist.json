@@ -1,0 +1,16 @@
+[
+{
+	"ingredientPattern": "BBB,ACA,B_B",
+	
+	"ingredients": {
+		"A": { "type": "item", "code": "game:gear-temporal", "quantity": 1 },
+		"B": { "type": "block", "code": "game:metal-scraps", "quantity": 2 },
+		"C": { "type": "block", "code": "game:linen-*", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 3,
+	"shapeless": true,
+	"output": { "type": "item", "code": "agiclasses:clothes-face-mask-cultist", "quantity": 1 }
+}
+]
+	

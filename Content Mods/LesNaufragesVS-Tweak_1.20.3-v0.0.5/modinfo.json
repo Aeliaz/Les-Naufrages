@@ -1,0 +1,19 @@
+{
+    "Type": "content",
+    "TextureSize": 32,
+    "Name": "Les Nauvragés - Tweak&Patch",
+    "Version": "0.0.4",
+    "NetworkVersion": null,
+    "Description": "Les Naufragés Server serious RP Francais - Tweak & Patch",
+    "Website": "https://discord.gg/JJZzudBXDR",
+    "CoreMod": false,
+    "ModID": "lesnaufragesvstweak",
+    "Authors": [ "Tisma" ],
+    "Contributors": [],
+    "Side": "Universal",
+    "RequiredOnClient": true,
+    "RequiredOnServer": true,
+    "Dependencies": { 
+            "game": ""
+            }
+  }

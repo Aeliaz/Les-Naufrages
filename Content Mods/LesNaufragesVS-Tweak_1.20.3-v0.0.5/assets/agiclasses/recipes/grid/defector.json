@@ -1,0 +1,437 @@
+[
+{
+    "ingredientPattern": "AA,A_",
+    
+    "ingredients": {
+        "A": { "type": "item", "code": "game:flaxfibers", "quantity": 1 }
+    },
+    "width": 2,
+    "height": 2,
+    "recipeGroup": 2,
+    "output": { "type": "item", "code": "game:flaxtwine", "quantity": 1  }
+},
+{
+    "ingredientPattern": "AA,A_",
+    
+    "ingredients": {
+        "A": { "type": "item", "code": "game:flaxtwine", "quantity": 1 }
+    },
+    "width": 2,
+    "height": 2,
+    "recipeGroup": 2,
+	"output": { "type": "block", "code": "game:linen-normal-down", "quantity": 1  }
+},
+{
+    "ingredientPattern": "AAA,AAA,ABA",
+    
+    "ingredients": {
+        "A": { "type": "item", "code": "game:cattailtops", "quantity": 1 },
+		"B": { "type": "item", "code": "game:clay-*", "quantity": 2 }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 2,
+	"output": { "type": "block", "code": "game:skep-empty-east", "quantity": 1  }
+},
+{
+    "ingredientPattern": "AAA,AAA,ABA",
+    
+    "ingredients": {
+        "A": { "type": "item", "code": "game:papyrustops", "quantity": 1 },
+		"B": { "type": "item", "code": "game:clay-*", "quantity": 2 }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 2,
+	"output": { "type": "block", "code": "game:skep-empty-east", "quantity": 1  }
+},
+
+{
+	"ingredientPattern": "BA,A_",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:hay-*-ud", "name": "type" },
+		"B": { "type": "item", "code": "game:knife-*", "isTool": true}
+	},
+	"width": 2,
+	"height": 2,
+    "recipeGroup": 2,
+	"output": { "type": "block", "code": "game:slantedroofing-thatch-east-free", "quantity": 6  }
+},
+{
+	"ingredientPattern": "BA_,A_A",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:hay-*-ud", "name": "type" },
+		"B": { "type": "item", "code": "game:knife-*", "isTool": true}
+	},
+	"width": 3,
+	"height": 2,
+    "recipeGroup": 2,
+	"output": { "type": "block", "code": "game:slantedroofingridge-thatch-ns-free", "quantity": 6  }
+},
+{
+	"ingredientPattern": "BA_,AAA",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:hay-*-ud", "name": "type" },
+		"B": { "type": "item", "code": "game:knife-*", "isTool": true}
+	},
+	"width": 3,
+	"height": 2,
+    "recipeGroup": 2,
+	"output": { "type": "block", "code": "game:slantedroofingtip-thatch-free", "quantity": 6  }
+},
+{
+	"ingredientPattern": "BA,A_,_A",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:hay-*-ud", "name": "type" },
+		"B": { "type": "item", "code": "game:knife-*", "isTool": true}
+	},
+	"width": 3,
+	"height": 2,
+    "recipeGroup": 2,
+	"output": { "type": "block", "code": "game:slantedroofingcornerinner-thatch-east-free", "quantity": 6  }
+},
+{
+	"ingredientPattern": "BA,AA",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:hay-*-ud", "name": "type" },
+		"B": { "type": "item", "code": "game:knife-*", "isTool": true}
+	},
+	"width": 2,
+	"height": 2,
+    "recipeGroup": 2,
+	"output": { "type": "block", "code": "game:slantedroofingcornerouter-thatch-east-free", "quantity": 6  }
+},
+{
+	"ingredientPattern": "BA,C_",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:lootvessel-*", "name": "type" },
+		"B": { "type": "item", "code": "game:knife-*", "isTool": true},
+		"C": { "type": "item", "code": "game:clay-*"}
+	},
+	"width": 2,
+	"height": 2,
+	"shapeless": true,
+	"output": { "type": "block", "code": "game:storagevessel-raw", "quantity": 1  }
+},
+
+{
+	"ingredientPattern": "AC,BB",
+	
+	"ingredients": {
+		"A": { "type": "item", "code": "game:blastingpowder", "quantity": 8 },
+		"B": { "type": "block", "code": "game:linen-*", "quantity": 1 },
+		"C": { "type": "block", "code": "game:metal-scraps", "quantity": 1 }
+	},
+	"width": 2,
+	"height": 2,
+	"recipeGroup": 4,
+	"output": { "type": "block", "code": "game:bomb-scrap", "quantity": 1  }
+},
+{
+	"ingredientPattern": "AC,BB",
+	
+	"ingredients": {
+		"A": { "type": "item", "code": "game:blastingpowder", "quantity": 5 },
+		"B": { "type": "block", "code": "game:linen-*", "quantity": 1 },
+		"C": { "type": "item", "code": "game:flaxtwine", "quantity": 1 }
+	},
+	"width": 2,
+	"height": 2,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "game:bomb-stone", "quantity": 6  }
+},
+
+{
+	"ingredientPattern": "BAC",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:log-placed-*-ud", "name": "wood" },
+		"B": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 15 },
+		"C": { "type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 15}
+	},
+	"width": 3,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 4,
+	"output": { "type": "item", "code": "game:plank-{wood}", "quantity": 1  }
+},
+{
+	"ingredientPattern": "BA,AA",
+	
+	"ingredients": {
+		"A": { "type": "item", "code": "game:plank-*", "name": "wood", "quantity": 4, "skipVariants": ["agedebony", "rottenebony"] },
+		"B": { "type": "item", "code": "game:flaxfibers"}
+	},
+	"width": 2,
+	"height": 2,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "game:planks-{wood}-ud", "quantity": 4  }
+},
+
+{
+	"ingredientPattern": "_Q,_F",
+	
+	"ingredients": {
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 6 },
+		"Q": { "type": "item", "code": "game:crushed-quartz", "quantity": 4 }
+	},
+	"width": 2,
+	"height": 2,
+	"recipeGroup": 3,
+	"shapeless": false,
+	"output": { "type": "item", "code": "game:refractorybrick-raw-tier1", "quantity": 2  }
+},
+{
+	"ingredientPattern": "_Q_,BFP",
+	
+	"ingredients": {
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 6 },
+		"Q": { "type": "item", "code": "game:crushed-quartz", "quantity": 4 },
+		"B": { "type": "item", "code": "game:crushed-bauxite" },
+		"P": { "type": "item", "code": "game:crushed-olivine" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"shapeless": false,
+	"output": { "type": "item", "code": "game:refractorybrick-raw-tier2", "quantity": 2  }
+},
+{
+	"ingredientPattern": "_Q_,BFP,_I_",
+	
+	"ingredients": {
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 6 },
+		"Q": { "type": "item", "code": "game:crushed-quartz", "quantity": 4 },
+		"B": { "type": "item", "code": "game:crushed-bauxite", "quantity": 2 },
+		"P": { "type": "item", "code": "game:crushed-olivine" },
+		"I": { "type": "item", "code": "game:crushed-ilmenite" }
+	},
+	"width": 3,
+	"height": 3,
+	"recipeGroup": 3,
+	"shapeless": false,
+	"output": { "type": "item", "code": "game:refractorybrick-raw-tier3", "quantity": 2  }
+},
+
+{
+	"ingredientPattern": "BA,CD",
+	
+	"ingredients": {
+		"A": { "type": "item", "code": "game:fat", "quantity": 2 },
+		"B": { "type": "item", "code": "game:knife-*", "isTool": true},
+		"C": { "type": "item", "code": "game:redmeat-raw", "quantity": 2},
+		"D": { "type": "item", "code": "agiclasses:powders-heinrich"}
+	},
+	"width": 2,
+	"height": 2,
+	"shapeless": true,
+	"output": { "type": "item", "code": "agiclasses:vintagebeefbase-dry", "quantity": 2  }
+},
+{
+	"ingredientPattern": "BA,CD",
+	
+	"ingredients": {
+		"A": { "type": "item", "code": "game:fat", "quantity": 4},
+		"B": { "type": "item", "code": "game:knife-*", "isTool": true},
+		"C": { "type": "item", "code": "game:bushmeat-raw", "quantity": 2},
+		"D": { "type": "item", "code": "agiclasses:powders-heinrich"}
+	},
+	"width": 2,
+	"height": 2,
+	"shapeless": true,
+	"output": { "type": "item", "code": "agiclasses:vintagebeefbase-dry", "quantity": 2  }
+},
+
+{
+	"ingredientPattern": "ABA,AAA,AAA",
+	
+	"ingredients": {
+		"A": { "type": "item", "code": "game:stick"},
+		"B": { "type": "item", "code": "game:knife-*", "isTool": true}
+	},
+	"width": 3,
+	"height": 3,
+	"shapeless": true,
+	"output": { "type": "block", "code": "game:wattle-sticks-ew-free", "quantity": 12  }
+},
+
+{
+	"ingredientPattern": "AB",
+	
+	"ingredients": {
+		"A": { "type": "item", "code": "game:quicklime"},
+		"B": { "type": "block", "code": "game:sand-*", "quantity": 2}
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "block", "code": "game:plaster-plain", "quantity": 3  }
+},
+{
+	"ingredientPattern": "__A,_B_,A__",
+	
+	"ingredients": {
+		"A": { "type": "item", "code": "game:plank-*"},
+		"B": { "type": "block", "code": "game:plaster-plain", "quantity": 2}
+	},
+	"width": 3,
+	"height": 3,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "game:plaster-diagonal-ud", "quantity": 2  }
+},
+{
+	"ingredientPattern": "AAA,ABA,AAA",
+	
+	"ingredients": {
+		"A": { "type": "item", "code": "game:plank-*"},
+		"B": { "type": "block", "code": "game:plaster-plain", "quantity": 4}
+	},
+	"width": 3,
+	"height": 3,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "game:plaster-square", "quantity": 4  }
+},
+{
+	"ingredientPattern": "ABA",
+	
+	"ingredients": {
+		"A": { "type": "item", "code": "game:plank-*"},
+		"B": { "type": "block", "code": "game:plaster-plain", "quantity": 2}
+	},
+	"width": 3,
+	"height": 1,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "game:plaster-stripes-ud", "quantity": 2  }
+},
+
+{
+	"ingredientPattern": "AB",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:woodbucket"},
+		"B": { "type": "item", "code": "game:daubraw-*", "name": "color", "allowedVariants": ["ash", "browngolden", "brownlight", "brownweathered", "tan"], "quantity": 1}
+	},
+	"width": 2,
+	"height": 1,
+	"recipeGroup": 2,
+	"shapeless": true,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:dye-blue" }, "requiresLitres": 0.2 } },
+	"output": { "type": "item", "code": "game:daubraw-blue", "quantity": 1  }
+},
+{
+	"ingredientPattern": "AB",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:woodbucket"},
+		"B": { "type": "item", "code": "game:daubraw-*", "name": "color", "allowedVariants": ["ash", "browngolden", "brownlight", "brownweathered", "tan"], "quantity": 1}
+	},
+	"width": 2,
+	"height": 1,
+	"recipeGroup": 2,
+	"shapeless": true,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:dye-woad" }, "requiresLitres": 0.2 } },
+	"output": { "type": "item", "code": "game:daubraw-blue", "quantity": 1  }
+},
+{
+	"ingredientPattern": "AB",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:woodbucket"},
+		"B": { "type": "item", "code": "game:daubraw-*", "name": "color", "allowedVariants": ["ash", "browngolden", "brownlight", "tan"], "quantity": 1}
+	},
+	"width": 2,
+	"height": 1,
+	"recipeGroup": 2,
+	"shapeless": true,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:dye-green" }, "requiresLitres": 0.2 } },
+	"output": { "type": "item", "code": "game:daubraw-green", "quantity": 1  }
+},
+{
+	"ingredientPattern": "AB",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:woodbucket"},
+		"B": { "type": "item", "code": "game:daubraw-*", "name": "color", "allowedVariants": ["ash", "browngolden", "brownlight", "tan"], "quantity": 1}
+	},
+	"width": 2,
+	"height": 1,
+	"recipeGroup": 2,
+	"shapeless": true,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:dye-orange" }, "requiresLitres": 0.2 } },
+	"output": { "type": "item", "code": "game:daubraw-orange", "quantity": 1  }
+},
+{
+	"ingredientPattern": "AB",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:woodbucket"},
+		"B": { "type": "item", "code": "game:daubraw-*", "name": "color", "allowedVariants": ["ash", "browngolden", "brownlight", "tan"], "quantity": 1}
+	},
+	"width": 2,
+	"height": 1,
+	"recipeGroup": 2,
+	"shapeless": true,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:dye-pink" }, "requiresLitres": 0.2 } },
+	"output": { "type": "item", "code": "game:daubraw-pink", "quantity": 1  }
+},
+{
+	"ingredientPattern": "AB",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:woodbucket"},
+		"B": { "type": "item", "code": "game:daubraw-*", "name": "color", "allowedVariants": ["ash", "browngolden", "brownlight", "tan"], "quantity": 1}
+	},
+	"width": 2,
+	"height": 1,
+	"recipeGroup": 2,
+	"shapeless": true,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:dye-yellow" }, "requiresLitres": 0.2 } },
+	"output": { "type": "item", "code": "game:daubraw-yellow", "quantity": 1  }
+},
+
+{
+	"ingredientPattern": "AAA,AAA,BBB",
+	
+	"ingredients": {
+		"B": { "type": "item", "code": "game:clay-*"},
+		"A": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "suevite", "whitemarble", "greenmarble", "redmarble", "kimberlite"]}
+	},
+	"width": 3,
+	"height": 3,
+	"recipeGroup":3,
+	"output": { "type": "block", "code": "game:cobblestone-{rock}", "quantity": 2  }
+},
+{
+	"ingredientPattern": "BBB,BDB,CDA",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:gravel-*"},
+		"C": { "type": "block", "code": "game:sand-*"},
+		"D": { "type": "block", "code": "game:clay-*"},
+		"B": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "suevite", "whitemarble", "greenmarble", "redmarble", "kimberlite"]}
+	},
+	"width": 3,
+	"height": 3,
+	"recipeGroup":3,
+	"output": { "type": "block", "code": "game:cobblestonefan-{rock}-north", "quantity": 2  }
+},
+{
+	"ingredientPattern": "AAA,ABC,CCC",
+	
+	"ingredients": {
+		"A": { "type": "item", "code": "game:bone"},
+		"B": { "type": "item", "code": "game:clay-*", "quantity": 2},
+		"C": { "type": "block", "code": "game:cobblestone-*", "quantity": 2, "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"]}
+	},
+	"width": 3,
+	"height": 3,
+	"recipeGroup":3,
+	"output": { "type": "block", "code": "game:cobbleskull-{rock}", "quantity": 6  }
+}
+]

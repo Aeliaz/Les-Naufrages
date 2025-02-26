@@ -1,0 +1,43 @@
+{
+	pageCode: "gamemechanicinfo-agiclassesgourmet",
+	title: "Agi's Classes - Gourmet",
+	text: 
+"<font color=\"#f1a150\"><strong>Gourmet Cooking</font></color>
+
+So, ya think you have what it takes to make Gourmet food do-ya?, well, you do, because it's rather simple.
+
+To start, gather a few Flowers and Mushrooms, you'll need two of each at minimum, <font color=\"#f1a150\">All four must be unique!</font></color>. As you are an expert in the culinary arts, you can process any Flower and Mushroom, even if it's poisonous, into the most <a href=\"handbooksearch://Delectable Spices\">Delectable Spices</a>
+
+To process them into a Spice, you also need a <a href=\"handbooksearch://Mortar and Pestle\">Mortar and Pestle</a>. You can make a Pestle by Knapping.
+
+<font color=\"#f1a150\">But Wait!</font>
+
+You can also combine them with any Crop to further enhance their flavor and nutrition. Try making some <a href=\"handbooksearch://Gourmet Spice\">Gourmet Spices</a>
+
+These Spices can be used in Meaty Stews, Vegetable Stews, Soup, Scrambled Eggs, and even Porridge!
+
+Gourmet Spices count as Vegetables for nutrition, and typically provide around twice the value of the Vegetable you combine them with, meaning they're a direct improvement. Additionally, Spices take a very long time to Spoil.
+
+Spices provide no Nutritional value when eaten raw, thus it is important to use them if you got'em, as they have no value unless they're cooked into a meal. And as Chef Gusto said, 'Anyone Can Cook!' and thus, any class can cook a meal using the spices if they're available.
+
+Cooking rules have not been changed, simply added to, the following will describe how to cook your favorite meals using Spices.
+<font color=\"#db4646\"><strong>Meaty Stew</font></color>
+Third and/or Fourth slot, maximum of 2.</font>
+<font color=\"#cf73e5\"><strong>Porridge</font></color>
+Third and/or Fourth slot, maximum of 2.</font>
+<font color=\"#66db46\"><strong>Vegetable Stew</font></color>
+Third or Fourth slot, maximum of 1.</font>
+<font color=\"#96d4e5\"><strong>Soup</font></color>
+Third or Fourth slot, maximum of 1.</font>
+<font color=\"#f1a150\"><strong>Scrambled Eggs</font></color>
+Third or Fourth slot, maximum of 1.</font>
+
+You may have noticed that your Alchemist friends can help you make Food! You can use <a href=\"handbooksearch://Callahan Powder\">Callahan</a> and <a href=\"handbooksearch://Callahan Powder\">Holland</a> Powder to make spices in the place of the typical Vegetable compliment.
+
+Alchemical Powders have the odd trait of being absorbed as Dairy. <a href=\"handbooksearch://Callahan Powder\">Callahan Powder</a> provides very mild nutrition, yet boasts healing properties. <a href=\"handbooksearch://Holland Powder\">Holland</a> however provides a large amount of Dairy Nutrition but is moderately toxic in the short term.
+
+<font color=\"#f1a150\"><strong>Note</font></color> Health gained or lost by Alchemic Foods is relative to the amount consumed, such that eating half a serving will confer only half of the health modification.
+
+<font color=\"#f1a150\"><strong>Enjoy your most <i>Delectable<i> Meals</font></color>
+"
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "type": "damage",
+    "effect": "brokenleg-left",
+    "attributes": {
+      "chance": 0.05,
+      "maxintensity": 1.0,
+      "minintensity": 0.25,
+      "threshold": 1.0,
+      "source": "fall",
+      "damageweight": 0.1,
+      "damageintensity": 0.1
+    }
+  },
+  {
+    "type": "damage",
+    "effect": "brokenleg-right",
+    "attributes": {
+      "chance": 0.05,
+      "maxintensity": 1.0,
+      "minintensity": 0.25,
+      "threshold": 1.0,
+      "source": "fall",
+      "damageweight": 0.1,
+      "damageintensity": 0.1
+    }
+  },
+  {
+    "type": "damage",
+    "effect": "bleeding",
+    "attributes": {
+      "chance": 0.0,
+      "maxintensity": 0.2,
+      "minintensity": 0.01,
+      "threshold": 1.5,
+      "source": "entity",
+      "damageweight": 0.1,
+      "damageintensity": 0.5
+    }
+  }  
+]

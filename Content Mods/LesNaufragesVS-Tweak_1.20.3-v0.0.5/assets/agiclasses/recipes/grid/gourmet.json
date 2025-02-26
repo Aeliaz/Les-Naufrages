@@ -1,0 +1,53 @@
+[
+{
+	"ingredientPattern": "AAB,BC_",
+	
+	"ingredients": {
+		"A": { "type": "block", "code": "game:mushroom-*", "quantity": 1 },
+		"B": { "type": "block", "code": "game:flower-*", "quantity": 1 },
+		"C": { "type": "item", "code": "agiclasses:pestle-*", "isTool": true}
+	},
+	"width": 2,
+	"height": 3,
+	"shapeless": true,
+	"output": { "type": "item", "code": "agiclasses:gourmetspice-bland", "quantity": 1 }
+},
+{
+	"ingredientPattern": "ABC_",
+	
+	"ingredients": {
+		"A": { "type": "item", "code": "agiclasses:gourmetspice-bland", "quantity": 1 },
+		"B": { "type": "item", "code": "game:vegetable-*", "name": "type", "allowedVariants": ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "cassava", "bellpepper", "olive"],  "quantity": 1 },
+		"C": { "type": "item", "code": "game:knife-*", "isTool": true}
+	},
+	"width": 2,
+	"height": 2,
+	"shapeless": true,
+	"output": { "type": "item", "code": "agiclasses:gourmetspice-{type}", "quantity": 1 }
+},
+{
+	"ingredientPattern": "ABC_",
+	
+	"ingredients": {
+		"A": { "type": "item", "code": "agiclasses:gourmetspice-bland", "quantity": 1 },
+		"B": { "type": "item", "code": "agiclasses:powders-*", "name": "type", "allowedVariants": ["callahan", "holland"],  "quantity": 1 },
+		"C": { "type": "item", "code": "agiclasses:pestle-*", "isTool": true}
+	},
+	"width": 2,
+	"height": 2,
+	"shapeless": true,
+	"output": { "type": "item", "code": "agiclasses:gourmetspice-{type}", "quantity": 1 }
+},
+{
+	"ingredientPattern": "AB",
+	"ingredients": {
+		"A": { "type": "block", "code": "game:claypot-burned", "quantity": 1 },
+		"B": { "type": "item", "code": "agiclasses:pestlestick"}
+	},
+	"width": 2,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "agiclasses:pestle-generic", "quantity": 1 }
+}
+]
+	

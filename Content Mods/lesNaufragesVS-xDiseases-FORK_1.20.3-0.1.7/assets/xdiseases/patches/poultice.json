@@ -1,0 +1,413 @@
+[
+  {
+    "file": "game:itemtypes/poultice",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "value":[{
+      "name": "XLibConsumable",
+      "propertiesByType": {
+        "*-linen-honey-sulfur": {
+          "useTime": 0.7,
+          "usePatch": true,
+          "cures": [{
+            "effect": "xdiseases:bleeding",
+            "intensity": 0.20,
+            "minintensity": 0.01,
+            "healingrate": 0.03,
+            "maxhealingrate": 0.005
+          }
+          ]
+        },
+        "*-reed-honey-sulfur": {
+          "useTime": 0.7,
+          "usePatch": true,
+          "cures": [{
+            "effect": "xdiseases:bleeding",
+            "intensity": 0.25,
+            "minintensity": 0.01,
+            "healingrate": 0.03,
+            "maxhealingrate": 0.005
+          }
+          ]
+        },
+        "*-linen-*": {
+          "useTime": 0.7,
+          "usePatch": true,
+          "cures": [{
+            "effect": "xdiseases:bleeding",
+            "intensity": 0.20,
+            "minintensity": 0.01,
+            "healingrate": 0.03,
+            "maxhealingrate": 0.005
+          }
+          ]
+        },
+        "*": {
+          "useTime": 0.7,
+          "usePatch": true,
+          "cures": [{
+            "effect": "xdiseases:bleeding",
+            "intensity": 0.20,
+            "minintensity": 0.01,
+            "healingrate": 0.03,
+            "maxhealingrate": 0.005
+          }
+          ]
+        }
+      }
+    }]
+  },
+  {
+    "file": "game:itemtypes/bandage",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "value":[{
+      "name": "XLibConsumable",
+      "propertiesByType": {
+        "*-clean": {
+          "useTime": 0.7,
+          "usePatch": true,
+          "cures": [{
+              "effect": "xdiseases:bleeding",
+              "intensity": 0.55,
+              "minintensity": 0.01,
+              "healingrate": 0.03,
+              "maxhealingrate": 0.005
+            },
+            {
+              "effect": "xdiseases:fracture",
+              "intensity": 0.2,
+              "minintensity": 0.5,
+              "healingrate": 0.00005,
+              "maxhealingrate": 0.0004
+            }
+          ]
+        },
+        "*-alcoholed": {
+          "useTime": 0.7,
+          "usePatch": true,
+          "cures": [{
+              "effect": "xdiseases:bleeding",
+              "intensity": 0.75,
+              "minintensity": 0.1,
+              "healingrate": 0.0006,
+              "maxhealingrate": 0.003
+            },
+            {
+              "effect": "xdiseases:fracture",
+              "intensity": 0.2,
+              "minintensity": 0.5,
+              "healingrate": 0.00005,
+              "maxhealingrate": 0.0004
+            },
+            {
+              "effect": "xdiseases:infection",
+              "intensity": 0.2,
+              "minintensity": 0.1,
+              "healingrate": 0.0006,
+              "maxhealingrate": 0.003
+            }
+          ]
+        }
+      }
+    }]
+  },
+  {
+    "file": "agiclasses:itemtypes/seaweed-bandage",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "value":[{
+      "name": "XLibConsumable",
+      "propertiesByType": {
+        "*-clean": {
+          "useTime": 0.7,
+          "usePatch": true,
+          "cures": [{
+              "effect": "xdiseases:bleeding",
+              "intensity": 0.55,
+              "minintensity": 0.01,
+              "healingrate": 0.03,
+              "maxhealingrate": 0.005
+            },
+            {
+              "effect": "xdiseases:fracture",
+              "intensity": 0.2,
+              "minintensity": 0.5,
+              "healingrate": 0.00005,
+              "maxhealingrate": 0.0004
+            }
+          ]
+        },
+        "*-alcoholed": {
+          "useTime": 0.7,
+          "usePatch": true,
+          "cures": [{
+              "effect": "xdiseases:bleeding",
+              "intensity": 0.75,
+              "minintensity": 0.1,
+              "healingrate": 0.0006,
+              "maxhealingrate": 0.003
+            },
+            {
+              "effect": "xdiseases:fracture",
+              "intensity": 0.2,
+              "minintensity": 0.5,
+              "healingrate": 0.00005,
+              "maxhealingrate": 0.0004
+            },
+            {
+              "effect": "xdiseases:infection",
+              "intensity": 0.2,
+              "minintensity": 0.1,
+              "healingrate": 0.0006,
+              "maxhealingrate": 0.003
+            }
+          ]
+        }
+      }
+    }]
+  },
+  {
+    "file": "agiclasses:itemtypes/utility/alchemicbandages",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "value":[{
+      "name": "XLibConsumable",
+      "propertiesByType": {
+        "*-callahan-*": {
+          "useTime": 0.7,
+          "usePatch": true,
+          "cures": [{
+              "effect": "xdiseases:bleeding",
+              "intensity": 0.55,
+              "minintensity": 0.01,
+              "healingrate": 0.03,
+              "maxhealingrate": 0.005
+            },
+            {
+              "effect": "xdiseases:fracture",
+              "intensity": 0.2,
+              "minintensity": 0.5,
+              "healingrate": 0.00005,
+              "maxhealingrate": 0.0004
+            }
+          ]
+        },
+        "*-heinrich-*": {
+          "useTime": 0.7,
+          "usePatch": true,
+          "cures": [{
+              "effect": "xdiseases:bleeding",
+              "intensity": 0.75,
+              "minintensity": 0.1,
+              "healingrate": 0.0006,
+              "maxhealingrate": 0.003
+            },
+            {
+              "effect": "xdiseases:fracture",
+              "intensity": 0.2,
+              "minintensity": 0.5,
+              "healingrate": 0.00005,
+              "maxhealingrate": 0.0004
+            },
+            {
+              "effect": "xdiseases:infection",
+              "intensity": 0.2,
+              "minintensity": 0.1,
+              "healingrate": 0.0006,
+              "maxhealingrate": 0.003
+            }
+          ]
+        },
+        "*-holland-*": {
+          "useTime": 0.7,
+          "usePatch": true,
+          "cures": [{
+              "effect": "xdiseases:bleeding",
+              "intensity": 0.75,
+              "minintensity": 0.1,
+              "healingrate": 0.0006,
+              "maxhealingrate": 0.003
+            },
+            {
+              "effect": "xdiseases:fracture",
+              "intensity": 0.2,
+              "minintensity": 0.5,
+              "healingrate": 0.00005,
+              "maxhealingrate": 0.0004
+            },
+            {
+              "effect": "xdiseases:infection",
+              "intensity": 0.2,
+              "minintensity": 0.1,
+              "healingrate": 0.0006,
+              "maxhealingrate": 0.003
+            }
+          ]
+        }
+      }
+    }]
+  },
+  {
+    "file": "agiclasses:itemtypes/utility/poultices-old",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "value":[{
+      "name": "XLibConsumable",
+      "propertiesByType": {
+        "*-reed-mushroom": {
+          "useTime": 0.7,
+          "usePatch": true,
+          "cures": [{
+              "effect": "xdiseases:bleeding",
+              "intensity": 0.35,
+              "minintensity": 0.01,
+              "healingrate": 0.03,
+              "maxhealingrate": 0.005
+            },
+            {
+              "effect": "xdiseases:fracture",
+              "intensity": 0.2,
+              "minintensity": 0.5,
+              "healingrate": 0.00005,
+              "maxhealingrate": 0.0004
+            }
+          ]
+        },
+        "*-linen-mushroom": {
+          "useTime": 0.7,
+          "usePatch": true,
+          "cures": [{
+              "effect": "xdiseases:bleeding",
+              "intensity": 0.35,
+              "minintensity": 0.1,
+              "healingrate": 0.0006,
+              "maxhealingrate": 0.003
+            },
+            {
+              "effect": "xdiseases:fracture",
+              "intensity": 0.2,
+              "minintensity": 0.5,
+              "healingrate": 0.00005,
+              "maxhealingrate": 0.0004
+            },
+            {
+              "effect": "xdiseases:infection",
+              "intensity": 0.2,
+              "minintensity": 0.1,
+              "healingrate": 0.0006,
+              "maxhealingrate": 0.003
+            }
+          ]
+        },
+        "*-holland-*": {
+          "useTime": 0.7,
+          "usePatch": true,
+          "cures": [{
+              "effect": "xdiseases:bleeding",
+              "intensity": 0.75,
+              "minintensity": 0.1,
+              "healingrate": 0.0006,
+              "maxhealingrate": 0.003
+            },
+            {
+              "effect": "xdiseases:fracture",
+              "intensity": 0.2,
+              "minintensity": 0.5,
+              "healingrate": 0.00005,
+              "maxhealingrate": 0.0004
+            },
+            {
+              "effect": "xdiseases:infection",
+              "intensity": 0.2,
+              "minintensity": 0.1,
+              "healingrate": 0.0006,
+              "maxhealingrate": 0.003
+            }
+          ]
+        }
+      }
+    }]
+  },
+  {
+    "file": "agiclasses:itemtypes/utility/poultice-new",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "value":[{
+      "name": "XLibConsumable",
+      "propertiesByType": {
+        "*-seaweed-mushroom": {
+          "useTime": 0.7,
+          "usePatch": true,
+          "cures": [{
+              "effect": "xdiseases:bleeding",
+              "intensity": 0.35,
+              "minintensity": 0.01,
+              "healingrate": 0.03,
+              "maxhealingrate": 0.005
+            },
+            {
+              "effect": "xdiseases:fracture",
+              "intensity": 0.2,
+              "minintensity": 0.5,
+              "healingrate": 0.00005,
+              "maxhealingrate": 0.0004
+            }
+          ]
+        },
+        "*-seaweed-horsetail": {
+          "useTime": 0.7,
+          "usePatch": true,
+          "cures": [{
+              "effect": "xdiseases:bleeding",
+              "intensity": 0.35,
+              "minintensity": 0.1,
+              "healingrate": 0.0006,
+              "maxhealingrate": 0.003
+            },
+            {
+              "effect": "xdiseases:fracture",
+              "intensity": 0.2,
+              "minintensity": 0.5,
+              "healingrate": 0.00005,
+              "maxhealingrate": 0.0004
+            },
+            {
+              "effect": "xdiseases:infection",
+              "intensity": 0.2,
+              "minintensity": 0.1,
+              "healingrate": 0.0006,
+              "maxhealingrate": 0.003
+            }
+          ]
+        },
+        "*-seaweed-honey-sulfur": {
+          "useTime": 0.7,
+          "usePatch": true,
+          "cures": [{
+              "effect": "xdiseases:bleeding",
+              "intensity": 0.35,
+              "minintensity": 0.1,
+              "healingrate": 0.0006,
+              "maxhealingrate": 0.003
+            },
+            {
+              "effect": "xdiseases:fracture",
+              "intensity": 0.2,
+              "minintensity": 0.5,
+              "healingrate": 0.00005,
+              "maxhealingrate": 0.0004
+            },
+            {
+              "effect": "xdiseases:infection",
+              "intensity": 0.2,
+              "minintensity": 0.1,
+              "healingrate": 0.0006,
+              "maxhealingrate": 0.003
+            }
+          ]
+        }
+      }
+    }]
+  }
+]

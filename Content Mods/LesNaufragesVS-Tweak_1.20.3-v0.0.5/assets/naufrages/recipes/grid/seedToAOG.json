@@ -1,0 +1,142 @@
+[
+    {
+        "ingredientPattern": "L",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:seeds-onion", "quantity": 1 }
+        },
+        "name": "onion",
+        "width": 1,
+        "height": 1,
+        "output": { "type": "item", "code": "artofgrowing:seeds-wild-onion" }
+    },
+    {
+        "ingredientPattern": "L",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:seeds-carrot", "quantity": 1 }
+        },
+        "name": "carrot",
+        "width": 1,
+        "height": 1,
+        "output": { "type": "item", "code": "artofgrowing:seeds-wild-carrot" }
+    },
+    {
+        "ingredientPattern": "L",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:seeds-turnip", "quantity": 1 }
+        },
+        "name": "turnip",
+        "width": 1,
+        "height": 1,
+        "output": { "type": "item", "code": "artofgrowing:seeds-wild-turnip" }
+    },
+    {
+        "ingredientPattern": "L",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:seeds-parsnip", "quantity": 1 }
+        },
+        "name": "parsnip",
+        "width": 1,
+        "height": 1,
+        "output": { "type": "item", "code": "artofgrowing:seeds-wild-parsnip" }
+    },
+    {
+        "ingredientPattern": "L",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:seeds-cabbage", "quantity": 1 }
+        },
+        "name": "cabbage",
+        "width": 1,
+        "height": 1,
+        "output": { "type": "item", "code": "artofgrowing:seeds-wild-cabbage" }
+    },
+    {
+        "ingredientPattern": "L",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:seeds-pumpkin", "quantity": 1 }
+        },
+        "name": "pumpkin",
+        "width": 1,
+        "height": 1,
+        "output": { "type": "item", "code": "artofgrowing:seeds-wild-pumpkin" }
+    },
+    {
+        "ingredientPattern": "L",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:seeds-flax", "quantity": 1 }
+        },
+        "name": "flax",
+        "width": 1,
+        "height": 1,
+        "output": { "type": "item", "code": "artofgrowing:seeds-wild-flax" }
+    },
+    {
+        "ingredientPattern": "L",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:seeds-spelt", "quantity": 1 }
+        },
+        "name": "spelt",
+        "width": 1,
+        "height": 1,
+        "output": { "type": "item", "code": "artofgrowing:seeds-wild-spelt" }
+    },
+    {
+        "ingredientPattern": "L",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:seeds-rice", "quantity": 1 }
+        },
+        "name": "rice",
+        "width": 1,
+        "height": 1,
+        "output": { "type": "item", "code": "artofgrowing:seeds-wild-rice" }
+    },
+    {
+        "ingredientPattern": "L",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:seeds-rye", "quantity": 1 }
+        },
+        "name": "rye",
+        "width": 1,
+        "height": 1,
+        "output": { "type": "item", "code": "artofgrowing:seeds-wild-rye" }
+    },
+    {
+        "ingredientPattern": "L",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:seeds-sunflower", "quantity": 1 }
+        },
+        "name": "sunflower",
+        "width": 1,
+        "height": 1,
+        "output": { "type": "item", "code": "artofgrowing:seeds-wild-sunflower" }
+    },
+    {
+        "ingredientPattern": "L",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:seeds-amaranth", "quantity": 1 }
+        },
+        "name": "amaranth",
+        "width": 1,
+        "height": 1,
+        "output": { "type": "item", "code": "artofgrowing:seeds-wild-amaranth" }
+    },
+    {
+        "ingredientPattern": "L",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:seeds-soybean", "quantity": 1 }
+        },
+        "name": "soybean",
+        "width": 1,
+        "height": 1,
+        "output": { "type": "item", "code": "artofgrowing:seeds-wild-soybean" }
+    },
+    {
+        "ingredientPattern": "L",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:seeds-peanut", "quantity": 1 }
+        },
+        "name": "peanut",
+        "width": 1,
+        "height": 1,
+        "output": { "type": "item", "code": "artofgrowing:seeds-wild-peanut" }
+    }
+]

@@ -1,0 +1,38 @@
+{
+  "bleeding": {
+    "code": "disease",
+    "defaults": {
+      "duration": 0.0,
+      "expiresovertime": false,
+      "expiresthroughintensity": true,
+      "accumulates": true,
+      "interval": 10.0,
+      "healingrate": 0.0025,
+      "healinggrowth": 0.0005,
+      "symptoms": {
+        "dot": {
+          "maxintensity": 5.5,
+          "threshold": 0.1
+        }
+      }
+    }
+  },
+  "infection": {
+    "code": "disease",
+    "defaults": {
+      "duration": 0,
+      "expiresovertime": false,
+      "expiresthroughintensity": true,
+      "accumulates": true,
+      "interval": 30.0,
+      "healingrate": -0.0025,
+      "healinggrowth": 0.05,
+      "symptoms": {
+        "dot": {
+          "maxintensity": 10.0,
+          "threshold": 0.0
+        }
+      }
+    }
+  }
+}

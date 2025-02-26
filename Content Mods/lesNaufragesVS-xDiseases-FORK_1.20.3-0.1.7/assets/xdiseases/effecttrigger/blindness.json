@@ -1,0 +1,19 @@
+[
+  {
+    "type": "attribute",
+    "effect": "d-blindness",
+    "attributes": {
+      "chance": 0.0005,
+      "intensity": 0.3,
+      "recoverythreshold": 0.1,
+      "weights": [
+        {
+          "attribute": "undergroundHours",
+          "min": 24.0,
+          "max": 96.0,
+          "weight": 1
+        }
+      ]
+    }
+  }
+]

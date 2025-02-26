@@ -1,0 +1,105 @@
+{
+	pageCode: "gamemechanicinfo-agiclasses",
+	title: "Agi's Classes",
+	text: "Hello, thank you for using Agi's Classes, the following is a list of recipe additions for the Alchemist, Doctor, Recreant and Defector: 
+
+
+	<font color=\"#5deee5\">• Hunter</font>
+	<a href=\"handbooksearch://Crude Arrow\">Crude Arrows</a>
+
+	<font color=\"#5deee5\">• Farmer</font>
+	<a href=\"handbooksearch://Seeds\">Seeds</a>
+	<a href=\"handbooksearch://Terra Preta\">Terra Preta</a>
+	<a href=\"handbooksearch://Booster\">Boosters</a>
+
+	<font color=\"#5deee5\">• Mercenary</font>
+	<a href=\"handbooksearch://Blackguard Shortsword\">Blackguard Shortsword</a>
+	<a href=\"handbooksearch://Blackguard Shield\">Blackguard Shield</a>
+	<a href=\"handbooksearch://Blackguard\">Blackguard Armors</a>
+	<a href=\"handbooksearch://Estoc\">Estoc</a>
+
+	<font color=\"#5deee5\">• Smith</font>
+	<a href=\"handbooksearch://Bomb\">Bombs</a>
+	<a href=\"handbooksearch://Blasting Powder\">Blasting Powder</a>
+	<a href=\"handbooksearch://Copper Pan\">Copper Pan</a>
+
+	<font color=\"#5deee5\">• Clockmaker</font>
+	<a href=\"handbooksearch://Scrap Weapon Kit\">Scrap Weapon Kit</a>
+	<a href=\"handbooksearch://Metal Scraps\">Metal Scraps</a>
+	<a href=\"handbooksearch://Axle\">Axle</a>
+	<a href=\"handbooksearch://Angled Gears\">Angled Gears</a>
+	<a href=\"handbooksearch://Sail\">Sail</a>
+	<a href=\"handbooksearch://Hopper\">Hopper</a>
+	<a href=\"handbooksearch://Archimedes Screw\">Archimedes Screws</a>
+	<a href=\"handbooksearch://Chute\">Chutes</a>
+
+	<font color=\"#5deee5\">• Tailor</font>
+	<a href=\"handbooksearch://Flax Twine\">Flax Twine</a>
+	<a href=\"handbooksearch://Flax Fibers\">Flax Fibers</a>
+	<a href=\"handbooksearch://Linen (Normal)\">Linen (Normal)</a>
+
+	<font color=\"#5deee5\">• Mason</font>
+	<a href=\"handbooksearch://Cobblestone\">Cobblestone Blocks</a>
+	<a href=\"handbooksearch://Fanned\">Fanned Cobblestone</a>
+	<a href=\"handbooksearch://Cobble Skull\">Cobble SKull</a>
+	<a href=\"handbooksearch://Unfired Refractory Brick\">Refractory Bricks</a>
+	<a href=\"handbooksearch://Block\">Stone Blocks</a>
+	<a href=\"handbooksearch://Clay Brick\">Clay Bricks</a>
+	<a href=\"handbooksearch://Mortar\">Mortar</a>
+	<a href=\"handbooksearch://Plaster\">Plaster</a>
+
+	<font color=\"#5deee5\">• Alchemist</font>
+	<a href=\"handbooksearch://Callahan Powder\">Callahan Powder</a>
+	<a href=\"handbooksearch://Heinrich Powder\">Heinrich Powder</a>
+	<a href=\"handbooksearch://Holland Powder\">Holland Powder</a>
+
+	<font color=\"#5deee5\">• Doctor</font>
+	<a href=\"handbooksearch://Tincture Bandage\">Tincture Bandages</a>
+	<a href=\"handbooksearch://Seaweed Bandage\">Seaweed Bandages</a>
+	<a href=\"handbooksearch://Mushroom Poultice\">Mushroom Poultices</a>
+
+	<font color=\"#5deee5\">• Recreant</font>
+	<a href=\"handbooksearch://Hand Basket\">Hand Basket</a>
+	<a href=\"handbooksearch://Reed Chest\">Reed Chest</a>
+	<a href=\"handbooksearch://Horsetail Poultice\">Horsetail Poultice</a>
+	<a href=\"handbooksearch://Flax Fibers\">Flax Fibers</a>
+	<a href=\"handbooksearch://Linen (Normal)\">Linen (Normal)</a>
+	<a href=\"handbooksearch://Mudbrick\">Mudbrick</a>
+	<a href=\"handbooksearch://Improvised Body Armor\">Improvised Body Armor</a>
+	<a href=\"handbooksearch://Aged Wood Raft\">Aged Wood Raft</a>
+	<a href=\"handbooksearch://Crude Oar (Aged)\">Crude Oar (Aged)</a>
+
+	<font color=\"#5deee5\">• Defector</font>
+	<a href=\"handbooksearch://Flax Twine\">Flax Twine</a>
+	<a href=\"handbooksearch://Linen\">Linen</a>
+	<a href=\"handbooksearch://Skep\">Skep</a>
+	<a href=\"handbooksearch://Cobblestone\">Cobblestone Blocks</a>
+	<a href=\"handbooksearch://Fanned\">Fanned Cobblestone</a>
+	<a href=\"handbooksearch://Cobble Skull\">Cobble SKull</a>
+	<a href=\"handbooksearch://Daub\">Daud Dying (in Inventory)</a>
+	<a href=\"handbooksearch://Plaster\">Plaster</a>
+	<a href=\"handbooksearch://Thatch\">Thatch Roofing</a>
+	<a href=\"handbooksearch://Wattle Fence\">Wattle Fence</a>
+	<a href=\"handbooksearch://Unfired Refractory Brick\">Refractory Bricks</a>
+	<a href=\"handbooksearch://Planks\">Planks</a>
+	<a href=\"handbooksearch://Boards\">Boards</a>
+	<a href=\"handbooksearch://Scrap Bomb\">Scrap Bomb</a>
+	<a href=\"handbooksearch://Stone Blasting Bomb\">Stone Blasting Bomb</a>
+	<a href=\"handbooksearch://Vintage Beef Base\">Vintage Beef Base</a>
+	
+	<font color=\"#fb30a2\">• Clockmaker & Lumberjack</font>
+			<font color=\"#5deee5\">• Carpenter</font>
+			<a href=\"handbooksearch://Firewood\">Firewood</a>
+			<a href=\"handbooksearch://Stick\">Stick</a>
+			<a href=\"handbooksearch://Plank\">Plank</a>
+			<a href=\"handbooksearch://Parchment\">Parchment</a>
+			<a href=\"handbooksearch://Paper Lantern\">Paper Lantern</a>
+			<a href=\"handbooksearch://Wagonwheel\">Wagonwheels</a>
+			<a href=\"handbooksearch://Wooden Path\">Wooden Path</a>
+
+	<font color=\"#5deee5\">• Smith & Mercenary</font>
+	<a href=\"handbooksearch://Standard Tools\">Standard Tools</a>
+	<a href=\"handbooksearch://Simple Tools\">Simple Tools</a>
+	<a href=\"handbooksearch://Basic Tools\">Basic Tools</a>
+	<a href=\"handbooksearch://Advanced Tools\">Advanced Tools</a>"
+}

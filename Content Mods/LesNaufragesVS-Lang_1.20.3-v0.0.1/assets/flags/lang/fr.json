@@ -1,0 +1,272 @@
+{
+    // ################
+    // ### Handbook ###
+    // ################
+
+    "game:tabname-flags": "Bannières",
+
+    "block-handbooktitle-flags:banner": "Autres",
+    "block-handbooktext-flags:banner": "<strong><a href=\"handbook://flags:banner-modes\">Modes</a></strong>",
+
+    "item-handbooktitle-bannerpattern": "Autres",
+    "item-handbooktext-bannerpattern": "<strong><a href=\"handbook://flags:bannerpattern-obtaining-and-modes\">Obtention et Modes</a></strong>",
+
+    "introduction-title": "Bannières : Introduction aux Bannières 101",
+    "introduction-text": "<strong>Bannières 101 - Introduction</strong> <br><br><a href=\"handbook://flags:faq\">Questions Fréquemment Posées</a> <br><a href=\"https://github.com/Craluminum-Mods/Banners/wiki\">Documentation</a> <br><br>Ce mod ajoute des bannières qui agissent comme une surface de dessin (ou toile), elles peuvent également être utilisées pour des drapeaux, des tapis et bien d'autres choses. <br><br><a href=\"handbook://flags:faq\">Les bannières peuvent être appliquées sur des lits et des bateaux.</a> <br><br>Il existe aussi des motifs de bannières utilisés pour appliquer des motifs, ce sont des supports de motifs qui stockent tous les motifs dans un seul élément. <br><br><strong>Blocs</strong> <br><a href=\"handbooksearch://banner\">Bannière</a> <br><br><strong>Articles</strong> <br><a href=\"handbook://item-flags:bannerpattern\">Motif de bannière</a> <br>(Prévu) Pinceau <br>(Prévu) Palette de couleurs <br><br><strong>Autres</strong> <br><a href=\"handbook://flags:banner-modes\">Modes de bannière</a> <br><a href=\"handbook://flags:bannerpattern-obtaining-and-modes\">Modes de motif de bannière</a> <br><a href=\"handbook://flags:mc-to-vs-converter\">Convertisseur de bannière (D'autres jeux vers Vintage Story)</a> <br><a href=\"hotkey://flags:bannerconfigdialog\">Configuration</a> - <hk>flags:bannerconfigdialog</hk>",
+
+    "faq-title": "Bannières : Questions Fréquemment Posées 102",
+    "faq-text": "<strong>Bannières 102 - Questions Fréquemment Posées</strong> <br><br><strong>Comment augmenter la limite de motifs</strong> <br>Par défaut, les bannières peuvent avoir un maximum de 14 couches de motifs. Cela peut être ajusté avec <br><a href=\"chattype:///worldconfig bannerLayersLimit\">/worldconfig bannerLayersLimit</a> commande <br><br><strong>Comment appliquer des motifs</strong> <font size=32 color=\"#84ff84\"><icon path=\"flags:icons/paintbrush.svg\"></icon></font> <br>Mettez <a href=\"handbook://item-flags:bannerpattern\">le motif de bannière</a> dans la main gauche et un conteneur liquide avec de la teinture dans la main droite, puis interagissez en utilisant <icon>rightmousebutton</icon> sur la bannière <br><br><strong>Comment retirer des motifs</strong> <font size=32 color=\"#ff8484\"><icon path=\"flags:icons/paintbrush.svg\"></icon></font> <br>Videz la main gauche, mettez un conteneur liquide avec de l'eau de Javel (n'importe quelle eau fera l'affaire) dans la main droite, puis interagissez en utilisant <icon>rightmousebutton</icon> sur la bannière <br><br><strong>Comment appliquer des découpes</strong> <font size=32 color=\"#84ff84\"><icon path=\"icons/warning.svg\"></icon></font> <br>Mettez le motif de bannière dans la main gauche et des ciseaux dans la main droite, puis interagissez en utilisant <icon>rightmousebutton</icon> sur la bannière <br><br><strong>Comment retirer des découpes</strong> <font size=32 color=\"#ff8484\"><icon path=\"icons/warning.svg\"></icon></font> <br>Videz la main gauche, mettez des ciseaux dans la main droite, puis interagissez en utilisant <icon>rightmousebutton</icon> sur la bannière <br><br><strong>Comment copier des bannières</strong> <font size=32><icon name=copy></icon></font> <br>Interagissez avec la bannière sur la bannière placée en utilisant <icon>rightmousebutton</icon>. Les deux doivent avoir les mêmes couleurs de base. Par exemple, vous ne pouvez pas copier des motifs d'une bannière rouge à une bannière bleue <br><br><strong>Comment renommer la bannière</strong> <br>Mettez un livre ou un parchemin dans la main droite, puis interagissez en utilisant <icon>rightmousebutton</icon> sur la bannière. Cela utilisera le titre comme nouveau nom <br><br><strong>Comment faire pivoter la bannière</strong> <font size=32><icon path=\"flags:icons/wrench.svg\"></icon></font> <br>Mettez une clé à molette dans la main droite, puis interagissez avec la bannière en utilisant l'une des touches de raccourci : <br>• <icon>leftmousebutton</icon> ou <icon>rightmousebutton</icon> pour faire pivoter de 22,5 degrés <br>• <icon>leftmousebutton</icon> + <hk>shift</hk> ou <icon>rightmousebutton</icon> + <hk>shift</hk> pour faire pivoter de 90 degrés autour de l'axe <br>• <icon>leftmousebutton</icon> + <hk>ctrl</hk> ou <icon>rightmousebutton</icon> + <hk>ctrl</hk> pour effacer les rotations <br><br><strong>Comment changer le modèle de la bannière</strong> <font size=32><icon path=\"flags:icons/wrench.svg\"></icon></font> <br>Mettez une clé à molette dans la main droite, puis interagissez avec la bannière placée en utilisant <hk>shift</hk> + <hk>ctrl</hk> + <icon>rightmousebutton</icon> pour passer au modèle suivant disponible <br><br><strong>Comment appliquer une bannière sur un lit</strong> <font size=32><icon path=\"flags:icons/bed.svg\"></icon></font> <br>Mettez la bannière dans la main droite, puis interagissez avec la partie tête du lit placé en utilisant <icon>rightmousebutton</icon> pour attacher la bannière <br><br><strong>Comment appliquer une bannière sur des radeaux et des bateaux</strong> <font size=32><icon path=\"flags:icons/sailboat.svg\"></icon></font> <br>Mettez la bannière dans la main droite, puis interagissez avec le radeau ou le bateau en utilisant l'une des touches de raccourci : <br>• <icon>rightmousebutton</icon> + <hk>ctrl</hk> pour attacher la bannière aux radeaux et bateaux vanilla <br>• <icon>rightmousebutton</icon> + <hk>shift</hk> pour attacher la bannière aux radeaux et bateaux du mod Joy of Sailing",
+
+    "banner-modes-title": "Bannières : Modes de Bannières 103",
+    "banner-modes-text": "<strong>Bannières 103 - Modes de Bannières</strong> <br><br>Utilisez la touche <hk>toolmodeselect</hk> (Mode Outil) pour changer de mode <br><br><strong>Clic droit pour ramasser</strong> <br>Ramasser la bannière placée en utilisant <icon>rightmousebutton</icon> <br><font size=48 color=\"#84ff84\"><icon path=\"flags:icons/hand.svg\"></icon></font>Activer <br><font size=48 color=\"#ff8484\"><icon path=\"flags:icons/hand.svg\"></icon></font>(par défaut) Désactiver <br><br><strong>Affecté par le vent</strong> <br>Si la bannière doit flotter dans le vent (animation du vent) <br><font size=48 color=\"#84ff84\"><icon path=\"flags:icons/wind.svg\"></icon></font>(par défaut) Activer <br><font size=48 color=\"#ff8484\"><icon path=\"flags:icons/wind.svg\"></icon></font>Désactiver <br><br><strong>Mode édition</strong> <br>Permet d'éditer la bannière placée, y compris l'application de motifs, découpes, rotations, renommage, changement de modèle <br><font size=48 color=\"#84ff84\"><icon path=\"flags:icons/paintbrush.svg\"></icon></font>(par défaut) Activer <br><font size=48 color=\"#ff8484\"><icon path=\"flags:icons/paintbrush.svg\"></icon></font>Désactiver, mais permet toujours de copier depuis la bannière placée <br><br><strong>Enregistrer les rotations</strong> <br>Si la bannière doit se souvenir des rotations, afin de pouvoir la placer plus tard avec exactement les mêmes rotations <br><font size=48 color=\"#84ff84\"><icon path=\"flags:icons/toolmode/saverotations-on.svg\"></icon></font>Activer <br><font size=48 color=\"#ff8484\"><icon path=\"flags:icons/toolmode/saverotations-off.svg\"></icon></font>(par défaut) Désactiver",
+
+    "bannerpattern-obtaining-and-modes-title": "Bannières : Bannières 104 - Motifs de Bannières - Obtention et Modes",
+    "bannerpattern-obtaining-and-modes-text": "<strong>Bannières 104 - Motifs de Bannières - Obtention et Modes</strong> <br><br>Ces modes sont utilisés pour sélectionner des motifs de bannières. Utilisez la touche <hk>toolmodeselect</hk> (Mode Outil) pour changer de motif  <br><br><strong>Obtention</strong> <br>Pour les motifs de base <a href=\"handbook://item-flags:bannerpattern\">un motif vierge</a> doit d'abord être fabriqué. Des motifs rares et inconnus peuvent être achetés auprès des commerçants <br><br><strong>Déverrouillage</strong> <br>Certaines motifs attrayants ne sont pas disponibles dès le départ, mais peuvent être déverrouillés avec certains objets. Les motifs indiquent dans leur description quels objets sont nécessaires pour les déverrouiller. Une fois que vous avez l'objet requis, il vous suffit de le glisser-déposer sur l'un des modes, cela déverrouillera immédiatement les motifs bloqués par cet objet <br><br><strong>Combinaison</strong> <br>Lorsque vous avez deux ou plusieurs \"supports de motifs\" différents avec de nombreux motifs déverrouillés, vous pouvez vouloir les combiner. Cela se fait de la même manière que le déverrouillage, il suffit de le glisser-déposer sur l'un des modes, cela fusionnera tous les motifs déverrouillés et créera deux \"supports de motifs\" identiques.",
+
+    "mc-to-vs-converter-title": "Bannières : Bannières 105 - Convertisseur de Bannières",
+    "mc-to-vs-converter-text": "<strong>Bannières 105 - Convertisseur de Bannières</strong> <br><br>Le mod dispose d'un outil de conversion intégré qui est utilisé pour convertir des bannières d'autres jeux au format de bannière de Vintage Story <br><br><strong>de Minecraft</strong> <br>La plupart des bannières de Minecraft peuvent être converties avec la commande <a href=\"chattype:///flags genmc\">/flags genmc</a>. Notez que vous devez tenir la bannière dans votre main droite pour que cela fonctionne. <br><br>Exemple de syntaxe valide : <br><code>minecraft:red_banner{BlockEntityTag:{Patterns:[{Color:11,Pattern:\"bt\"},{Color:14,Pattern:\"ss\"},{Color:0,Pattern:\"ms\"},{Color:11,Pattern:\"cbo\"},{Color:14,Pattern:\"mc\"},{Color:11,Pattern:\"bo\"}]}}</code> <br><br>L'exemple ci-dessus vous donnera une bannière avec un kraken rouge sur un fond bleu.",    
+
+    // ######################
+    // ### Items & Blocks ###
+    // ######################
+
+    "block-banner": "Bannière",
+    "item-bannerpattern": "Motif de Bannière",    
+
+    // ####################
+    // ### Descriptions ###
+    // ####################
+
+    "banner-liquid-type": "Type de liquide de bannière : {0}",
+    "banner-liquid-color": "Couleur de liquide de bannière : {0}",
+    "Dye": "Teinture",
+    "Bleach": "Eau de Javel",
+    "bannercontainable-contained-banner": "<font color=\"#FFF999\">Contient la bannière :</font> {0}",
+    "discoverable-pattern": "Motif Rare Inconnu (Peut être trouvé)",
+    "unlocked-patterns": "<font color=\"#FF9900\">Motifs Débloqués :</font> {0}",
+    "patterns": "<font color=\"#BBBBBB\">Motifs :</font>",
+    "cutouts": "<font color=\"#FF99FF\">Découpes :</font>",
+    "patterns-nocolor": "Motifs",
+    "cutouts-nocolor": "Découpes",
+    "banner-modes": "<font color=\"#C9FFFC\">Modes :</font>",    
+
+    // ################
+    // ### Patterns ###
+    // ################
+
+    "patterngroups": "Groupes de motifs : {0}",
+    "patterngroup-basic": "De base",
+    "pattern-": "Vide",
+    "pattern-b": "Base",
+    "pattern-bs": "Bande du bas",
+    "pattern-ts": "Bande du haut",
+    "pattern-ls": "Bande de gauche",
+    "pattern-rs": "Bande de droite",
+    "pattern-cs": "Bande centrale (verticale)",
+    "pattern-ms": "Bande du milieu (horizontale)",
+    "pattern-drs": "Bande en bas à droite",
+    "pattern-dls": "Bande en bas à gauche",
+    "pattern-ss": "Petites bandes (verticales)",
+    "pattern-cr": "Croix diagonale",
+    "pattern-sc": "Croix carrée",
+    "pattern-ld": "Gauche de la diagonale",
+    "pattern-rud": "Droite de la diagonale inversée",
+    "pattern-lud": "Gauche de la diagonale inversée",
+    "pattern-rd": "Droite de la diagonale",
+    "pattern-vh": "Moitié verticale (gauche)",
+    "pattern-vhr": "Moitié verticale (droite)",
+    "pattern-hh": "Moitié horizontale (haut)",
+    "pattern-hhb": "Moitié horizontale (bas)",
+    "pattern-bl": "Coin inférieur gauche",
+    "pattern-br": "Coin inférieur droit",
+    "pattern-tl": "Coin supérieur gauche",
+    "pattern-tr": "Coin supérieur droit",
+    "pattern-bt": "Triangle inférieur",
+    "pattern-tt": "Triangle supérieur",
+    "pattern-bts": "Triangle inférieur en dents de scie",
+    "pattern-tts": "Triangle supérieur en dents de scie",
+    "pattern-mc": "Cercle du milieu",
+    "pattern-mr": "Losange du milieu",
+    "pattern-bo": "Bordure",
+    "pattern-cbo": "Bordure enroulée",
+    "pattern-bri": "Brique",
+    "pattern-gra": "Dégradé",
+    "pattern-gru": "Dégradé à l'envers",
+    "pattern-hansa_fish": "Hansa (Poisson)",
+    "pattern-hansa_keys": "Hansa (Clé)",
+    "pattern-hansa_largefish": "Hansa (Gros poisson)",
+    "pattern-hansa_ship": "Hansa (Bateau)",
+    "pattern-hansa_town": "Hansa (Ville)",
+
+    "pattern-ssh": "Petites bandes (horizontales)",
+    "pattern-rt_b": "Triangle régulier en bas au centre",
+    "pattern-rt_t": "Triangle régulier en haut au centre",
+    "pattern-circle_large": "Cercle du milieu (Grand)",
+    
+    "pattern-checker2x4": "À carreaux 2x4",
+    "pattern-checker2x4i": "À carreaux 2x4 (Inversé)",
+    "pattern-checker4x8": "À carreaux 4x8",
+    "pattern-checker4x8i": "À carreaux 4x8 (Inversé)",
+    "pattern-checker5x10": "À carreaux 5x10",
+    "pattern-checker5x10i": "À carreaux 5x10 (Inversé)",
+    "pattern-checker8x16": "À carreaux 8x16",
+    "pattern-checker8x16i": "À carreaux 8x16 (Inversé)",
+    "pattern-yang": "Yang",
+    "pattern-yin": "Yin",
+    "pattern-crescent_left": "Croissant gauche",
+    "pattern-crescent_right": "Croissant droit",
+    "pattern-globe": "Globe",
+    "pattern-fleur_de_lis": "Fleur-de-lis",
+    "pattern-flower": "Fleur",
+    "pattern-moby_dick": "Moby Dick (la baleine)",
+    "pattern-sad_catfish": "Sad Catfish",
+    "pattern-skull": "Crâne",
+    "pattern-suit_clubs": "Trèfle",
+    "pattern-suit_hearts": "Cœur",
+    "pattern-suit_spades": "Pique",
+    "pattern-vs_cookie": "Le Cookie",
+    "pattern-vs_drifter": "Drifter",
+    "pattern-vs_eidolon": "Eidolon",
+    "pattern-vs_elk": "Élan",
+    "pattern-vs_falx_left": "Falx (gauche)",
+    "pattern-vs_falx_right": "Falx (droite)",
+    "pattern-vs_logo": "Vintage Story",
+    "pattern-lion_left": "Lion (gauche)",
+    "pattern-lion_right": "Lion (droite)",
+
+    "patterndesc-hansa_fish": "<font color=\"#FFFF00\">Motif Rare</font>\nPour déverrouiller, déposez <a href=\"handbooksearch://hansa banner\">la bannière hansa</a> dans n'importe quel mode d'outil.",
+    "patterndesc-hansa_keys": "<font color=\"#FFFF00\">Motif Rare</font>\nPour déverrouiller, déposez <a href=\"handbooksearch://hansa banner\">la bannière hansa</a> dans n'importe quel mode d'outil.",
+    "patterndesc-hansa_largefish": "<font color=\"#FFFF00\">Motif Rare</font>\nPour déverrouiller, déposez <a href=\"handbooksearch://hansa banner\">la bannière hansa</a> dans n'importe quel mode d'outil.",
+    "patterndesc-hansa_ship": "<font color=\"#FFFF00\">Motif Rare</font>\nPour déverrouiller, déposez <a href=\"handbooksearch://hansa banner\">la bannière hansa</a> dans n'importe quel mode d'outil.",
+    "patterndesc-hansa_town": "<font color=\"#FFFF00\">Motif Rare</font>\nPour déverrouiller, déposez <a href=\"handbooksearch://hansa banner\">la bannière hansa</a> dans n'importe quel mode d'outil.",
+
+    "patterndesc-checker2x4": "<font color=\"#FFFF00\">Motif Rare</font>",
+    "patterndesc-checker2x4i": "<font color=\"#FFFF00\">Motif Rare</font>",
+    "patterndesc-checker4x8": "<font color=\"#FFFF00\">Motif Rare</font>",
+    "patterndesc-checker4x8i": "<font color=\"#FFFF00\">Motif Rare</font>",
+    "patterndesc-checker5x10": "<font color=\"#FFFF00\">Motif Rare</font>",
+    "patterndesc-checker5x10i": "<font color=\"#FFFF00\">Motif Rare</font>",
+    "patterndesc-checker8x16": "<font color=\"#FFFF00\">Motif Rare</font>",
+    "patterndesc-checker8x16i": "<font color=\"#FFFF00\">Motif Rare</font>",
+    "patterndesc-yang": "<font color=\"#FFFF00\">Motif Rare</font>",
+    "patterndesc-yin": "<font color=\"#FFFF00\">Motif Rare</font>",
+    "patterndesc-crescent_left": "<font color=\"#FFFF00\">Motif Rare</font>",
+    "patterndesc-crescent_right": "<font color=\"#FFFF00\">Motif Rare</font>",
+    "patterndesc-globe": "<font color=\"#FFFF00\">Motif Rare</font>\nPour déverrouiller, déposez <a href=\"handbooksearch://globe\">tout objet globe trouvé dans des ruines</a> dans n'importe quel mode d'outil.",
+    "patterndesc-fleur_de_lis": "<font color=\"#FFFF00\">Motif Rare</font>",
+    "patterndesc-flower": "<font color=\"#FFFF00\">Motif Rare</font>\nPour déverrouiller, déposez <a href=\"handbooksearch://temporal gear\">un rouage temporel</a> dans n'importe quel mode d'outil.",
+    "patterndesc-moby_dick": "<font color=\"#FFFF00\">Motif Rare</font>",
+    "patterndesc-sad_catfish": "<font color=\"#FFFF00\">Motif Rare</font>",
+    "patterndesc-skull": "<font color=\"#FFFF00\">Motif Rare</font>\nPour déverrouiller, déposez <a href=\"handbooksearch://skeleton\">tout objet squelette trouvé dans des ruines</a> dans n'importe quel mode d'outil.",
+    "patterndesc-suit_clubs": "<font color=\"#FFFF00\">Motif Rare</font>",
+    "patterndesc-suit_hearts": "<font color=\"#FFFF00\">Motif Rare</font>",
+    "patterndesc-suit_spades": "<font color=\"#FFFF00\">Motif Rare</font>",
+    "patterndesc-vs_cookie": "<font color=\"#FFFF00\">Motif Rare</font>",
+    "patterndesc-vs_drifter": "<font color=\"#FFFF00\">Motif Rare</font>",
+    "patterndesc-vs_eidolon": "<font color=\"#FFFF00\">Motif Rare</font>\nPour déverrouiller, déposez <a href=\"handbooksearch://eidolon\">toute pièce d'eidolon trouvée dans des ruines</a> dans n'importe quel mode d'outil.",
+    "patterndesc-vs_elk": "<font color=\"#FFFF00\">Motif Rare</font>\nPour déverrouiller, déposez <a href=\"handbook://block-painting-elk-north\">la peinture (Élan)</a> dans n'importe quel mode d'outil.",
+    "patterndesc-vs_falx_left": "<font color=\"#FFFF00\">Motif Rare</font>\nPour déverrouiller, déposez <a href=\"handbooksearch://falx\">falx</a> dans n'importe quel mode d'outil.",
+    "patterndesc-vs_falx_right": "<font color=\"#FFFF00\">Motif Rare</font>\nPour déverrouiller, déposez <a href=\"handbooksearch://falx\">falx</a> dans n'importe quel mode d'outil.",
+    "patterndesc-vs_logo": "<font color=\"#FFFF00\">Motif Rare</font>",
+    "patterndesc-lion_left": "<font color=\"#FFFF00\">Motif Rare</font>",
+    "patterndesc-lion_right": "<font color=\"#FFFF00\">Motif Rare</font>",
+
+    // ##################
+    // ### Tool modes ###
+    // ##################
+
+    "toolmode-editmode-on": "Activer le 'Mode Édition'",
+    "toolmode-editmode-off": "Désactiver le 'Mode Édition'",
+    "toolmode-pickup-on": "Activer 'Ramasser avec clic droit'",
+    "toolmode-pickup-off": "Désactiver 'Ramasser avec clic droit'",
+    "toolmode-saverotations-on": "Activer 'Sauvegarder les rotations'",
+    "toolmode-saverotations-off": "Désactiver 'Sauvegarder les rotations'",
+    "toolmode-wind-on": "Activer 'Affecté par le vent'",
+    "toolmode-wind-off": "Désactiver 'Affecté par le vent'",
+
+    "toolmode-editmode": "Mode Édition : {0}",
+    "toolmode-pickup": "Ramasser avec clic droit : {0}",
+    "toolmode-saverotations": "Sauvegarder les rotations : {0}",
+    "toolmode-wind": "Affecté par le vent : {0}",
+
+    "toolmode-value-on": "<font color=\"#84ff84\">Activé</font>",
+    "toolmode-value-off": "<font color=\"#ff8484\">Désactivé</font>",
+
+    // ##########################
+    // ### World interactions ###
+    // ##########################
+
+    "blockhelp-banner-addlayer": "Ajouter un motif (nécessite un motif dans la main gauche)",
+    "blockhelp-banner-removelayer": "Supprimer le dernier motif",
+    "blockhelp-banner-addcutout": "Ajouter une découpe (nécessite un motif dans la main gauche)",
+    "blockhelp-banner-removecutout": "Supprimer la dernière découpe",
+    "blockhelp-banner-copylayers": "Copier les motifs",
+    "blockhelp-banner-copylayers-placed-to-held": "Copier les motifs de la bannière placée",
+    "blockhelp-banner-rename": "Renommer (nécessite un livre/papier avec un titre)",
+    "blockhelp-banner-swapmodel": "Changer pour le modèle suivant",
+    "blockhelp-banner-rotate-22_5": "Faire pivoter de 22,5 degrés",
+    "blockhelp-banner-rotate-axis-90": "Faire pivoter de 90 degrés autour de l'axe",
+    "blockhelp-banner-clear-rotations-xz": "Effacer les rotations pour les axes X et Z",
+    "blockhelp-bannercontainable-add": "Ajouter une bannière",
+    "blockhelp-bannercontainable-remove": "Supprimer la bannière",
+    "heldhelp-bannerpattern-set": "Sélectionner le motif",
+
+    "ingameerror-banner-copylayers": "Impossible de copier depuis la bannière car les deux ont des motifs ou les couleurs de base ne correspondent pas",
+    "ingameerror-banner-rename": "Impossible de renommer la bannière car le livre ou le papier n'a pas de titre",
+    "ingameerror-banner-patterngroups": "Les groupes de motifs ne correspondent pas",
+    "ingameerror-banner-notenoughdye": "Pas assez de teinture, {0}L requis",
+    "ingameerror-banner-notenoughbleach": "Pas assez d'eau de Javel, {0}L requis",
+    "ingameerror-layers-limitreached": "Nombre maximum de couches atteint ({0}) !",
+    "ingameerror-liquidcontainer-onemax": "Un seul conteneur liquide est autorisé",
+    "ingameerror-editmode-off": "Impossible de modifier la bannière car le mode édition a été désactivé",
+
+    // ################
+    // ### Commands ###
+    // ################
+
+    "command-nobanner": "La main active n'a pas de bannière ou vous ne regardez pas une bannière placée",
+    "command-generatetextures": "{0} textures ont été générées avec succès pour la bannière",
+    "command-generatetextures-error": "Aucune texture en niveaux de gris trouvée",
+    "command-generatetextures-desc": "Génère des textures pour la bannière à partir des textures définies dans les attributs JSON de la bannière. Superpose des textures de tissu coloré sur la texture en niveaux de gris et enregistre les nouvelles textures dans le dossier {0}",
+    "command-genbannermc": "Bannière générée avec succès",
+    "command-genbannermc-desc": "Génère une bannière à partir de la syntaxe Minecraft",
+    "command-genbannermc-invalidsyntax": "Syntaxe invalide. Syntaxe : 'minecraft:white_banner{BlockEntityTag:{_PLACEHOLDER_}}'",
+
+    // ################################
+    // ### User interface & Hotkeys ###
+    // ################################
+
+    "bannerextrainfo": "Informations supplémentaires sur la bannière",
+    "bannerextrainfo-desc": "<font color=\"#ffff9d\">Appuyez sur <hk>flags:bannerconfigdialog</hk> pour masquer les informations supplémentaires de la bannière.</font>",
+
+    "bannerpreviewhud-title": "Aperçu de la Bannière",
+    "bannerpreviewhud": "HUD d'Aperçu de la Bannière",
+
+    "banneroverviewhud-title": "Vue d'Ensemble de la Bannière",
+    "banneroverviewhud": "HUD de Vue d'Ensemble de la Bannière",
+
+    "bannerconfigdialog-title": "Configuration de la Bannière",
+    "bannerconfigdialog": "Ouvrir la Configuration de la Bannière",
+
+    "alignment": "Alignement",
+    "posX": "X",
+    "posY": "Y",
+
+    "game:DialogArea.None": "Aucun",
+    "game:DialogArea.LeftTop": "Gauche Haut",
+    "game:DialogArea.LeftMiddle": "Gauche Milieu",
+    "game:DialogArea.LeftBottom": "Gauche Bas",
+    "game:DialogArea.LeftFixed": "Gauche Fixe",
+    "game:DialogArea.CenterTop": "Centre Haut",
+    "game:DialogArea.CenterMiddle": "Centre Milieu",
+    "game:DialogArea.CenterBottom": "Centre Bas",
+    "game:DialogArea.CenterFixed": "Centre Fixe",
+    "game:DialogArea.RightTop": "Droite Haut",
+    "game:DialogArea.RightMiddle": "Droite Milieu",
+    "game:DialogArea.RightBottom": "Droite Bas",
+    "game:DialogArea.RightFixed": "Droite Fixe",
+    "game:DialogArea.FixedTop": "Fixe Haut",
+    "game:DialogArea.FixedMiddle": "Fixe Milieu",
+    "game:DialogArea.FixedBottom": "Fixe Bas",
+    "game:DialogArea.TextBaselineOffset": "Décalage de la Ligne de Base du Texte",
+}

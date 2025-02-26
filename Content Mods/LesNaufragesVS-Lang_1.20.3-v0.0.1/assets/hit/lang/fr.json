@@ -1,0 +1,11 @@
+{
+  "Mod-Title": "Les outils immersifs de Harper",
+  "Config-Title.Synced": "Paramètres de base",
+  "Config-Title.Client": "Paramètres clients",
+  "Config-Title.Server": "Propriétés du serveur",
+  "Config-Setting.Forearm_Tools_Enabled": "Activer les outils de l'avant-bras",
+  "Config-Setting.Tools_On_Back_Enabled": "Activer les outils à l'arrière",
+  "Config-Setting.Shields_Enabled": "Activer les boucliers",
+  "Config-Setting.Favorited_Slots_Enabled": "Activer les emplacements favoris",
+  "Config-Setting.Favorited_Slots": "Emplacement préféré"
+}

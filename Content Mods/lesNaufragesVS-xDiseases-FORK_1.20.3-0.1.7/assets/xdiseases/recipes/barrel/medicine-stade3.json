@@ -1,0 +1,11 @@
+[
+    {
+    "code": "medicine-stade3-portion",
+    "sealHours": 12,
+    "ingredients": [
+        {"type": "item", "code": "medicine-stade2-portion", "litres": 2, "consumeLitres": 2 },
+        {"name": "fern", "type": "block", "code": "game:fern-*", "quantity": 1 }
+    ],
+    "output": { "type": "item", "code": "medicine-stade3-portion", "litres": 2 }
+}
+]

@@ -1,0 +1,19 @@
+{
+    "Type": "content",
+    "TextureSize": 32,
+    "Name": "Les Nauvragés - Class & Trait",
+    "Version": "0.0.3",
+    "NetworkVersion": null,
+    "Description": "Les Naufragés Serveur serious RP Francophone - Class & Trait personalisé",
+    "Website": "https://discord.gg/JJZzudBXDR",
+    "CoreMod": false,
+    "ModID": "lesnaufragesvsclass",
+    "Authors": [ "Tisma" ],
+    "Contributors": [],
+    "Side": "Universal",
+    "RequiredOnClient": true,
+    "RequiredOnServer": true,
+    "Dependencies": { 
+            "game": ""
+            }
+  }

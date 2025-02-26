@@ -1,0 +1,11 @@
+[    
+    {
+    "code": "medicine-stade2-portion",
+    "sealHours": 24,
+    "ingredients": [
+        {"type": "item", "code": "medicine-stade1-portion", "litres": 1, "consumeLitres": 1 },
+        {"type": "block", "code": "game:flower-horsetail-free", "quantity": 1 }
+    ],
+    "output": { "type": "item", "code": "medicine-stade2-portion", "litres": 1  }
+    }
+]

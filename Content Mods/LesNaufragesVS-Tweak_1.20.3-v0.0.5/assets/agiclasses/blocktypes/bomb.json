@@ -1,0 +1,67 @@
+{
+	"code": "bomb",
+	"class": "BlockBomb",
+	"entityClass": "Bomb",
+	"variantgroups": [
+		{ "code": "type", "states": ["deliverence", "handofgod", "kingmaker"] }
+	],
+	"attributesByType": {
+		"*-deliverence": {
+			"injureRadius": 24, "blastType": 2, "blastRadius": 18
+		},
+		"*-handofgod": {
+			"injureRadius": 24, "blastType": 1, "blastRadius": 10
+		},
+		"*-kingmaker": {
+			"injureRadius": 14, "blastType": 0, "blastRadius": 12
+		}
+	},
+	"storageFlags": 5,
+	"behaviors": [{"name": "Unstable"}],
+	"shapeByType": {
+		"*-deliverence": { "base": "block/bomb/bombvessel" },
+		"*-handofgod": { "base": "block/bomb/bombvessel" },
+		"*-kingmaker": { "base": "block/bomb/bombvessel" }
+	},
+	"texturesbyType": {
+		"*-deliverence": { 
+			"sides": {base: "game:block/cloth/tapestry/contracts2" }
+		},
+		"*-handofgod": { 
+			"sides": {base: "game:block/cloth/tapestry/holy1" }
+		},
+		"*-kingmaker": { 
+			"sides": {base: "game:block/cloth/tapestry/oldworld1" }
+		},
+	},
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"blockmaterial": "Cloth",
+	"replaceable": 5100,
+	"resistance": 0.75,
+	"lightAbsorption": 0,
+	"selectionbox": {
+		x1: 0.3125, y1: 0, z1: 0.3125, x2: 0.6875, y2: 0.5, z2: 0.6875
+	},
+	"collisionbox": {
+		x1: 0.3125, y1: 0, z1: 0.3125, x2: 0.6875, y2: 0.5, z2: 0.6875
+	},
+	"sounds": {
+		"place": "game:block/cloth",
+		"walk": "game:walk/cloth"
+	},
+	"materialDensity": 200,
+	"creativeinventory": { "general": ["*"], "decorative": ["*"] },
+	guiTransform: {
+		scale: 1.25
+	},
+	fpHandTransform: {
+		rotation: { x: -19, y: -45, z: 0 },
+		scale: 1.2
+	},
+	tpHandTransform: {
+		translation: { x: -1, y: -0.5, z: -0.5 },
+		rotation: { x: 25, y: -20, z: -99 },
+		scale: 0.56
+	}
+}
